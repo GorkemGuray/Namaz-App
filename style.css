@@ -1,0 +1,1263 @@
+/* ==========================================================================
+   NAMAZ APP LANDING PAGE TASARIM SİSTEMİ (style.css)
+   Sapphire Night Temalı - Otomatik Sistem Teması Destekli (Light & Dark)
+   ========================================================================== */
+
+/* 1. Google Fonts Entegrasyonu */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;500;600;700;800&display=swap');
+
+/* 2. Değişkenler (SAPPHIRE_NIGHT Tasarım Diliyle Uyumlu) */
+:root {
+    --font-heading: 'Outfit', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    --font-body: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+
+    /* AÇIK TEMA (Light Mode - Varsayılan) */
+    --color-bg: #f8f9fa;               /* Light Surface / Background */
+    --color-bg-alt: #ebf2fa;           /* Light SecondaryContainer */
+    --color-primary: #1a365d;          /* Light Primary (Deep Sapphire Blue) */
+    --color-primary-hover: #112542;
+    --color-accent: #b4502a;           /* Light Tertiary (Terracotta / Coral) */
+    --color-text: #111827;             /* Light OnSurface */
+    --color-text-muted: #6b7280;       /* Light OnSurfaceVariant */
+    --color-white: #ffffff;
+    
+    /* Sınırlar ve Yüzeyler */
+    --color-border: #cbd5e1;           
+    --color-border-hover: #94a3b8;
+    --glass-bg: rgba(235, 242, 250, 0.85);
+    --glass-border: rgba(26, 54, 93, 0.08);
+
+    /* Cihaz Casing (Google Pixel & Watch) */
+    --phone-casing: #e2e8f0;
+    --phone-border: #cbd5e1;
+    --watch-casing: #e2e8f0;
+    --watch-border: #cbd5e1;
+
+    /* Düğme Metin ve Hover Arka Planı */
+    --color-btn-text: #ffffff;
+    --btn-secondary-hover-bg: rgba(25, 37, 56, 0.05);
+
+    /* Özellik Kartları İkon Arka Planları */
+    --feature-icon-bg: rgba(26, 54, 93, 0.06);
+    --feature-icon-even-bg: rgba(180, 80, 42, 0.06);
+
+    /* Sürüm Notları Kutusu ve Etiket Arka Planları */
+    --release-notes-bg: #ffffff;
+    --release-notes-tag-bg: rgba(26, 54, 93, 0.06);
+
+    /* Gölgeler & Sınırlar */
+    --shadow-soft: 0 10px 30px rgba(0, 0, 0, 0.05);
+    --border-radius-lg: 20px;
+    --border-radius-md: 12px;
+    --border-radius-sm: 6px;
+
+    /* Geçişler */
+    --transition-smooth: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Koyu Tema (Sistem Seviyesi) */
+@media (prefers-color-scheme: dark) {
+    :root {
+        /* KOYU TEMA (Dark Mode - Sistem Tercihi Koyu İse ve kullanıcı manuel açık yapmadıysa) */
+        --color-bg: #0e121a;               /* Dark Surface / Background */
+        --color-bg-alt: #192538;           /* Dark SecondaryContainer */
+        --color-primary: #5c93e2;          /* Dark Primary (Light Sapphire Blue) */
+        --color-primary-hover: #72a5f0;
+        --color-accent: #e8a890;           /* Dark Tertiary (Soft Copper / Peach) */
+        --color-text: #f9fafb;             /* Dark OnSurface */
+        --color-text-muted: #9ca3af;       /* Dark OnSurfaceVariant */
+        
+        /* Sınırlar ve Yüzeyler */
+        --color-border: #25354e;           
+        --color-border-hover: #3b4f6b;
+        --glass-bg: rgba(25, 37, 56, 0.85);
+        --glass-border: rgba(255, 255, 255, 0.05);
+
+        /* Cihaz Casing */
+        --phone-casing: #223047;
+        --phone-border: #2c3b54;
+        --watch-casing: #223047;
+        --watch-border: #2c3b54;
+
+        /* Düğme Metin ve Hover Arka Planı */
+        --color-btn-text: #0e121a;
+        --btn-secondary-hover-bg: #202e45;
+
+        /* Özellik Kartları İkon Arka Planları */
+        --feature-icon-bg: rgba(92, 147, 226, 0.08);
+        --feature-icon-even-bg: rgba(232, 168, 144, 0.08);
+
+        /* Sürüm Notları Kutusu ve Etiket Arka Planları */
+        --release-notes-bg: rgba(14, 18, 26, 0.4);
+        --release-notes-tag-bg: rgba(92, 147, 226, 0.1);
+
+        /* Gölgeler */
+        --shadow-soft: 0 10px 30px rgba(0, 0, 0, 0.4);
+    }
+}
+
+/* Manuel Seçimler için Üstünlük Sağlayan Sınıflar */
+html[data-theme="light"] {
+    --color-bg: #f8f9fa;               
+    --color-bg-alt: #ebf2fa;           
+    --color-primary: #1a365d;          
+    --color-primary-hover: #112542;
+    --color-accent: #b4502a;           
+    --color-text: #111827;             
+    --color-text-muted: #6b7280;       
+    --color-border: #cbd5e1;           
+    --color-border-hover: #94a3b8;
+    --glass-bg: rgba(235, 242, 250, 0.85);
+    --glass-border: rgba(26, 54, 93, 0.08);
+    --phone-casing: #e2e8f0;
+    --phone-border: #cbd5e1;
+    --watch-casing: #e2e8f0;
+    --watch-border: #cbd5e1;
+    --color-btn-text: #ffffff;
+    --btn-secondary-hover-bg: rgba(25, 37, 56, 0.05);
+    --feature-icon-bg: rgba(26, 54, 93, 0.06);
+    --feature-icon-even-bg: rgba(180, 80, 42, 0.06);
+    --release-notes-bg: #ffffff;
+    --release-notes-tag-bg: rgba(26, 54, 93, 0.06);
+    --shadow-soft: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+html[data-theme="dark"] {
+    --color-bg: #0e121a;               
+    --color-bg-alt: #192538;           
+    --color-primary: #5c93e2;          
+    --color-primary-hover: #72a5f0;
+    --color-accent: #e8a890;           
+    --color-text: #f9fafb;             
+    --color-text-muted: #9ca3af;       
+    --color-border: #25354e;           
+    --color-border-hover: #3b4f6b;
+    --glass-bg: rgba(25, 37, 56, 0.85);
+    --glass-border: rgba(255, 255, 255, 0.05);
+    --phone-casing: #223047;
+    --phone-border: #2c3b54;
+    --watch-casing: #223047;
+    --watch-border: #2c3b54;
+    --color-btn-text: #0e121a;
+    --btn-secondary-hover-bg: #202e45;
+    --feature-icon-bg: rgba(92, 147, 226, 0.08);
+    --feature-icon-even-bg: rgba(232, 168, 144, 0.08);
+    --release-notes-bg: rgba(14, 18, 26, 0.4);
+    --release-notes-tag-bg: rgba(92, 147, 226, 0.1);
+    --shadow-soft: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+/* 3. Reset ve Temel Ayarlar */
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 16px;
+}
+
+body {
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    font-family: var(--font-body);
+    line-height: 1.6;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+h1, h2, h3, h4 {
+    font-family: var(--font-heading);
+    color: var(--color-text);
+    line-height: 1.25;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    transition: var(--transition-smooth);
+}
+
+button, input {
+    font-family: inherit;
+}
+
+/* Scrollbar Tasarımı */
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    background: var(--color-bg);
+}
+::-webkit-scrollbar-thumb {
+    background: var(--color-bg-alt);
+    border: 2px solid var(--color-bg);
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: var(--color-primary);
+}
+
+/* 4. Layout & Grid Sistem */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin-inline: auto;
+    padding-inline: 24px;
+}
+
+section {
+    padding-block: 80px;
+    position: relative;
+}
+
+/* 5. Header / Navigasyon */
+.site-header {
+    background-color: var(--color-bg);
+    border-bottom: 1px solid var(--color-border);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    transition: var(--transition-smooth);
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-family: var(--font-heading);
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--color-text);
+}
+
+.logo-img {
+    width: 38px;
+    height: 38px;
+    border-radius: var(--border-radius-sm);
+    object-fit: contain;
+}
+
+.logo-img-small {
+    width: 28px;
+    height: 28px;
+    border-radius: 4px;
+    object-fit: contain;
+}
+
+.nav-links {
+    display: flex;
+    gap: 32px;
+    list-style: none;
+}
+
+.nav-links a {
+    font-weight: 500;
+    color: var(--color-text-muted);
+}
+
+.nav-links a:hover {
+    color: var(--color-primary);
+}
+
+/* Header Eylemleri (Tema Değiştirici ve CTA) */
+.nav-actions {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.theme-toggle-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: var(--color-bg-alt);
+    border: 1px solid var(--color-border);
+    color: var(--color-text);
+    border-radius: var(--border-radius-md);
+    cursor: pointer;
+    transition: var(--transition-smooth);
+    outline: none;
+}
+
+.theme-toggle-btn:hover {
+    background-color: var(--color-border);
+    border-color: var(--color-border-hover);
+    color: var(--color-primary);
+}
+
+.lang-switch-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: var(--color-bg-alt);
+    border: 1px solid var(--color-border);
+    color: var(--color-text);
+    border-radius: var(--border-radius-md);
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 0.85rem;
+    transition: var(--transition-smooth);
+    outline: none;
+}
+
+.lang-switch-btn:hover {
+    background-color: var(--color-border);
+    border-color: var(--color-border-hover);
+    color: var(--color-primary);
+}
+
+.theme-icon {
+    stroke: currentColor;
+    fill: none;
+    transition: var(--transition-smooth);
+}
+
+.nav-cta {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    background-color: var(--color-primary);
+    color: var(--color-btn-text);
+    border-radius: var(--border-radius-md);
+    font-weight: 600;
+    font-size: 0.95rem;
+}
+
+.nav-cta:hover {
+    background-color: var(--color-primary-hover);
+    transform: translateY(-1px);
+}
+
+/* 6. Hero Bölümü */
+.hero-section {
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+
+.hero-grid {
+    display: grid;
+    grid-template-columns: 1.2fr 0.8fr;
+    gap: 48px;
+    align-items: center;
+}
+
+.hero-content {
+    z-index: 1;
+}
+
+.badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 14px;
+    background-color: var(--color-bg-alt);
+    border: 1px solid var(--color-border);
+    border-radius: 100px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--color-primary);
+    margin-bottom: 24px;
+}
+
+.badge-dot {
+    width: 8px;
+    height: 8px;
+    background-color: var(--color-primary);
+    border-radius: 50%;
+}
+
+.hero-title {
+    font-size: clamp(2.2rem, 1.5rem + 3.5vw, 3.6rem);
+    font-weight: 800;
+    margin-bottom: 20px;
+    letter-spacing: -0.02em;
+}
+
+.hero-title span {
+    color: var(--color-primary);
+}
+
+.hero-description {
+    font-size: 1.15rem;
+    color: var(--color-text-muted);
+    margin-bottom: 40px;
+    max-width: 580px;
+}
+
+.cta-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-bottom: 48px;
+}
+
+.btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 15px 28px;
+    border-radius: var(--border-radius-md);
+    font-weight: 600;
+    transition: var(--transition-smooth);
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: var(--color-primary);
+    color: var(--color-btn-text);
+}
+
+.btn-primary:hover {
+    background-color: var(--color-primary-hover);
+    transform: translateY(-2px);
+}
+
+.btn-secondary {
+    background-color: var(--color-bg-alt);
+    border: 1px solid var(--color-border);
+    color: var(--color-text);
+}
+
+.btn-secondary:hover {
+    background-color: var(--btn-secondary-hover-bg);
+    border-color: var(--color-border-hover);
+    transform: translateY(-2px);
+}
+
+/* Cihaz Görselleri (Hero Sağ Taraf) */
+.hero-showcase {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+
+/* 7. Google Pixel 9/10 Mockup (Pure CSS) */
+.phone-mockup {
+    width: 290px;
+    height: 590px;
+    background-color: var(--phone-casing); 
+    border: 9px solid var(--phone-border);
+    border-radius: 36px;       
+    box-shadow: var(--shadow-soft);
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+    transition: var(--transition-smooth);
+}
+
+/* Punch-Hole Kamera (Android Pixel Style) */
+.phone-camera {
+    position: absolute;
+    top: 14px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 11px;
+    height: 11px;
+    background-color: #0e121a;
+    border: 1.5px solid var(--phone-casing);
+    border-radius: 50%;
+    z-index: 10;
+    transition: var(--transition-smooth);
+}
+
+.phone-screen {
+    width: 100%;
+    height: 100%;
+    background-color: #0e121a;
+    border-radius: 26px; 
+    overflow: hidden;
+    position: relative;
+}
+
+.phone-screen img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 0.2s ease-in-out;
+}
+
+/* 8. Akıllı Saat Mockup (Pure CSS) */
+.watch-mockup-wrapper {
+    position: absolute;
+    bottom: -25px;
+    right: -35px;
+    z-index: 3;
+}
+
+.watch-mockup {
+    width: 190px;
+    height: 190px;
+    background-color: var(--watch-casing);
+    border: 7px solid var(--watch-border);
+    border-radius: 50%;
+    box-shadow: var(--shadow-soft);
+    position: relative;
+    overflow: hidden;
+    transition: var(--transition-smooth);
+}
+
+.watch-crown {
+    position: absolute;
+    right: -13px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 8px;
+    height: 24px;
+    background-color: var(--watch-border);
+    border-radius: 3px;
+    z-index: 1;
+    transition: var(--transition-smooth);
+}
+
+.watch-screen {
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    border: 2px solid #0e121a;
+}
+
+.watch-screen img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* 9. Özellikler Bölümü */
+.section-title-wrapper {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section-title {
+    font-size: clamp(1.8rem, 1.5rem + 1.8vw, 2.8rem);
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.section-subtitle {
+    color: var(--color-text-muted);
+    font-size: 1.05rem;
+    max-width: 600px;
+    margin-inline: auto;
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 24px;
+}
+
+.feature-card {
+    background-color: var(--color-bg-alt);
+    border: 1px solid var(--color-border);
+    border-radius: var(--border-radius-lg);
+    padding: 32px;
+    transition: var(--transition-smooth);
+    position: relative;
+    box-shadow: var(--shadow-soft);
+}
+
+.feature-card:hover {
+    transform: translateY(-3px);
+    border-color: var(--color-primary);
+}
+
+.feature-icon-wrapper {
+    width: 52px;
+    height: 52px;
+    background-color: var(--feature-icon-bg);
+    border-radius: var(--border-radius-md);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-primary);
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+}
+
+.feature-card:nth-child(even) .feature-icon-wrapper {
+    background-color: var(--feature-icon-even-bg);
+    color: var(--color-accent);
+}
+
+.feature-card h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.feature-card p {
+    color: var(--color-text-muted);
+    font-size: 0.95rem;
+    line-height: 1.55;
+}
+
+/* 10. Etkileşimli Ekran Sliderı Bölümü (Showcase) */
+.showcase-grid {
+    display: grid;
+    grid-template-columns: 0.82fr 1.18fr;
+    gap: 60px;
+    align-items: center;
+}
+
+.slider-controls {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.feature-indicator {
+    padding: 16px 20px;
+    background-color: rgba(25, 37, 56, 0.03);
+    border: 1px solid var(--color-border);
+    border-radius: var(--border-radius-md);
+    cursor: pointer;
+    transition: var(--transition-smooth);
+    text-align: left;
+    outline: none;
+}
+
+.feature-indicator:hover {
+    background-color: rgba(25, 37, 56, 0.06);
+    border-color: var(--color-border-hover);
+}
+
+.feature-indicator.active {
+    background-color: var(--color-bg-alt);
+    border-color: var(--color-primary);
+}
+
+.feature-indicator h4 {
+    font-size: 1.05rem;
+    font-weight: 600;
+    margin-bottom: 4px;
+    transition: var(--transition-smooth);
+}
+
+.feature-indicator.active h4 {
+    color: var(--color-primary);
+}
+
+.feature-indicator p {
+    font-size: 0.85rem;
+    color: var(--color-text-muted);
+}
+
+.gallery-dots {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 20px;
+}
+
+.gallery-dot {
+    width: 8px;
+    height: 8px;
+    background-color: rgba(25, 37, 56, 0.1);
+    border: 1px solid var(--color-border);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: var(--transition-smooth);
+}
+
+.gallery-dot.active {
+    background-color: var(--color-primary);
+    width: 20px;
+    border-radius: 4px;
+}
+
+/* 11. Dinamik İndirme ve Değişiklik Günlüğü (Download Section) */
+.download-section {
+    background-color: var(--color-bg);
+    border-block: 1px solid var(--color-border);
+}
+
+.download-card {
+    background-color: var(--color-bg-alt);
+    border: 1px solid var(--color-border);
+    border-radius: var(--border-radius-lg);
+    padding: 40px;
+    display: grid;
+    grid-template-columns: 1.15fr 0.85fr;
+    gap: 40px;
+    align-items: center;
+    box-shadow: var(--shadow-soft);
+}
+
+.download-info h3 {
+    font-size: 1.8rem;
+    margin-bottom: 12px;
+}
+
+.download-info p {
+    color: var(--color-text-muted);
+    margin-bottom: 24px;
+}
+
+.download-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.download-buttons .btn {
+    width: 100%;
+    justify-content: center;
+}
+
+.release-notes-box {
+    margin-top: 24px;
+    background-color: var(--release-notes-bg);
+    border: 1px solid var(--color-border);
+    border-radius: var(--border-radius-md);
+    padding: 20px;
+    transition: background-color 0.2s ease;
+}
+
+.release-notes-title {
+    font-family: var(--font-heading);
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--color-primary);
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.release-notes-title .tag-ver {
+    font-size: 0.8rem;
+    padding: 3px 8px;
+    background-color: var(--release-notes-tag-bg);
+    color: var(--color-primary);
+    border-radius: 6px;
+    font-weight: 600;
+    transition: background-color 0.2s ease;
+}
+
+.release-notes-text {
+    font-size: 0.9rem;
+    color: var(--color-text);
+    white-space: pre-line;
+    line-height: 1.6;
+}
+
+/* 12. Footer / Alt Bilgi */
+.site-footer {
+    padding-block: 40px;
+    background-color: var(--color-bg);
+    border-top: 1px solid var(--color-border);
+    text-align: center;
+    color: var(--color-text-muted);
+    font-size: 0.9rem;
+}
+
+.footer-logo {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    font-family: var(--font-heading);
+    font-weight: 700;
+    color: var(--color-text);
+    margin-bottom: 12px;
+    font-size: 1.2rem;
+}
+
+.footer-bottom {
+    font-size: 0.8rem;
+    opacity: 0.7;
+}
+
+/* 13. Responsive (Uyumlu) Tasarım Ayarları */
+@media (max-width: 968px) {
+    .hero-grid {
+        grid-template-columns: 1fr;
+        text-align: center;
+        gap: 48px;
+    }
+
+    .hero-description {
+        margin-inline: auto;
+    }
+
+    .cta-group {
+        justify-content: center;
+    }
+
+    .hero-showcase {
+        margin-top: 10px;
+    }
+
+    .watch-mockup-wrapper {
+        right: 10px;
+    }
+
+    .showcase-grid {
+        grid-template-columns: 1fr;
+        gap: 36px;
+    }
+
+    .slider-controls {
+        order: 2;
+    }
+
+    .hero-showcase-slider {
+        order: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .download-card {
+        grid-template-columns: 1fr;
+        gap: 28px;
+        padding: 24px;
+    }
+    
+    .nav-links {
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    .cta-group .btn {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .watch-mockup-wrapper {
+        display: none;
+    }
+}
+
+/* ==========================================================================
+   11.5 Canlı Vakit Sorgulama Bileşeni (Prayer Times Widget)
+   ========================================================================== */
+.live-vakit-section {
+    background-color: var(--color-bg);
+    padding-block: 60px;
+}
+
+.prayer-widget-card {
+    background-color: var(--color-bg-alt);
+    border: 1px solid var(--color-border);
+    border-radius: var(--border-radius-lg);
+    padding: 32px;
+    box-shadow: var(--shadow-soft);
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+/* Header */
+.widget-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    border-bottom: 1px solid var(--color-border);
+    padding-bottom: 20px;
+}
+
+.location-display {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.location-icon {
+    color: var(--color-accent);
+}
+
+#widget-location-name {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--color-text);
+}
+
+.hijri-badge {
+    font-size: 0.8rem;
+    font-weight: 500;
+    padding: 4px 8px;
+    background-color: var(--release-notes-tag-bg);
+    color: var(--color-primary);
+    border-radius: 20px;
+    border: 1px solid var(--glass-border);
+}
+
+.search-and-gps {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.widget-search-form {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 280px;
+}
+
+#widget-search-input {
+    width: 100%;
+    padding: 10px 40px 10px 16px;
+    border: 1px solid var(--color-border);
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    border-radius: var(--border-radius-md);
+    font-size: 0.9rem;
+    font-family: var(--font-body);
+    outline: none;
+    transition: var(--transition-smooth);
+}
+
+#widget-search-input:focus {
+    border-color: var(--color-primary);
+    box-shadow: 0 0 0 3px rgba(92, 147, 226, 0.15);
+}
+
+.search-submit-btn {
+    position: absolute;
+    right: 12px;
+    background: none;
+    border: none;
+    color: var(--color-text-muted);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px;
+    transition: color 0.2s;
+}
+
+.search-submit-btn:hover {
+    color: var(--color-primary);
+}
+
+.gps-btn {
+    background-color: var(--color-bg);
+    border: 1px solid var(--color-border);
+    color: var(--color-text);
+    padding: 10px;
+    border-radius: var(--border-radius-md);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: var(--transition-smooth);
+}
+
+.gps-btn:hover {
+    border-color: var(--color-primary);
+    background-color: var(--release-notes-tag-bg);
+    color: var(--color-primary);
+}
+
+/* Focus Card (Arama Odak Kartı) */
+.prayer-focus-card {
+    background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-hover) 100%);
+    color: var(--color-white);
+    border-radius: var(--border-radius-md);
+    padding: 24px;
+    text-align: center;
+    box-shadow: var(--shadow-soft);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    position: relative;
+    overflow: hidden;
+    animation: fadeIn 0.4s ease;
+}
+
+/* Light mode override for focus card */
+html[data-theme="light"] .prayer-focus-card {
+    background: #1a365d;
+    color: #ffffff;
+}
+
+.focus-title {
+    font-family: var(--font-heading);
+    font-size: 1.15rem;
+    font-weight: 500;
+    opacity: 0.9;
+    letter-spacing: 0.5px;
+}
+
+.focus-time {
+    font-family: var(--font-heading);
+    font-size: 3.2rem;
+    font-weight: 800;
+    line-height: 1.1;
+    color: var(--color-accent);
+}
+
+html[data-theme="light"] .focus-time {
+    color: #e8a890;
+}
+
+.focus-meta {
+    font-size: 0.9rem;
+    opacity: 0.85;
+}
+
+/* Content Layout */
+.widget-content {
+    display: grid;
+    grid-template-columns: 0.8fr 1.2fr;
+    gap: 32px;
+    align-items: center;
+}
+
+/* Countdown Panel */
+.countdown-panel {
+    background-color: var(--color-bg);
+    border: 1px solid var(--color-border);
+    border-radius: var(--border-radius-md);
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.02);
+}
+
+.next-prayer-label {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--color-text-muted);
+    margin-bottom: 6px;
+}
+
+.next-prayer-name {
+    font-family: var(--font-heading);
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--color-primary);
+    margin-bottom: 10px;
+}
+
+.next-prayer-timer {
+    font-family: var(--font-heading);
+    font-size: 2.2rem;
+    font-weight: 800;
+    color: var(--color-text);
+    font-variant-numeric: tabular-nums;
+    margin-bottom: 16px;
+}
+
+.progress-bar-container {
+    width: 100%;
+    height: 6px;
+    background-color: var(--release-notes-tag-bg);
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 16px;
+}
+
+.progress-bar-fill {
+    height: 100%;
+    background-color: var(--color-primary);
+    border-radius: 10px;
+    transition: width 1s linear;
+}
+
+.widget-date-display {
+    font-size: 0.85rem;
+    color: var(--color-text-muted);
+}
+
+/* Times Grid */
+.times-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+}
+
+.time-card {
+    background-color: var(--color-bg);
+    border: 1px solid var(--color-border);
+    border-radius: var(--border-radius-md);
+    padding: 16px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    transition: var(--transition-smooth);
+}
+
+.time-card:hover {
+    border-color: var(--color-border-hover);
+    transform: translateY(-2px);
+}
+
+.time-label {
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: var(--color-text-muted);
+}
+
+.time-value {
+    font-family: var(--font-heading);
+    font-size: 1.35rem;
+    font-weight: 700;
+    color: var(--color-text);
+}
+
+/* Active Card Highlight */
+.time-card.active {
+    background-color: var(--release-notes-tag-bg);
+    border-color: var(--color-primary);
+    box-shadow: 0 0 15px rgba(92, 147, 226, 0.1);
+}
+
+.time-card.active .time-label {
+    color: var(--color-primary);
+    font-weight: 600;
+}
+
+.time-card.active .time-value {
+    color: var(--color-primary);
+}
+
+/* Focus State Highlight in Grid */
+.time-card.focused {
+    border-color: var(--color-accent);
+    background-color: rgba(180, 80, 42, 0.03);
+    box-shadow: 0 0 15px rgba(180, 80, 42, 0.1);
+}
+
+.time-card.focused .time-label {
+    color: var(--color-accent);
+    font-weight: 600;
+}
+
+.time-card.focused .time-value {
+    color: var(--color-accent);
+}
+
+/* SEO Quick Links section */
+.seo-quick-links {
+    border-top: 1px solid var(--color-border);
+    padding-top: 24px;
+    margin-top: 8px;
+}
+
+.seo-links-title {
+    font-family: var(--font-heading);
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--color-text);
+    margin-bottom: 14px;
+}
+
+.seo-links-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.seo-link {
+    font-size: 0.8rem;
+    padding: 6px 12px;
+    background-color: var(--color-bg);
+    border: 1px solid var(--color-border);
+    color: var(--color-text-muted);
+    border-radius: var(--border-radius-sm);
+    transition: var(--transition-smooth);
+}
+
+.seo-link:hover {
+    border-color: var(--color-primary);
+    color: var(--color-primary);
+    background-color: var(--release-notes-tag-bg);
+}
+
+/* Responsive Overrides */
+@media (max-width: 992px) {
+    .widget-content {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+}
+
+@media (max-width: 768px) {
+    .prayer-widget-card {
+        padding: 20px;
+    }
+    
+    .widget-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+    }
+    
+    .widget-search-form {
+        width: 100%;
+    }
+    
+    .search-and-gps {
+        width: 100%;
+    }
+    
+    .times-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    #widget-location-name {
+        font-size: 1.2rem;
+    }
+    
+    .focus-time {
+        font-size: 2.6rem;
+    }
+    
+    .next-prayer-timer {
+        font-size: 1.8rem;
+    }
+    
+    .times-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+    
+    .time-card {
+        padding: 12px;
+    }
+    
+    .time-value {
+        font-size: 1.15rem;
+    }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}

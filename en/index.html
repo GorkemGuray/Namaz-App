@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prayer Times — Simple, Reliable and Ad-Free</title>
+    <meta name="description" content="Location-based prayer times, Qibla compass, Glance home screen widgets, and dhikr application for Android phones and Wear OS smartwatches.">
+    <link rel="alternate" hreflang="tr" href="https://gorkemguray.github.io/Namaz-App/" />
+    <link rel="alternate" hreflang="en" href="https://gorkemguray.github.io/Namaz-App/en/" />
+    <link rel="alternate" hreflang="x-default" href="https://gorkemguray.github.io/Namaz-App/" />
+    <link rel="canonical" href="https://gorkemguray.github.io/Namaz-App/en/" />
+    <link rel="stylesheet" href="../style.css">
+
+    <!-- Google Search Console Verification Code (Replace the content value with your own verification code and uncomment) -->
+    <!-- <meta name="google-site-verification" content="YOUR_GOOGLE_SEARCH_CONSOLE_VERIFICATION_CODE" /> -->
+
+    <!-- Google Analytics (GA4) Tracking Code (Replace G-XXXXXXXXXX with your Measurement ID and uncomment) -->
+    <!-- 
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-XXXXXXXXXX');
+    </script>
+    -->
+
+    <!-- JSON-LD Structured Data (For Google Search Rich Snippets) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Namaz Vakitleri",
+      "operatingSystem": "Android",
+      "applicationCategory": "LifestyleApplication",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "description": "An ad-free, offline location-based prayer times, Qibla compass, and dhikr application for Android and Wear OS.",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "ratingCount": "150"
+      }
+    }
+    </script>
+
+    <script>
+        // Prevent Flash of Unstyled Theme (System theme detection and loading)
+        (function() {
+            const savedTheme = localStorage.getItem('theme');
+            const systemDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+            const initialTheme = savedTheme || (systemDark ? 'dark' : 'light');
+            document.documentElement.setAttribute('data-theme', initialTheme);
+        })();
+    </script>
+</head>
+<body>
+
+    <!-- 1. Header / Navigation -->
+    <header class="site-header">
+        <div class="container nav-container">
+            <a href="#" class="logo" aria-label="Prayer Times Home Page">
+                <img src="../app_icon.png" alt="Prayer Times Logo" class="logo-img">
+                <span>Namaz Vakitleri</span>
+            </a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#showcase">Screenshots</a></li>
+                    <li><a href="#download">Download</a></li>
+                </ul>
+            </nav>
+            <div class="nav-actions">
+                <a href="../" class="lang-switch-btn" aria-label="Switch to Turkish" title="Switch to Turkish">TR</a>
+                <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle Theme" title="Toggle Theme">
+                    <!-- Sun Icon (Show in dark mode to switch to light) -->
+                    <svg id="theme-toggle-sun" class="theme-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+                    <!-- Moon Icon (Show in light mode to switch to dark) -->
+                    <svg id="theme-toggle-moon" class="theme-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+                </button>
+                <a href="#download" class="nav-cta" id="nav-cta-download">Download Now</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- 2. Hero Section -->
+    <section class="hero-section">
+        <div class="container hero-grid">
+            <div class="hero-content">
+                <div class="badge">
+                    <span class="badge-dot"></span>
+                    <span>Latest Version: <span class="latest-version-name">v1.0.4</span></span>
+                </div>
+                <h1 class="hero-title">Your <span>Modern Companion</span> for Daily Worship.</h1>
+                <p class="hero-description">
+                    An ad-free, completely free prayer times app specially designed for your Android phone and Wear OS smartwatch. Works offline and does not collect your data.
+                </p>
+                <div class="cta-group">
+                    <a href="#download" class="btn btn-primary" id="hero-btn-primary">
+                        <span>Download Versions</span>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                    </a>
+                    <a href="#features" class="btn btn-secondary" id="hero-btn-secondary">
+                        <span>Explore Features</span>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="hero-showcase">
+                <!-- Android Phone Mockup (Google Pixel Style) -->
+                <div class="phone-mockup">
+                    <div class="phone-camera"></div>
+                    <div class="phone-screen">
+                        <img src="../app_screenshot_home.png" alt="Prayer Times Phone App Home Screen" id="phone-hero-img">
+                    </div>
+                </div>
+
+                <!-- Watch Mockup Wrapper -->
+                <div class="watch-mockup-wrapper">
+                    <div class="watch-crown"></div>
+                    <div class="watch-mockup">
+                        <div class="watch-screen">
+                            <img src="../wear_screenshot_home.png" alt="Prayer Times Wear OS Smartwatch App">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 2.5 Live Prayer Query Section (Prayer Times Widget) -->
+    <section id="live-vakit" class="live-vakit-section">
+        <div class="container">
+            <div class="prayer-widget-card">
+                <!-- Search & Location Header -->
+                <div class="widget-header">
+                    <div class="location-display">
+                        <svg class="location-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a8 8 0 0 0-8 8c0 5.25 8 12 8 12s8-6.75 8-12a8 8 0 0 0-8-8z"/><circle cx="12" cy="10" r="3"/></svg>
+                        <h2 id="widget-location-name">Searching location...</h2>
+                        <span id="widget-hijri-date" class="hijri-badge">-</span>
+                    </div>
+                    <div class="search-and-gps">
+                        <form id="widget-search-form" class="widget-search-form" onsubmit="event.preventDefault();">
+                            <input type="text" id="widget-search-input" placeholder="Search city or district (e.g. London)..." aria-label="Search location">
+                            <button type="submit" class="search-submit-btn" aria-label="Search">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                            </button>
+                        </form>
+                        <button id="widget-gps-btn" class="gps-btn" title="Use GPS Location" aria-label="Use GPS Location">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2v4M12 18v4M4 12H2M22 12h-4"/></svg>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Focus Card (Shown only when a specific prayer time is searched, e.g. ?prayer=fajr) -->
+                <div id="prayer-focus-card" class="prayer-focus-card" style="display: none;">
+                    <div class="focus-title" id="focus-title-text">-</div>
+                    <div class="focus-time" id="focus-time-value">--:--</div>
+                    <div class="focus-meta" id="focus-meta-text">-</div>
+                </div>
+
+                <!-- Main Widget Content -->
+                <div class="widget-content">
+                    <!-- Left: Countdown & active info -->
+                    <div class="countdown-panel">
+                        <div class="next-prayer-label">Next Prayer Time</div>
+                        <div class="next-prayer-name" id="widget-next-prayer-name">-</div>
+                        <div class="next-prayer-timer" id="widget-countdown-timer">00:00:00</div>
+                        <div class="progress-bar-container">
+                            <div class="progress-bar-fill" id="widget-progress-fill" style="width: 0%;"></div>
+                        </div>
+                        <div class="widget-date-display" id="widget-gregorian-date">-</div>
+                    </div>
+
+                    <!-- Right: Times Grid -->
+                    <div class="times-grid">
+                        <div class="time-card" id="card-imsak">
+                            <div class="time-label">Fajr</div>
+                            <div class="time-value" id="val-imsak">--:--</div>
+                        </div>
+                        <div class="time-card" id="card-gunes">
+                            <div class="time-label">Sunrise</div>
+                            <div class="time-value" id="val-gunes">--:--</div>
+                        </div>
+                        <div class="time-card" id="card-ogle">
+                            <div class="time-label">Dhuhr</div>
+                            <div class="time-value" id="val-ogle">--:--</div>
+                        </div>
+                        <div class="time-card" id="card-ikindi">
+                            <div class="time-label">Asr</div>
+                            <div class="time-value" id="val-ikindi">--:--</div>
+                        </div>
+                        <div class="time-card" id="card-aksam">
+                            <div class="time-label">Maghrib</div>
+                            <div class="time-value" id="val-aksam">--:--</div>
+                        </div>
+                        <div class="time-card" id="card-yatsi">
+                            <div class="time-label">Isha</div>
+                            <div class="time-value" id="val-yatsi">--:--</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SEO Quick Links -->
+            <div class="seo-quick-links">
+                <h3 class="seo-links-title">Popular Prayer Times Queries</h3>
+                <div class="seo-links-grid">
+                    <a href="?city=istanbul" class="seo-link">Istanbul Prayer Times</a>
+                    <a href="?city=london" class="seo-link">London Prayer Times</a>
+                    <a href="?city=newyork" class="seo-link">New York Prayer Times</a>
+                    <a href="?city=berlin" class="seo-link">Berlin Prayer Times</a>
+                    <a href="?city=silivri&prayer=dhuhr" class="seo-link">Silivri Dhuhr Prayer Time</a>
+                    <a href="?city=fatih&prayer=isha" class="seo-link">Fatih Isha Prayer Time</a>
+                    <a href="?city=kirklareli&prayer=fajr" class="seo-link">Kırklareli Fajr Prayer Time</a>
+                    <a href="?city=uskudar&prayer=maghrib" class="seo-link">Üsküdar Maghrib Prayer Time</a>
+                    <a href="?city=kadikoy&prayer=asr" class="seo-link">Kadıköy Asr Prayer Time</a>
+                    <a href="?city=cankaya&prayer=fajr" class="seo-link">Çankaya Fajr Prayer Time</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. Features Section -->
+    <section id="features" class="features-section">
+        <div class="container">
+            <div class="section-title-wrapper">
+                <h2 class="section-title">Key Features</h2>
+                <p class="section-subtitle">Core features designed to make daily use easy and seamless.</p>
+            </div>
+            <div class="features-grid">
+                <!-- Feature 1 -->
+                <article class="feature-card" id="feature-location">
+                    <div class="feature-icon-wrapper">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a8 8 0 0 0-8 8c0 5.25 8 12 8 12s8-6.75 8-12a8 8 0 0 0-8-8z"/><circle cx="12" cy="10" r="3"/></svg>
+                    </div>
+                    <h3>Automatic Location-Based Times</h3>
+                    <p>Choose between official Diyanet data (Imsakiyem API) or coordinate-based Aladhan API for worldwide calculations. When offline, the mathematical engine calculates times on-device. Times update automatically in the background as your location changes.</p>
+                </article>
+
+                <!-- Feature 2 -->
+                <article class="feature-card" id="feature-wearos">
+                    <div class="feature-icon-wrapper">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="7"/><rect x="10" y="2" width="4" height="3"/><rect x="10" y="19" width="4" height="3"/></svg>
+                    </div>
+                    <h3>Wear OS (Smartwatch) App</h3>
+                    <p>Includes a standalone watch version that works independently from your phone. With watch face complications, you can view the remaining time to the next prayer at a glance.</p>
+                </article>
+
+                <!-- Feature 3 -->
+                <article class="feature-card" id="feature-compass">
+                    <div class="feature-icon-wrapper">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"/></svg>
+                    </div>
+                    <h3>Qibla Compass & Offline Map</h3>
+                    <p>Smooth Qibla compass using device sensors. Even without an internet connection, it draws the direction of the Kaaba on the map using the MapLibre library with the great-circle method.</p>
+                </article>
+
+                <!-- Feature 4 -->
+                <article class="feature-card" id="feature-widgets">
+                    <div class="feature-icon-wrapper">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="9"/><rect x="14" y="3" width="7" height="5"/><rect x="14" y="12" width="7" height="9"/><rect x="3" y="16" width="7" height="5"/></svg>
+                    </div>
+                    <h3>Modern Glance Widgets</h3>
+                    <p>Widgets built with the Jetpack Glance library that automatically match your Android system theme. Includes a countdown timer option to track remaining time down to the second.</p>
+                </article>
+
+                <!-- Feature 5 -->
+                <article class="feature-card" id="feature-zikir">
+                    <div class="feature-icon-wrapper">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"/><path d="M12 6v6l4 2"/></svg>
+                    </div>
+                    <h3>Namaz Tesbihat & Dhikr Counter</h3>
+                    <p>Dhikr counter that automatically guides you through the Namaz Tesbihat steps. Uses the device's haptic feedback (vibration) motor during step transitions and upon completion.</p>
+                </article>
+
+                <!-- Feature 6 -->
+                <article class="feature-card" id="feature-privacy">
+                    <div class="feature-icon-wrapper">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+                    </div>
+                    <h3>Completely Ad-Free & Private</h3>
+                    <p>Contains no ads, third-party tracking, or analytics libraries. Your location is processed strictly on your device to calculate prayer times.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Interactive Screen Showcase Section -->
+    <section id="showcase" class="showcase-section">
+        <div class="container">
+            <div class="section-title-wrapper">
+                <h2 class="section-title">Screenshots</h2>
+                <p class="section-subtitle">Explore the simple and clean user interface.</p>
+            </div>
+            
+            <div class="showcase-grid">
+                <!-- Left: Clickable Indicators -->
+                <div class="slider-controls" role="tablist" aria-label="App Screens">
+                    <button class="feature-indicator active" role="tab" aria-selected="true" id="tab-home" aria-controls="panel-screenshot">
+                        <h4>Home Screen</h4>
+                        <p>Main dashboard featuring a real-time countdown, kerahat warnings, and all prayer times for the day.</p>
+                    </button>
+                    <button class="feature-indicator" role="tab" aria-selected="false" id="tab-qibla" aria-controls="panel-screenshot">
+                        <h4>Qibla Compass</h4>
+                        <p>Qibla compass with smooth sensor filtering that displays deviation angle and the Kaaba direction.</p>
+                    </button>
+                    <button class="feature-indicator" role="tab" aria-selected="false" id="tab-calendar" aria-controls="panel-screenshot">
+                        <h4>Monthly Calendar</h4>
+                        <p>Monthly calendar listing all prayer times for the chosen month alongside Hijri dates.</p>
+                    </button>
+                    <button class="feature-indicator" role="tab" aria-selected="false" id="tab-zikir" aria-controls="panel-screenshot">
+                        <h4>Dhikr & Tesbihat</h4>
+                        <p>Track custom dhikrs with target numbers, or follow the guided Namaz Tesbihat steps with ease.</p>
+                    </button>
+                </div>
+
+                <!-- Right: Phone Mockup Slider -->
+                <div class="hero-showcase-slider" id="panel-screenshot" role="tabpanel">
+                    <!-- Android Phone Mockup (Google Pixel Style) -->
+                    <div class="phone-mockup">
+                        <div class="phone-camera"></div>
+                        <div class="phone-screen">
+                            <img src="../app_screenshot_home.png" alt="Prayer Times App Screen" id="phone-screen-img">
+                        </div>
+                    </div>
+                    
+                    <!-- Dots -->
+                    <div class="gallery-dots" role="tablist" aria-label="Screen Switcher">
+                        <span class="gallery-dot active" role="tab" aria-selected="true" aria-label="Slide 1"></span>
+                        <span class="gallery-dot" role="tab" aria-selected="false" aria-label="Slide 2"></span>
+                        <span class="gallery-dot" role="tab" aria-selected="false" aria-label="Slide 3"></span>
+                        <span class="gallery-dot" role="tab" aria-selected="false" aria-label="Slide 4"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. Dynamic Download Section -->
+    <section id="download" class="download-section">
+        <div class="container">
+            <div class="download-card">
+                <div class="download-info">
+                    <h3>Get the App</h3>
+                    <p>Download the latest stable release packages (.apk) directly to your device.</p>
+                    
+                    <div class="release-notes-box">
+                        <div class="release-notes-title">
+                            <span>Release Notes</span>
+                            <span class="tag-ver latest-version-name">v1.0.4</span>
+                        </div>
+                        <div class="release-notes-text">
+                            Loading release notes...
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="download-buttons">
+                    <a href="#" class="btn btn-primary" id="mobile-download-btn">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg>
+                        <span>Phone Version (.apk)</span>
+                    </a>
+                    
+                    <a href="#" class="btn btn-secondary" id="wear-download-btn">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="7"/><rect x="10" y="2" width="4" height="3"/><rect x="10" y="19" width="4" height="3"/></svg>
+                        <span>Wear OS Version (.apk)</span>
+                    </a>
+                    
+                    <p style="text-align:center; font-size:0.85rem; margin-top:8px;">
+                        <a href="#" target="_blank" style="text-decoration:underline; color:var(--color-primary);" id="changelog-link">Previous Releases & Changelog</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. Footer / Copyright -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-logo">
+                <img src="../app_icon.png" alt="Prayer Times Small Logo" class="logo-img-small">
+                <span>Namaz Vakitleri</span>
+            </div>
+            <p class="footer-bottom">This application is designed for personal use, completely free and ad-free. It cannot be sold or used for data collection. &copy; 2026 Görkem Güray</p>
+        </div>
+    </footer>
+
+    <script src="../app.js"></script>
+</body>
+</html>

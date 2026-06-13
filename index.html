@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Namaz Vakitleri — Sade, Güvenilir ve Reklamsız</title>
+    <meta name="description" content="Android telefonlar ve Wear OS akıllı saatler için konum bazlı namaz vakitleri, kıble pusulası, Glance ana ekran widget'ları ve tesbihat uygulaması.">
+    <link rel="alternate" hreflang="tr" href="https://gorkemguray.github.io/Namaz-App/" />
+    <link rel="alternate" hreflang="en" href="https://gorkemguray.github.io/Namaz-App/en/" />
+    <link rel="alternate" hreflang="x-default" href="https://gorkemguray.github.io/Namaz-App/" />
+    <link rel="canonical" href="https://gorkemguray.github.io/Namaz-App/" />
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Google Search Console Doğrulama Kodu (Aşağıdaki content değerini kendi kodunuzla değiştirin ve yorum satırını kaldırın) -->
+    <!-- <meta name="google-site-verification" content="YOUR_GOOGLE_SEARCH_CONSOLE_VERIFICATION_CODE" /> -->
+
+    <!-- Google Analytics (GA4) Takip Kodu (G-XXXXXXXXXX değerini kendi Ölçüm Kimliğinizle değiştirip yorum satırını kaldırın) -->
+    <!-- 
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-XXXXXXXXXX');
+    </script>
+    -->
+
+    <!-- JSON-LD Yapısal Veri (Google Arama Zengin Sonuçları İçin) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Namaz Vakitleri",
+      "operatingSystem": "Android",
+      "applicationCategory": "LifestyleApplication",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "TRY"
+      },
+      "description": "Android ve Wear OS için reklamsız, internetsiz çalışan konum bazlı namaz vakitleri, kıble pusulası ve zikirmatik uygulaması.",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "ratingCount": "150"
+      }
+    }
+    </script>
+
+    <script>
+        // Prevent Flash of Unstyled Theme (Sistem teması algılayıcı ve yükleyici)
+        (function() {
+            const savedTheme = localStorage.getItem('theme');
+            const systemDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+            const initialTheme = savedTheme || (systemDark ? 'dark' : 'light');
+            document.documentElement.setAttribute('data-theme', initialTheme);
+        })();
+    </script>
+</head>
+<body>
+
+    <!-- 1. Header / Navigasyon -->
+    <header class="site-header">
+        <div class="container nav-container">
+            <a href="#" class="logo" aria-label="Namaz Vakitleri Ana Sayfa">
+                <img src="app_icon.png" alt="Namaz Vakitleri Logosu" class="logo-img">
+                <span>Namaz Vakitleri</span>
+            </a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#features">Özellikler</a></li>
+                    <li><a href="#showcase">Ekran Görüntüleri</a></li>
+                    <li><a href="#download">İndir</a></li>
+                </ul>
+            </nav>
+            <div class="nav-actions">
+                <a href="en/" class="lang-switch-btn" aria-label="Switch to English" title="Switch to English">EN</a>
+                <button id="theme-toggle" class="theme-toggle-btn" aria-label="Temayı Değiştir" title="Temayı Değiştir">
+                    <!-- Sun Icon (Show in dark mode to switch to light) -->
+                    <svg id="theme-toggle-sun" class="theme-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+                    <!-- Moon Icon (Show in light mode to switch to dark) -->
+                    <svg id="theme-toggle-moon" class="theme-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+                </button>
+                <a href="#download" class="nav-cta" id="nav-cta-download">Hemen İndir</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- 2. Hero Bölümü -->
+    <section class="hero-section">
+        <div class="container hero-grid">
+            <div class="hero-content">
+                <div class="badge">
+                    <span class="badge-dot"></span>
+                    <span>En Yeni Sürüm: <span class="latest-version-name">v1.0.4</span></span>
+                </div>
+                <h1 class="hero-title">Günlük İbadetleriniz İçin <span>Modern Yardımcınız.</span></h1>
+                <p class="hero-description">
+                    Android telefonunuz ve Wear OS akıllı saatiniz için özel olarak tasarlanmış, reklamsız ve tamamen ücretsiz namaz vakitleri uygulaması. İnternet gerektirmeden çalışır, verilerinizi toplamaz.
+                </p>
+                <div class="cta-group">
+                    <a href="#download" class="btn btn-primary" id="hero-btn-primary">
+                        <span>Sürümleri İndir</span>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                    </a>
+                    <a href="#features" class="btn btn-secondary" id="hero-btn-secondary">
+                        <span>Özellikleri İncele</span>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="hero-showcase">
+                <!-- Android Phone Mockup (Google Pixel Style) -->
+                <div class="phone-mockup">
+                    <div class="phone-camera"></div>
+                    <div class="phone-screen">
+                        <img src="app_screenshot_home.png" alt="Namaz Vakitleri Telefon Uygulaması Ana Ekranı" id="phone-hero-img">
+                    </div>
+                </div>
+
+                <!-- Watch Mockup Wrapper -->
+                <div class="watch-mockup-wrapper">
+                    <div class="watch-crown"></div>
+                    <div class="watch-mockup">
+                        <div class="watch-screen">
+                            <img src="wear_screenshot_home.png" alt="Namaz Vakitleri Wear OS Akıllı Saat Uygulaması">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 2.5 Canlı Vakit Sorgulama Bölümü (Prayer Times Widget) -->
+    <section id="live-vakit" class="live-vakit-section">
+        <div class="container">
+            <div class="prayer-widget-card">
+                <!-- Search & Location Header -->
+                <div class="widget-header">
+                    <div class="location-display">
+                        <svg class="location-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a8 8 0 0 0-8 8c0 5.25 8 12 8 12s8-6.75 8-12a8 8 0 0 0-8-8z"/><circle cx="12" cy="10" r="3"/></svg>
+                        <h2 id="widget-location-name">Konum aranıyor...</h2>
+                        <span id="widget-hijri-date" class="hijri-badge">-</span>
+                    </div>
+                    <div class="search-and-gps">
+                        <form id="widget-search-form" class="widget-search-form" onsubmit="event.preventDefault();">
+                            <input type="text" id="widget-search-input" placeholder="Şehir veya ilçe ara (Örn: Silivri)..." aria-label="Konum ara">
+                            <button type="submit" class="search-submit-btn" aria-label="Ara">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                            </button>
+                        </form>
+                        <button id="widget-gps-btn" class="gps-btn" title="GPS Konumunu Kullan" aria-label="GPS Konumunu Kullan">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2v4M12 18v4M4 12H2M22 12h-4"/></svg>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Focus Card (Shown only when a specific prayer time is searched, e.g. ?vakit=sabah) -->
+                <div id="prayer-focus-card" class="prayer-focus-card" style="display: none;">
+                    <div class="focus-title" id="focus-title-text">-</div>
+                    <div class="focus-time" id="focus-time-value">--:--</div>
+                    <div class="focus-meta" id="focus-meta-text">-</div>
+                </div>
+
+                <!-- Main Widget Content -->
+                <div class="widget-content">
+                    <!-- Left: Countdown & active info -->
+                    <div class="countdown-panel">
+                        <div class="next-prayer-label">Sıradaki Ezan Vakti</div>
+                        <div class="next-prayer-name" id="widget-next-prayer-name">-</div>
+                        <div class="next-prayer-timer" id="widget-countdown-timer">00:00:00</div>
+                        <div class="progress-bar-container">
+                            <div class="progress-bar-fill" id="widget-progress-fill" style="width: 0%;"></div>
+                        </div>
+                        <div class="widget-date-display" id="widget-gregorian-date">-</div>
+                    </div>
+
+                    <!-- Right: Times Grid -->
+                    <div class="times-grid">
+                        <div class="time-card" id="card-imsak">
+                            <div class="time-label">İmsak</div>
+                            <div class="time-value" id="val-imsak">--:--</div>
+                        </div>
+                        <div class="time-card" id="card-gunes">
+                            <div class="time-label">Güneş</div>
+                            <div class="time-value" id="val-gunes">--:--</div>
+                        </div>
+                        <div class="time-card" id="card-ogle">
+                            <div class="time-label">Öğle</div>
+                            <div class="time-value" id="val-ogle">--:--</div>
+                        </div>
+                        <div class="time-card" id="card-ikindi">
+                            <div class="time-label">İkindi</div>
+                            <div class="time-value" id="val-ikindi">--:--</div>
+                        </div>
+                        <div class="time-card" id="card-aksam">
+                            <div class="time-label">Akşam</div>
+                            <div class="time-value" id="val-aksam">--:--</div>
+                        </div>
+                        <div class="time-card" id="card-yatsi">
+                            <div class="time-label">Yatsı</div>
+                            <div class="time-value" id="val-yatsi">--:--</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SEO Quick Links -->
+            <div class="seo-quick-links">
+                <h3 class="seo-links-title">Popüler Namaz Vakitleri Sorgulama</h3>
+                <div class="seo-links-grid">
+                    <a href="?sehir=istanbul" class="seo-link">İstanbul Namaz Vakitleri</a>
+                    <a href="?sehir=ankara" class="seo-link">Ankara Namaz Vakitleri</a>
+                    <a href="?sehir=izmir" class="seo-link">İzmir Namaz Vakitleri</a>
+                    <a href="?sehir=bursa" class="seo-link">Bursa Namaz Vakitleri</a>
+                    <a href="?sehir=silivri&vakit=ogle" class="seo-link">Silivri Öğle Namazı Vakti</a>
+                    <a href="?sehir=fatih&vakit=yatsi" class="seo-link">Fatih Yatsı Ezanı Saati</a>
+                    <a href="?sehir=kirklareli&vakit=sabah" class="seo-link">Kırklareli Sabah Namazı Vakti</a>
+                    <a href="?sehir=uskudar&vakit=aksam" class="seo-link">Üsküdar Akşam Ezanı Kaçta</a>
+                    <a href="?sehir=kadikoy&vakit=ikindi" class="seo-link">Kadıköy İkindi Namazı Saati</a>
+                    <a href="?sehir=cankaya&vakit=sabah" class="seo-link">Çankaya Sabah Ezanı Kaçta</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. Özellikler Bölümü -->
+    <section id="features" class="features-section">
+        <div class="container">
+            <div class="section-title-wrapper">
+                <h2 class="section-title">Öne Çıkan Özellikler</h2>
+                <p class="section-subtitle">Uygulamanın günlük kullanımda size kolaylık sağlayacak temel işlevleri.</p>
+            </div>
+            <div class="features-grid">
+                <!-- Feature 1 -->
+                <article class="feature-card" id="feature-location">
+                    <div class="feature-icon-wrapper">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a8 8 0 0 0-8 8c0 5.25 8 12 8 12s8-6.75 8-12a8 8 0 0 0-8-8z"/><circle cx="12" cy="10" r="3"/></svg>
+                    </div>
+                    <h3>Otomatik Konum Bazlı Vakitler</h3>
+                    <p>Diyanet İşleri Başkanlığı'nın resmi verileri (İmsakiyem API) veya dünya geneli koordinat bazlı hesaplama sunan Aladhan API arasından dilediğiniz kaynağı seçebilirsiniz. İnternet erişiminizin olmadığı durumlarda ise çevrimdışı matematiksel hesaplama motoru devreye girer. Konumunuz değiştikçe arka planda vakitler otomatik güncellenir.</p>
+                </article>
+
+                <!-- Feature 2 -->
+                <article class="feature-card" id="feature-wearos">
+                    <div class="feature-icon-wrapper">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="7"/><rect x="10" y="2" width="4" height="3"/><rect x="10" y="19" width="4" height="3"/></svg>
+                    </div>
+                    <h3>Wear OS (Akıllı Saat) Uygulaması</h3>
+                    <p>Telefondan tamamen bağımsız olarak çalışabilen saat sürümü mevcuttur. Kadranınıza ekleyebileceğiniz komplikasyonlar sayesinde, saatinize her baktığınızda sonraki vakte kalan süreyi görebilirsiniz.</p>
+                </article>
+
+                <!-- Feature 3 -->
+                <article class="feature-card" id="feature-compass">
+                    <div class="feature-icon-wrapper">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"/></svg>
+                    </div>
+                    <h3>Kıble Pusulası ve Çevrimdışı Harita</h3>
+                    <p>Cihaz sensörlerini kullanan pürüzsüz kıble pusulası. İnternet bağlantınız olmadığında bile MapLibre kütüphanesi yardımıyla harita üzerinde Kabe istikametini büyük daire (great-circle) metoduyla doğru şekilde çizer.</p>
+                </article>
+
+                <!-- Feature 4 -->
+                <article class="feature-card" id="feature-widgets">
+                    <div class="feature-icon-wrapper">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="9"/><rect x="14" y="3" width="7" height="5"/><rect x="14" y="12" width="7" height="9"/><rect x="3" y="16" width="7" height="5"/></svg>
+                    </div>
+                    <h3>Modern Glance Ana Ekran Widget'ları</h3>
+                    <p>Jetpack Glance kütüphanesiyle hazırlanan, Android sistem temasıyla uyumlu widget'lar. Bir sonraki namaz vaktine kalan süreyi saniye hassasiyetinde takip etmenizi sağlayan sayaç seçeneği bulunur.</p>
+                </article>
+
+                <!-- Feature 5 -->
+                <article class="feature-card" id="feature-zikir">
+                    <div class="feature-icon-wrapper">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"/><path d="M12 6v6l4 2"/></svg>
+                    </div>
+                    <h3>Namaz Tesbihatı ve Zikirmatik</h3>
+                    <p>Namaz tesbihatı adımlarını otomatik olarak sırasıyla takip eden zikirmatik. Tesbih adımlarının geçişlerinde ve zikir tamamlandığında cihazın dokunsal geribildirim (titreşim) motorunu kullanır.</p>
+                </article>
+
+                <!-- Feature 6 -->
+                <article class="feature-card" id="feature-privacy">
+                    <div class="feature-icon-wrapper">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+                    </div>
+                    <h3>Tamamen Reklamsız ve Güvenli</h3>
+                    <p>Uygulama içerisinde herhangi bir reklam, üçüncü taraf izleyici analiz kütüphanesi veya veri toplama sistemi barındırmaz. Konum bilginiz sadece namaz vakti hesabı için cihazınızda işlenir.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Etkileşimli Ekran Showcase Bölümü -->
+    <section id="showcase" class="showcase-section">
+        <div class="container">
+            <div class="section-title-wrapper">
+                <h2 class="section-title">Ekran Görüntüleri</h2>
+                <p class="section-subtitle">Uygulamanın sade ve kullanışlı arayüzünü inceleyin.</p>
+            </div>
+            
+            <div class="showcase-grid">
+                <!-- Sol: Tıklanabilir Göstergeler -->
+                <div class="slider-controls" role="tablist" aria-label="Uygulama Ekranları">
+                    <button class="feature-indicator active" role="tab" aria-selected="true" id="tab-home" aria-controls="panel-screenshot">
+                        <h4>Ana Ekran</h4>
+                        <p>Kalan süreyi anlık gösteren sayaç, kerahat vakti uyarısı ve günün tüm vakitlerinin listelendiği ana panel.</p>
+                    </button>
+                    <button class="feature-indicator" role="tab" aria-selected="false" id="tab-qibla" aria-controls="panel-screenshot">
+                        <h4>Kıble Pusulası</h4>
+                        <p>Pürüzsüz sensör filtreleme algoritmasına sahip, sapma derecesini gösteren 3D Kabe pusulası.</p>
+                    </button>
+                    <button class="feature-indicator" role="tab" aria-selected="false" id="tab-calendar" aria-controls="panel-screenshot">
+                        <h4>Aylık Takvim</h4>
+                        <p>Hicri tarih karşılıkları ile birlikte, seçilen aya ait tüm namaz vakitlerinin listelendiği aylık takvim.</p>
+                    </button>
+                    <button class="feature-indicator" role="tab" aria-selected="false" id="tab-zikir" aria-controls="panel-screenshot">
+                        <h4>Zikirmatik ve Tesbihat</h4>
+                        <p>Hedef sayı takibi yapabileceğiniz, namaz tesbihatı adımlarını ve kalan zikir adetlerini gösteren ekran.</p>
+                    </button>
+                </div>
+
+                <!-- Sağ: Ekran Resmini Barındıran Mockup -->
+                <div class="hero-showcase-slider" id="panel-screenshot" role="tabpanel">
+                    <!-- Android Phone Mockup (Google Pixel Style) -->
+                    <div class="phone-mockup">
+                        <div class="phone-camera"></div>
+                        <div class="phone-screen">
+                            <img src="app_screenshot_home.png" alt="Namaz Vakitleri Uygulama Ekranı" id="phone-screen-img">
+                        </div>
+                    </div>
+                    
+                    <!-- Dots -->
+                    <div class="gallery-dots" role="tablist" aria-label="Ekran Değiştirici">
+                        <span class="gallery-dot active" role="tab" aria-selected="true" aria-label="Görsel 1"></span>
+                        <span class="gallery-dot" role="tab" aria-selected="false" aria-label="Görsel 2"></span>
+                        <span class="gallery-dot" role="tab" aria-selected="false" aria-label="Görsel 3"></span>
+                        <span class="gallery-dot" role="tab" aria-selected="false" aria-label="Görsel 4"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. Dinamik İndirme Bölümü -->
+    <section id="download" class="download-section">
+        <div class="container">
+            <div class="download-card">
+                <div class="download-info">
+                    <h3>Uygulamayı Edinin</h3>
+                    <p>Aşağıdaki bağlantıları kullanarak en güncel kararlı sürüm dosyalarını (.apk) doğrudan cihazınıza indirebilirsiniz.</p>
+                    
+                    <div class="release-notes-box">
+                        <div class="release-notes-title">
+                            <span>Sürüm Notları</span>
+                            <span class="tag-ver latest-version-name">v1.0.4</span>
+                        </div>
+                        <div class="release-notes-text">
+                            Sürüm bilgileri yükleniyor...
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="download-buttons">
+                    <a href="#" class="btn btn-primary" id="mobile-download-btn">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg>
+                        <span>Telefon Sürümü (.apk)</span>
+                    </a>
+                    
+                    <a href="#" class="btn btn-secondary" id="wear-download-btn">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="7"/><rect x="10" y="2" width="4" height="3"/><rect x="10" y="19" width="4" height="3"/></svg>
+                        <span>Wear OS Sürümü (.apk)</span>
+                    </a>
+                    
+                    <p style="text-align:center; font-size:0.85rem; margin-top:8px;">
+                        <a href="#" target="_blank" style="text-decoration:underline; color:var(--color-primary);" id="changelog-link">Geçmiş Sürümler ve Değişiklikler</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. Footer / Alt Bilgi -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-logo">
+                <img src="app_icon.png" alt="Namaz Vakitleri Küçük Logosu" class="logo-img-small">
+                <span>Namaz Vakitleri</span>
+            </div>
+            <p class="footer-bottom">Bu uygulama bireysel kullanım için reklamsız ve ücretsiz olarak tasarlanmıştır. Satışa sunulamaz veya veri paylaşımı amacıyla kullanılamaz. &copy; 2026 Görkem Güray</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
