@@ -95,10 +95,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // 2. Interactive Screenshot Gallery for Phone Mockup
     const sliderImages = [
-        'app_screenshot_home.png',
-        'app_screenshot_qibla.png',
-        'app_screenshot_calendar.png',
-        'app_screenshot_zikirmatik.png'
+        'app_screenshot_home.webp',
+        'app_screenshot_qibla.webp',
+        'app_screenshot_calendar.webp',
+        'app_screenshot_zikirmatik.webp'
     ];
 
     const screenImg = document.getElementById('phone-screen-img');

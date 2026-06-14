@@ -10,6 +10,9 @@
     <link rel="alternate" hreflang="x-default" href="https://gorkemguray.github.io/Namaz-App/" />
     <link rel="canonical" href="https://gorkemguray.github.io/Namaz-App/" />
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://api.aladhan.com">
+    <link rel="preconnect" href="https://nominatim.openstreetmap.org">
+    <link rel="preconnect" href="https://ipapi.co">
     
     <!-- Google Search Console Doğrulama Kodu (Aşağıdaki content değerini kendi kodunuzla değiştirin ve yorum satırını kaldırın) -->
     <!-- <meta name="google-site-verification" content="YOUR_GOOGLE_SEARCH_CONSOLE_VERIFICATION_CODE" /> -->
@@ -63,7 +66,7 @@
     <header class="site-header">
         <div class="container nav-container">
             <a href="#" class="logo" aria-label="Namaz Vakitleri Ana Sayfa">
-                <img src="app_icon.png" alt="Namaz Vakitleri Logosu" class="logo-img">
+                <img src="app_icon.webp" alt="Namaz Vakitleri Logosu" class="logo-img">
                 <span>Namaz Vakitleri</span>
             </a>
             <nav>
@@ -81,7 +84,10 @@
                     <!-- Moon Icon (Show in light mode to switch to dark) -->
                     <svg id="theme-toggle-moon" class="theme-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
                 </button>
-                <a href="#download" class="nav-cta" id="nav-cta-download">Hemen İndir</a>
+                <a href="#download" class="nav-cta" id="nav-cta-download" aria-label="Uygulamayı İndir" title="Uygulamayı İndir">
+                    <span class="cta-text">Hemen İndir</span>
+                    <svg class="cta-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                </a>
             </div>
         </div>
     </header>
@@ -114,7 +120,7 @@
                 <div class="phone-mockup">
                     <div class="phone-camera"></div>
                     <div class="phone-screen">
-                        <img src="app_screenshot_home.png" alt="Namaz Vakitleri Telefon Uygulaması Ana Ekranı" id="phone-hero-img">
+                        <img src="app_screenshot_home.webp" alt="Namaz Vakitleri Telefon Uygulaması Ana Ekranı" id="phone-hero-img" fetchpriority="high">
                     </div>
                 </div>
 
@@ -123,7 +129,7 @@
                     <div class="watch-crown"></div>
                     <div class="watch-mockup">
                         <div class="watch-screen">
-                            <img src="wear_screenshot_home.png" alt="Namaz Vakitleri Wear OS Akıllı Saat Uygulaması">
+                            <img src="wear_screenshot_home.webp" alt="Namaz Vakitleri Wear OS Akıllı Saat Uygulaması" fetchpriority="high">
                         </div>
                     </div>
                 </div>
@@ -324,7 +330,7 @@
                     <div class="phone-mockup">
                         <div class="phone-camera"></div>
                         <div class="phone-screen">
-                            <img src="app_screenshot_home.png" alt="Namaz Vakitleri Uygulama Ekranı" id="phone-screen-img">
+                            <img src="app_screenshot_home.webp" alt="Namaz Vakitleri Uygulama Ekranı" id="phone-screen-img" loading="lazy">
                         </div>
                     </div>
                     
@@ -382,7 +388,7 @@
     <footer class="site-footer">
         <div class="container">
             <div class="footer-logo">
-                <img src="app_icon.png" alt="Namaz Vakitleri Küçük Logosu" class="logo-img-small">
+                <img src="app_icon.webp" alt="Namaz Vakitleri Küçük Logosu" class="logo-img-small">
                 <span>Namaz Vakitleri</span>
             </div>
             <p class="footer-bottom">Bu uygulama bireysel kullanım için reklamsız ve ücretsiz olarak tasarlanmıştır. Satışa sunulamaz veya veri paylaşımı amacıyla kullanılamaz. &copy; 2026 Görkem Güray</p>
