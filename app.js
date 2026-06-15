@@ -730,8 +730,20 @@ document.addEventListener('DOMContentLoaded', () => {
     // 3.8 URL Parametrelerini Çözümleme ve Başlatma
     function initWidget() {
         const params = new URLSearchParams(window.location.search);
-        const sehirParam = params.get('sehir') || params.get('city');
+        const sehirParam = params.get('sehir') || params.get('city') || window.PRERENDERED_CITY;
         const vakitParam = params.get('vakit') || params.get('prayer');
+
+        // Redirect old ?sehir= URLs to clean /sehir/ URLs
+        const oldCityParam = params.get('sehir') || params.get('city');
+        if (oldCityParam && !window.PRERENDERED_CITY) {
+            const isEn = !!params.get('city');
+            const vakit = params.get('vakit') || params.get('prayer');
+            const base = isEn ? '/en/city/' : '/sehir/';
+            const newPath = base + encodeURIComponent(oldCityParam.toLowerCase()) + '/';
+            const newQuery = vakit ? '?vakit=' + encodeURIComponent(vakit.toLowerCase()) : '';
+            window.location.replace(newPath + newQuery);
+            return;
+        }
 
         if (sehirParam) {
             const decodedCity = decodeURIComponent(sehirParam);
