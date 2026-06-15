@@ -447,9 +447,9 @@ def generate_city_index(cities, lang):
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{title}</title>
     <meta name="description" content="{desc}">
-    <link rel="icon" href="{base}/app_icon.webp" type="image/webp">
+    <link rel="icon" href="{BASE_URL_TR}/app_icon.webp" type="image/webp">
     <link rel="canonical" href="{base}/{out_dir.split('/')[-1]}/">
-    <link rel="stylesheet" href="{base}/style.css">
+    <link rel="stylesheet" href="{BASE_URL_TR}/style.css">
 </head>
 <body>
     <header class="site-header">

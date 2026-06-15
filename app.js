@@ -760,26 +760,5 @@ document.addEventListener('DOMContentLoaded', () => {
     // Initialize Widget
     initWidget();
 
-    // 3.9 SEO Linklerinin yenilemesiz geçişini sağlama
-    const seoLinks = document.querySelectorAll('.seo-link');
-    seoLinks.forEach(link => {
-        link.addEventListener('click', (e) => {
-            e.preventDefault();
-            const href = link.getAttribute('href');
-            if (href) {
-                const params = new URLSearchParams(href.substring(1)); // Remove '?'
-                const sehir = params.get('sehir') || params.get('city');
-                const vakit = params.get('vakit') || params.get('prayer');
-                
-                if (sehir) {
-                    searchLocation(sehir, vakit, true);
-                    
-                    // Fill input value for consistency
-                    if (widgetSearchInput) {
-                        widgetSearchInput.value = sehir.charAt(0).toUpperCase() + sehir.slice(1);
-                    }
-                }
-            }
-        });
-    });
+
 });
