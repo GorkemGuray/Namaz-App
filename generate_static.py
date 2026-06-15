@@ -128,16 +128,29 @@ def generate_tr_page(param):
     <meta name="google-site-verification" content="EktCgN-cMPl00p_o60v8MIxeJU7WuCW_3BtPWkx0m2I" />
 {og_tags(title, desc, canonical, og_image, "tr_TR")}
     <link rel="alternate" hreflang="tr" href="{canonical}" />
+    <link rel="alternate" hreflang="en" href="{BASE_URL_EN}/city/{param}/" />
     <link rel="alternate" hreflang="x-default" href="{canonical}" />
     <link rel="canonical" href="{canonical}" />
     <link rel="preconnect" href="https://api.aladhan.com">
     <link rel="preconnect" href="https://nominatim.openstreetmap.org">
     <link rel="preconnect" href="https://ipapi.co">
     <link rel="stylesheet" href="../../style.css">
+    <link rel="icon" href="../../app_icon.webp" type="image/webp">
     <script async src="https://www.googletagmanager.com/gtag/js?id={GA4_ID}"></script>
     <script>window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments);}}gtag('js',new Date());gtag('config','{GA4_ID}');</script>
     <script type="application/ld+json">
 {json.dumps(json_ld_city(param, canonical), ensure_ascii=False, indent=4)}
+    </script>
+    <script type="application/ld+json">
+    {{
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {{"@type": "ListItem", "position": 1, "name": "Namaz Vakitleri", "item": "{BASE_URL_TR}/"}},
+        {{"@type": "ListItem", "position": 2, "name": "Şehirler", "item": "{BASE_URL_TR}/sehirler/"}},
+        {{"@type": "ListItem", "position": 3, "name": "{display}"}}
+      ]
+    }}
     </script>
     <script>window.PRERENDERED_CITY="{param}";</script>
     <script>(function(){{var t=localStorage.getItem('theme');var d=window.matchMedia('(prefers-color-scheme:dark)').matches;document.documentElement.setAttribute('data-theme',t||(d?'dark':'light'));}})();</script>
@@ -219,7 +232,7 @@ def generate_tr_page(param):
                 <img src="../../app_icon.webp" alt="Namaz Vakitleri Logosu" class="logo-img-small" width="32" height="32" loading="lazy">
                 <span>Namaz Vakitleri</span>
             </div>
-            <p class="footer-bottom">Bu uygulama bireysel kullanım için reklamsız ve ücretsiz olarak tasarlanmıştır. &copy; 2025 Görkem Güray</p>
+            <p class="footer-bottom">Bu uygulama bireysel kullanım için reklamsız ve ücretsiz olarak tasarlanmıştır. &copy; {TODAY[:4]} Görkem Güray</p>
         </div>
     </footer>
     <script src="../../app.js"></script>
@@ -255,10 +268,22 @@ def generate_en_page(param):
     <link rel="preconnect" href="https://nominatim.openstreetmap.org">
     <link rel="preconnect" href="https://ipapi.co">
     <link rel="stylesheet" href="../../style.css">
+    <link rel="icon" href="../../app_icon.webp" type="image/webp">
     <script async src="https://www.googletagmanager.com/gtag/js?id={GA4_ID}"></script>
     <script>window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments);}}gtag('js',new Date());gtag('config','{GA4_ID}');</script>
     <script type="application/ld+json">
 {json.dumps(json_ld_city(param, canonical, is_en=True), ensure_ascii=False, indent=4)}
+    </script>
+    <script type="application/ld+json">
+    {{
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {{"@type": "ListItem", "position": 1, "name": "Namaz Vakitleri", "item": "{BASE_URL_TR}/en/"}},
+        {{"@type": "ListItem", "position": 2, "name": "Cities", "item": "{BASE_URL_TR}/en/cities/"}},
+        {{"@type": "ListItem", "position": 3, "name": "{display}"}}
+      ]
+    }}
     </script>
     <script>window.PRERENDERED_CITY="{param}";</script>
     <script>(function(){{var t=localStorage.getItem('theme');var d=window.matchMedia('(prefers-color-scheme:dark)').matches;document.documentElement.setAttribute('data-theme',t||(d?'dark':'light'));}})();</script>
@@ -340,7 +365,7 @@ def generate_en_page(param):
                 <img src="../../app_icon.webp" alt="Namaz Vakitleri Logo" class="logo-img-small" width="32" height="32" loading="lazy">
                 <span>Namaz Vakitleri</span>
             </div>
-            <p class="footer-bottom">This app is designed for personal use, ad-free and free of charge. &copy; 2025 Görkem Güray</p>
+            <p class="footer-bottom">This app is designed for personal use, ad-free and free of charge. &copy; {TODAY[:4]} Görkem Güray</p>
         </div>
     </footer>
     <script src="../../app.js"></script>
@@ -366,8 +391,87 @@ def main():
         with open(os.path.join(dir_path, 'index.html'), 'w', encoding='utf-8') as f:
             f.write(generate_en_page(param))
     
+    # Generate HTML sitemap pages (all cities index)
+    print("Generating HTML sitemap pages...")
+    generate_city_index(tr_cities, 'tr')
+    generate_city_index(en_cities, 'en')
+    
     total = len(tr_cities) + len(en_cities)
-    print(f"Done! Generated {total} static pages in website/sehir/ and website/en/city/.")
+    print(f"Done! Generated {total} static city pages + 2 sitemap pages.")
+
+
+def generate_city_index(cities, lang):
+    """Generate an HTML sitemap page listing all cities alphabetically."""
+    if lang == 'tr':
+        out_dir = os.path.join(WEBSITE_DIR, 'sehirler')
+        base = BASE_URL_TR
+        prefix = '/sehir/'
+        title = 'Tüm Şehirler — Namaz Vakitleri'
+        desc = 'Namaz Vakitleri uygulamasının desteklediği tüm şehir ve ilçelerin alfabetik listesi. İstanbul, Ankara, İzmir ve daha fazlası için günlük ezan saatleri.'
+        label = 'Tüm Şehir ve İlçeler'
+        home_label = 'Ana Sayfa'
+    else:
+        out_dir = os.path.join(WEBSITE_DIR, 'en', 'cities')
+        base = BASE_URL_EN
+        prefix = '/city/'
+        title = 'All Cities — Namaz Vakitleri'
+        desc = 'Complete alphabetical list of all cities and districts supported by Namaz Vakitleri. Daily prayer times for Istanbul, Ankara, Izmir and more.'
+        label = 'All Cities & Districts'
+        home_label = 'Home'
+    
+    os.makedirs(out_dir, exist_ok=True)
+    
+    # Build alphabetical groups
+    from collections import defaultdict
+    groups = defaultdict(list)
+    for param, _ in cities:
+        first_char = param[0].upper()
+        groups[first_char].append(param)
+    
+    # Build city links HTML
+    links_html = ''
+    for char in sorted(groups.keys()):
+        cities_sorted = sorted(groups[char], key=lambda x: x.lower())
+        links_html += f'        <div class="sitemap-group">\n          <h2>{char}</h2>\n          <ul>\n'
+        for param in cities_sorted:
+            display = city_display_name(param)
+            links_html += f'            <li><a href="{base}{prefix}{param}/">{display}</a></li>\n'
+        links_html += '          </ul>\n        </div>\n'
+    
+    html = f"""<!DOCTYPE html>
+<html lang="{'tr' if lang == 'tr' else 'en'}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{title}</title>
+    <meta name="description" content="{desc}">
+    <link rel="icon" href="{base}/app_icon.webp" type="image/webp">
+    <link rel="canonical" href="{base}/{out_dir.split('/')[-1]}/">
+    <link rel="stylesheet" href="{base}/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container nav-container">
+            <a href="/Namaz-App/" class="logo"><span>Namaz Vakitleri</span></a>
+            <nav><ul class="nav-links"><li><a href="/Namaz-App/">{home_label}</a></li></ul></nav>
+        </div>
+    </header>
+    <section class="sitemap-section" style="padding:4rem 1rem;max-width:960px;margin:0 auto;">
+        <h1>{label}</h1>
+        <p>{desc}</p>
+{links_html}
+    </section>
+    <footer class="site-footer">
+        <div class="container">
+            <p class="footer-bottom">&copy; {TODAY[:4]} Görkem Güray</p>
+        </div>
+    </footer>
+</body>
+</html>"""
+    
+    with open(os.path.join(out_dir, 'index.html'), 'w', encoding='utf-8') as f:
+        f.write(html)
+    print(f"  Created {out_dir}/index.html ({len(cities)} cities)")
 
 
 if __name__ == '__main__':
