@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://gorkemguray.github.io/Namaz-App/sitemap_index.xml
+Sitemap: https://gorkemguray.github.io/Namaz-App/sitemap.xml

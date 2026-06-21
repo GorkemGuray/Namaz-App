@@ -1,0 +1,7842 @@
+{
+  "tr": [
+    {
+      "param": "abana",
+      "priority": "0.6"
+    },
+    {
+      "param": "acigol",
+      "priority": "0.6"
+    },
+    {
+      "param": "acipayam",
+      "priority": "0.6"
+    },
+    {
+      "param": "adakli",
+      "priority": "0.6"
+    },
+    {
+      "param": "adalar",
+      "priority": "0.6"
+    },
+    {
+      "param": "adana",
+      "priority": "0.8"
+    },
+    {
+      "param": "adapazari",
+      "priority": "0.6"
+    },
+    {
+      "param": "adilcevaz",
+      "priority": "0.6"
+    },
+    {
+      "param": "adiyaman",
+      "priority": "0.6"
+    },
+    {
+      "param": "afsin",
+      "priority": "0.6"
+    },
+    {
+      "param": "afyonkarahisar",
+      "priority": "0.6"
+    },
+    {
+      "param": "agacoren",
+      "priority": "0.6"
+    },
+    {
+      "param": "agin",
+      "priority": "0.6"
+    },
+    {
+      "param": "aglasun",
+      "priority": "0.6"
+    },
+    {
+      "param": "agli",
+      "priority": "0.6"
+    },
+    {
+      "param": "agri",
+      "priority": "0.6"
+    },
+    {
+      "param": "ahirli",
+      "priority": "0.6"
+    },
+    {
+      "param": "ahlat",
+      "priority": "0.6"
+    },
+    {
+      "param": "ahmetli",
+      "priority": "0.6"
+    },
+    {
+      "param": "akcaabat",
+      "priority": "0.6"
+    },
+    {
+      "param": "akcadag",
+      "priority": "0.6"
+    },
+    {
+      "param": "akcakale",
+      "priority": "0.6"
+    },
+    {
+      "param": "akcakent",
+      "priority": "0.6"
+    },
+    {
+      "param": "akcakoca",
+      "priority": "0.6"
+    },
+    {
+      "param": "akdagmadeni",
+      "priority": "0.6"
+    },
+    {
+      "param": "akdeniz",
+      "priority": "0.6"
+    },
+    {
+      "param": "akhisar",
+      "priority": "0.6"
+    },
+    {
+      "param": "akincilar",
+      "priority": "0.6"
+    },
+    {
+      "param": "akkisla",
+      "priority": "0.6"
+    },
+    {
+      "param": "akkus",
+      "priority": "0.6"
+    },
+    {
+      "param": "akoren",
+      "priority": "0.6"
+    },
+    {
+      "param": "akpinar",
+      "priority": "0.6"
+    },
+    {
+      "param": "aksaray",
+      "priority": "0.6"
+    },
+    {
+      "param": "aksehir",
+      "priority": "0.6"
+    },
+    {
+      "param": "akseki",
+      "priority": "0.6"
+    },
+    {
+      "param": "aksu-antalya",
+      "priority": "0.6"
+    },
+    {
+      "param": "akyaka",
+      "priority": "0.6"
+    },
+    {
+      "param": "akyazi",
+      "priority": "0.6"
+    },
+    {
+      "param": "akyurt",
+      "priority": "0.6"
+    },
+    {
+      "param": "alaca",
+      "priority": "0.6"
+    },
+    {
+      "param": "alacakaya",
+      "priority": "0.6"
+    },
+    {
+      "param": "alacam",
+      "priority": "0.6"
+    },
+    {
+      "param": "aladag",
+      "priority": "0.6"
+    },
+    {
+      "param": "alanya",
+      "priority": "0.6"
+    },
+    {
+      "param": "alapli",
+      "priority": "0.6"
+    },
+    {
+      "param": "alasehir",
+      "priority": "0.6"
+    },
+    {
+      "param": "aliaga",
+      "priority": "0.6"
+    },
+    {
+      "param": "almus",
+      "priority": "0.6"
+    },
+    {
+      "param": "alpu",
+      "priority": "0.6"
+    },
+    {
+      "param": "altieylul",
+      "priority": "0.6"
+    },
+    {
+      "param": "altindag",
+      "priority": "0.6"
+    },
+    {
+      "param": "altinekin",
+      "priority": "0.6"
+    },
+    {
+      "param": "altinordu",
+      "priority": "0.6"
+    },
+    {
+      "param": "altinova",
+      "priority": "0.6"
+    },
+    {
+      "param": "altinozu",
+      "priority": "0.6"
+    },
+    {
+      "param": "altintas",
+      "priority": "0.6"
+    },
+    {
+      "param": "altinyayla-burdur",
+      "priority": "0.6"
+    },
+    {
+      "param": "altunhisar",
+      "priority": "0.6"
+    },
+    {
+      "param": "alucra",
+      "priority": "0.6"
+    },
+    {
+      "param": "amasra",
+      "priority": "0.6"
+    },
+    {
+      "param": "amasya",
+      "priority": "0.6"
+    },
+    {
+      "param": "anamur",
+      "priority": "0.6"
+    },
+    {
+      "param": "andirin",
+      "priority": "0.6"
+    },
+    {
+      "param": "ankara",
+      "priority": "0.8"
+    },
+    {
+      "param": "antakya",
+      "priority": "0.6"
+    },
+    {
+      "param": "antalya",
+      "priority": "0.8"
+    },
+    {
+      "param": "araban",
+      "priority": "0.6"
+    },
+    {
+      "param": "arac",
+      "priority": "0.6"
+    },
+    {
+      "param": "arakli",
+      "priority": "0.6"
+    },
+    {
+      "param": "aralik",
+      "priority": "0.6"
+    },
+    {
+      "param": "arapgir",
+      "priority": "0.6"
+    },
+    {
+      "param": "ardahan",
+      "priority": "0.6"
+    },
+    {
+      "param": "ardanuc",
+      "priority": "0.6"
+    },
+    {
+      "param": "ardesen",
+      "priority": "0.6"
+    },
+    {
+      "param": "arguvan",
+      "priority": "0.6"
+    },
+    {
+      "param": "arhavi",
+      "priority": "0.6"
+    },
+    {
+      "param": "aricak",
+      "priority": "0.6"
+    },
+    {
+      "param": "arifiye",
+      "priority": "0.6"
+    },
+    {
+      "param": "armutlu",
+      "priority": "0.6"
+    },
+    {
+      "param": "arnavutkoy",
+      "priority": "0.6"
+    },
+    {
+      "param": "arpacay",
+      "priority": "0.6"
+    },
+    {
+      "param": "arsin",
+      "priority": "0.6"
+    },
+    {
+      "param": "arsuz",
+      "priority": "0.6"
+    },
+    {
+      "param": "artova",
+      "priority": "0.6"
+    },
+    {
+      "param": "artuklu",
+      "priority": "0.6"
+    },
+    {
+      "param": "artvin",
+      "priority": "0.6"
+    },
+    {
+      "param": "asarcik",
+      "priority": "0.6"
+    },
+    {
+      "param": "askale",
+      "priority": "0.6"
+    },
+    {
+      "param": "aslanapa",
+      "priority": "0.6"
+    },
+    {
+      "param": "atabey",
+      "priority": "0.6"
+    },
+    {
+      "param": "atakum",
+      "priority": "0.6"
+    },
+    {
+      "param": "atasehir",
+      "priority": "0.6"
+    },
+    {
+      "param": "atkaracalar",
+      "priority": "0.6"
+    },
+    {
+      "param": "avanos",
+      "priority": "0.6"
+    },
+    {
+      "param": "avcilar",
+      "priority": "0.6"
+    },
+    {
+      "param": "ayancik",
+      "priority": "0.6"
+    },
+    {
+      "param": "ayas",
+      "priority": "0.6"
+    },
+    {
+      "param": "aybasti",
+      "priority": "0.6"
+    },
+    {
+      "param": "aydin",
+      "priority": "0.8"
+    },
+    {
+      "param": "aydincik-mersin",
+      "priority": "0.6"
+    },
+    {
+      "param": "aydintepe",
+      "priority": "0.6"
+    },
+    {
+      "param": "ayranci",
+      "priority": "0.6"
+    },
+    {
+      "param": "ayvacik-canakkale",
+      "priority": "0.6"
+    },
+    {
+      "param": "ayvalik",
+      "priority": "0.6"
+    },
+    {
+      "param": "azdavay",
+      "priority": "0.6"
+    },
+    {
+      "param": "aziziye",
+      "priority": "0.6"
+    },
+    {
+      "param": "babadag",
+      "priority": "0.6"
+    },
+    {
+      "param": "babaeski",
+      "priority": "0.6"
+    },
+    {
+      "param": "bafra",
+      "priority": "0.6"
+    },
+    {
+      "param": "bagcilar",
+      "priority": "0.6"
+    },
+    {
+      "param": "baglar",
+      "priority": "0.6"
+    },
+    {
+      "param": "bahce",
+      "priority": "0.6"
+    },
+    {
+      "param": "bahcelievler",
+      "priority": "0.6"
+    },
+    {
+      "param": "bahcesaray",
+      "priority": "0.6"
+    },
+    {
+      "param": "bahsili",
+      "priority": "0.6"
+    },
+    {
+      "param": "bakirkoy",
+      "priority": "0.6"
+    },
+    {
+      "param": "baklan",
+      "priority": "0.6"
+    },
+    {
+      "param": "bala",
+      "priority": "0.6"
+    },
+    {
+      "param": "balcova",
+      "priority": "0.6"
+    },
+    {
+      "param": "balikesir",
+      "priority": "0.8"
+    },
+    {
+      "param": "baliseyh",
+      "priority": "0.6"
+    },
+    {
+      "param": "balya",
+      "priority": "0.6"
+    },
+    {
+      "param": "banaz",
+      "priority": "0.6"
+    },
+    {
+      "param": "bandirma",
+      "priority": "0.6"
+    },
+    {
+      "param": "bartin",
+      "priority": "0.6"
+    },
+    {
+      "param": "basaksehir",
+      "priority": "0.6"
+    },
+    {
+      "param": "basciftlik",
+      "priority": "0.6"
+    },
+    {
+      "param": "basiskele",
+      "priority": "0.6"
+    },
+    {
+      "param": "baskale",
+      "priority": "0.6"
+    },
+    {
+      "param": "baskil",
+      "priority": "0.6"
+    },
+    {
+      "param": "basmakci",
+      "priority": "0.6"
+    },
+    {
+      "param": "basyayla",
+      "priority": "0.6"
+    },
+    {
+      "param": "batman",
+      "priority": "0.6"
+    },
+    {
+      "param": "battalgazi",
+      "priority": "0.6"
+    },
+    {
+      "param": "bayat-afyonkarahisar",
+      "priority": "0.6"
+    },
+    {
+      "param": "bayburt",
+      "priority": "0.6"
+    },
+    {
+      "param": "bayindir",
+      "priority": "0.6"
+    },
+    {
+      "param": "baykan",
+      "priority": "0.6"
+    },
+    {
+      "param": "bayrakli",
+      "priority": "0.6"
+    },
+    {
+      "param": "bayramic",
+      "priority": "0.6"
+    },
+    {
+      "param": "bayramoren",
+      "priority": "0.6"
+    },
+    {
+      "param": "bayrampasa",
+      "priority": "0.6"
+    },
+    {
+      "param": "bekilli",
+      "priority": "0.6"
+    },
+    {
+      "param": "belen",
+      "priority": "0.6"
+    },
+    {
+      "param": "bergama",
+      "priority": "0.6"
+    },
+    {
+      "param": "besikduzu",
+      "priority": "0.6"
+    },
+    {
+      "param": "besiktas",
+      "priority": "0.6"
+    },
+    {
+      "param": "besiri",
+      "priority": "0.6"
+    },
+    {
+      "param": "besni",
+      "priority": "0.6"
+    },
+    {
+      "param": "beyagac",
+      "priority": "0.6"
+    },
+    {
+      "param": "beydag",
+      "priority": "0.6"
+    },
+    {
+      "param": "beykoz",
+      "priority": "0.6"
+    },
+    {
+      "param": "beylikduzu",
+      "priority": "0.6"
+    },
+    {
+      "param": "beylikova",
+      "priority": "0.6"
+    },
+    {
+      "param": "beyoglu",
+      "priority": "0.6"
+    },
+    {
+      "param": "beypazari",
+      "priority": "0.6"
+    },
+    {
+      "param": "beysehir",
+      "priority": "0.6"
+    },
+    {
+      "param": "beytussebap",
+      "priority": "0.6"
+    },
+    {
+      "param": "biga",
+      "priority": "0.6"
+    },
+    {
+      "param": "bigadic",
+      "priority": "0.6"
+    },
+    {
+      "param": "bilecik",
+      "priority": "0.6"
+    },
+    {
+      "param": "bingol",
+      "priority": "0.6"
+    },
+    {
+      "param": "birecik",
+      "priority": "0.6"
+    },
+    {
+      "param": "bismil",
+      "priority": "0.6"
+    },
+    {
+      "param": "bitlis",
+      "priority": "0.6"
+    },
+    {
+      "param": "bodrum",
+      "priority": "0.6"
+    },
+    {
+      "param": "bogazkale",
+      "priority": "0.6"
+    },
+    {
+      "param": "bogazliyan",
+      "priority": "0.6"
+    },
+    {
+      "param": "bolu",
+      "priority": "0.6"
+    },
+    {
+      "param": "bolvadin",
+      "priority": "0.6"
+    },
+    {
+      "param": "bor",
+      "priority": "0.6"
+    },
+    {
+      "param": "borcka",
+      "priority": "0.6"
+    },
+    {
+      "param": "bornova",
+      "priority": "0.6"
+    },
+    {
+      "param": "boyabat",
+      "priority": "0.6"
+    },
+    {
+      "param": "bozcaada",
+      "priority": "0.6"
+    },
+    {
+      "param": "bozdogan",
+      "priority": "0.6"
+    },
+    {
+      "param": "bozkir",
+      "priority": "0.6"
+    },
+    {
+      "param": "bozkurt-denizli",
+      "priority": "0.6"
+    },
+    {
+      "param": "bozova",
+      "priority": "0.6"
+    },
+    {
+      "param": "boztepe",
+      "priority": "0.6"
+    },
+    {
+      "param": "bozuyuk",
+      "priority": "0.6"
+    },
+    {
+      "param": "bozyazi",
+      "priority": "0.6"
+    },
+    {
+      "param": "buca",
+      "priority": "0.6"
+    },
+    {
+      "param": "bucak",
+      "priority": "0.6"
+    },
+    {
+      "param": "buharkent",
+      "priority": "0.6"
+    },
+    {
+      "param": "bulancak",
+      "priority": "0.6"
+    },
+    {
+      "param": "bulanik",
+      "priority": "0.6"
+    },
+    {
+      "param": "buldan",
+      "priority": "0.6"
+    },
+    {
+      "param": "bunyan",
+      "priority": "0.6"
+    },
+    {
+      "param": "burdur",
+      "priority": "0.6"
+    },
+    {
+      "param": "burhaniye",
+      "priority": "0.6"
+    },
+    {
+      "param": "bursa",
+      "priority": "0.8"
+    },
+    {
+      "param": "buyukcekmece",
+      "priority": "0.6"
+    },
+    {
+      "param": "buyukorhan",
+      "priority": "0.6"
+    },
+    {
+      "param": "caglayancerit",
+      "priority": "0.6"
+    },
+    {
+      "param": "cal",
+      "priority": "0.6"
+    },
+    {
+      "param": "caldiran",
+      "priority": "0.6"
+    },
+    {
+      "param": "camardi",
+      "priority": "0.6"
+    },
+    {
+      "param": "camas",
+      "priority": "0.6"
+    },
+    {
+      "param": "cameli",
+      "priority": "0.6"
+    },
+    {
+      "param": "camlidere",
+      "priority": "0.6"
+    },
+    {
+      "param": "camlihemsin",
+      "priority": "0.6"
+    },
+    {
+      "param": "camliyayla",
+      "priority": "0.6"
+    },
+    {
+      "param": "camoluk",
+      "priority": "0.6"
+    },
+    {
+      "param": "can",
+      "priority": "0.6"
+    },
+    {
+      "param": "canakci",
+      "priority": "0.6"
+    },
+    {
+      "param": "canakkale",
+      "priority": "0.6"
+    },
+    {
+      "param": "candir",
+      "priority": "0.6"
+    },
+    {
+      "param": "canik",
+      "priority": "0.6"
+    },
+    {
+      "param": "cankaya",
+      "priority": "0.6"
+    },
+    {
+      "param": "cankiri",
+      "priority": "0.6"
+    },
+    {
+      "param": "cardak",
+      "priority": "0.6"
+    },
+    {
+      "param": "carsamba",
+      "priority": "0.6"
+    },
+    {
+      "param": "carsibasi",
+      "priority": "0.6"
+    },
+    {
+      "param": "cat",
+      "priority": "0.6"
+    },
+    {
+      "param": "catak",
+      "priority": "0.6"
+    },
+    {
+      "param": "catalca",
+      "priority": "0.6"
+    },
+    {
+      "param": "catalpinar",
+      "priority": "0.6"
+    },
+    {
+      "param": "catalzeytin",
+      "priority": "0.6"
+    },
+    {
+      "param": "cavdarhisar",
+      "priority": "0.6"
+    },
+    {
+      "param": "cavdir",
+      "priority": "0.6"
+    },
+    {
+      "param": "cay",
+      "priority": "0.6"
+    },
+    {
+      "param": "caybasi",
+      "priority": "0.6"
+    },
+    {
+      "param": "caycuma",
+      "priority": "0.6"
+    },
+    {
+      "param": "cayeli",
+      "priority": "0.6"
+    },
+    {
+      "param": "cayiralan",
+      "priority": "0.6"
+    },
+    {
+      "param": "cayirli",
+      "priority": "0.6"
+    },
+    {
+      "param": "cayirova",
+      "priority": "0.6"
+    },
+    {
+      "param": "caykara",
+      "priority": "0.6"
+    },
+    {
+      "param": "cekerek",
+      "priority": "0.6"
+    },
+    {
+      "param": "cekmekoy",
+      "priority": "0.6"
+    },
+    {
+      "param": "celebi",
+      "priority": "0.6"
+    },
+    {
+      "param": "celikhan",
+      "priority": "0.6"
+    },
+    {
+      "param": "celtik",
+      "priority": "0.6"
+    },
+    {
+      "param": "celtikci",
+      "priority": "0.6"
+    },
+    {
+      "param": "cemisgezek",
+      "priority": "0.6"
+    },
+    {
+      "param": "cerkes",
+      "priority": "0.6"
+    },
+    {
+      "param": "cerkezkoy",
+      "priority": "0.6"
+    },
+    {
+      "param": "cermik",
+      "priority": "0.6"
+    },
+    {
+      "param": "cesme",
+      "priority": "0.6"
+    },
+    {
+      "param": "ceyhan",
+      "priority": "0.6"
+    },
+    {
+      "param": "ceylanpinar",
+      "priority": "0.6"
+    },
+    {
+      "param": "cicekdagi",
+      "priority": "0.6"
+    },
+    {
+      "param": "cide",
+      "priority": "0.6"
+    },
+    {
+      "param": "cifteler",
+      "priority": "0.6"
+    },
+    {
+      "param": "ciftlik",
+      "priority": "0.6"
+    },
+    {
+      "param": "ciftlikkoy",
+      "priority": "0.6"
+    },
+    {
+      "param": "cigli",
+      "priority": "0.6"
+    },
+    {
+      "param": "cihanbeyli",
+      "priority": "0.6"
+    },
+    {
+      "param": "cildir",
+      "priority": "0.6"
+    },
+    {
+      "param": "cilimli",
+      "priority": "0.6"
+    },
+    {
+      "param": "cinar",
+      "priority": "0.6"
+    },
+    {
+      "param": "cinarcik",
+      "priority": "0.6"
+    },
+    {
+      "param": "cine",
+      "priority": "0.6"
+    },
+    {
+      "param": "civril",
+      "priority": "0.6"
+    },
+    {
+      "param": "cizre",
+      "priority": "0.6"
+    },
+    {
+      "param": "cobanlar",
+      "priority": "0.6"
+    },
+    {
+      "param": "corlu",
+      "priority": "0.6"
+    },
+    {
+      "param": "corum",
+      "priority": "0.6"
+    },
+    {
+      "param": "cubuk",
+      "priority": "0.6"
+    },
+    {
+      "param": "cukurca",
+      "priority": "0.6"
+    },
+    {
+      "param": "cukurova",
+      "priority": "0.6"
+    },
+    {
+      "param": "cumayeri",
+      "priority": "0.6"
+    },
+    {
+      "param": "cumra",
+      "priority": "0.6"
+    },
+    {
+      "param": "cungus",
+      "priority": "0.6"
+    },
+    {
+      "param": "daday",
+      "priority": "0.6"
+    },
+    {
+      "param": "dalaman",
+      "priority": "0.6"
+    },
+    {
+      "param": "damal",
+      "priority": "0.6"
+    },
+    {
+      "param": "darende",
+      "priority": "0.6"
+    },
+    {
+      "param": "dargecit",
+      "priority": "0.6"
+    },
+    {
+      "param": "darica",
+      "priority": "0.6"
+    },
+    {
+      "param": "datca",
+      "priority": "0.6"
+    },
+    {
+      "param": "dazkiri",
+      "priority": "0.6"
+    },
+    {
+      "param": "defne",
+      "priority": "0.6"
+    },
+    {
+      "param": "delice",
+      "priority": "0.6"
+    },
+    {
+      "param": "demirci",
+      "priority": "0.6"
+    },
+    {
+      "param": "demirkoy",
+      "priority": "0.6"
+    },
+    {
+      "param": "demirozu",
+      "priority": "0.6"
+    },
+    {
+      "param": "demre",
+      "priority": "0.6"
+    },
+    {
+      "param": "denizli",
+      "priority": "0.8"
+    },
+    {
+      "param": "derbent",
+      "priority": "0.6"
+    },
+    {
+      "param": "derebucak",
+      "priority": "0.6"
+    },
+    {
+      "param": "dereli",
+      "priority": "0.6"
+    },
+    {
+      "param": "derepazari",
+      "priority": "0.6"
+    },
+    {
+      "param": "derik",
+      "priority": "0.6"
+    },
+    {
+      "param": "derince",
+      "priority": "0.6"
+    },
+    {
+      "param": "derinkuyu",
+      "priority": "0.6"
+    },
+    {
+      "param": "dernekpazari",
+      "priority": "0.6"
+    },
+    {
+      "param": "develi",
+      "priority": "0.6"
+    },
+    {
+      "param": "devrek",
+      "priority": "0.6"
+    },
+    {
+      "param": "devrekani",
+      "priority": "0.6"
+    },
+    {
+      "param": "dicle",
+      "priority": "0.6"
+    },
+    {
+      "param": "didim",
+      "priority": "0.6"
+    },
+    {
+      "param": "digor",
+      "priority": "0.6"
+    },
+    {
+      "param": "dikili",
+      "priority": "0.6"
+    },
+    {
+      "param": "dikmen",
+      "priority": "0.6"
+    },
+    {
+      "param": "dilovasi",
+      "priority": "0.6"
+    },
+    {
+      "param": "dinar",
+      "priority": "0.6"
+    },
+    {
+      "param": "divrigi",
+      "priority": "0.6"
+    },
+    {
+      "param": "diyadin",
+      "priority": "0.6"
+    },
+    {
+      "param": "diyarbakir",
+      "priority": "0.8"
+    },
+    {
+      "param": "dodurga",
+      "priority": "0.6"
+    },
+    {
+      "param": "doganhisar",
+      "priority": "0.6"
+    },
+    {
+      "param": "dogankent",
+      "priority": "0.6"
+    },
+    {
+      "param": "dogansar",
+      "priority": "0.6"
+    },
+    {
+      "param": "dogansehir",
+      "priority": "0.6"
+    },
+    {
+      "param": "doganyol",
+      "priority": "0.6"
+    },
+    {
+      "param": "doganyurt",
+      "priority": "0.6"
+    },
+    {
+      "param": "dogubayazit",
+      "priority": "0.6"
+    },
+    {
+      "param": "domanic",
+      "priority": "0.6"
+    },
+    {
+      "param": "dortdivan",
+      "priority": "0.6"
+    },
+    {
+      "param": "dortyol",
+      "priority": "0.6"
+    },
+    {
+      "param": "dosemealti",
+      "priority": "0.6"
+    },
+    {
+      "param": "dulkadiroglu",
+      "priority": "0.6"
+    },
+    {
+      "param": "dumlupinar",
+      "priority": "0.6"
+    },
+    {
+      "param": "duragan",
+      "priority": "0.6"
+    },
+    {
+      "param": "dursunbey",
+      "priority": "0.6"
+    },
+    {
+      "param": "duzce",
+      "priority": "0.6"
+    },
+    {
+      "param": "duzici",
+      "priority": "0.6"
+    },
+    {
+      "param": "duzkoy",
+      "priority": "0.6"
+    },
+    {
+      "param": "eceabat",
+      "priority": "0.6"
+    },
+    {
+      "param": "edirne",
+      "priority": "0.6"
+    },
+    {
+      "param": "edremit-balikesir",
+      "priority": "0.6"
+    },
+    {
+      "param": "efeler",
+      "priority": "0.6"
+    },
+    {
+      "param": "eflani",
+      "priority": "0.6"
+    },
+    {
+      "param": "egil",
+      "priority": "0.6"
+    },
+    {
+      "param": "egirdir",
+      "priority": "0.6"
+    },
+    {
+      "param": "ekinozu",
+      "priority": "0.6"
+    },
+    {
+      "param": "elazig",
+      "priority": "0.6"
+    },
+    {
+      "param": "elbeyli",
+      "priority": "0.6"
+    },
+    {
+      "param": "elbistan",
+      "priority": "0.6"
+    },
+    {
+      "param": "eldivan",
+      "priority": "0.6"
+    },
+    {
+      "param": "eleskirt",
+      "priority": "0.6"
+    },
+    {
+      "param": "elmadag",
+      "priority": "0.6"
+    },
+    {
+      "param": "elmali",
+      "priority": "0.6"
+    },
+    {
+      "param": "emet",
+      "priority": "0.6"
+    },
+    {
+      "param": "emirdag",
+      "priority": "0.6"
+    },
+    {
+      "param": "emirgazi",
+      "priority": "0.6"
+    },
+    {
+      "param": "enez",
+      "priority": "0.6"
+    },
+    {
+      "param": "erbaa",
+      "priority": "0.6"
+    },
+    {
+      "param": "ercis",
+      "priority": "0.6"
+    },
+    {
+      "param": "erdek",
+      "priority": "0.6"
+    },
+    {
+      "param": "erdemli",
+      "priority": "0.6"
+    },
+    {
+      "param": "eregli-konya",
+      "priority": "0.6"
+    },
+    {
+      "param": "erenler",
+      "priority": "0.6"
+    },
+    {
+      "param": "erfelek",
+      "priority": "0.6"
+    },
+    {
+      "param": "ergani",
+      "priority": "0.6"
+    },
+    {
+      "param": "ergene",
+      "priority": "0.6"
+    },
+    {
+      "param": "ermenek",
+      "priority": "0.6"
+    },
+    {
+      "param": "eruh",
+      "priority": "0.6"
+    },
+    {
+      "param": "erzin",
+      "priority": "0.6"
+    },
+    {
+      "param": "erzincan",
+      "priority": "0.6"
+    },
+    {
+      "param": "erzurum",
+      "priority": "0.8"
+    },
+    {
+      "param": "esenler",
+      "priority": "0.6"
+    },
+    {
+      "param": "esenyurt",
+      "priority": "0.6"
+    },
+    {
+      "param": "eskil",
+      "priority": "0.6"
+    },
+    {
+      "param": "eskipazar",
+      "priority": "0.6"
+    },
+    {
+      "param": "eskisehir",
+      "priority": "0.8"
+    },
+    {
+      "param": "esme",
+      "priority": "0.6"
+    },
+    {
+      "param": "espiye",
+      "priority": "0.6"
+    },
+    {
+      "param": "etimesgut",
+      "priority": "0.6"
+    },
+    {
+      "param": "evciler",
+      "priority": "0.6"
+    },
+    {
+      "param": "evren",
+      "priority": "0.6"
+    },
+    {
+      "param": "eynesil",
+      "priority": "0.6"
+    },
+    {
+      "param": "eyup",
+      "priority": "0.6"
+    },
+    {
+      "param": "eyyubiye",
+      "priority": "0.6"
+    },
+    {
+      "param": "ezine",
+      "priority": "0.6"
+    },
+    {
+      "param": "fatih",
+      "priority": "0.6"
+    },
+    {
+      "param": "fatsa",
+      "priority": "0.6"
+    },
+    {
+      "param": "feke",
+      "priority": "0.6"
+    },
+    {
+      "param": "felahiye",
+      "priority": "0.6"
+    },
+    {
+      "param": "ferizli",
+      "priority": "0.6"
+    },
+    {
+      "param": "fethiye",
+      "priority": "0.6"
+    },
+    {
+      "param": "findikli",
+      "priority": "0.6"
+    },
+    {
+      "param": "finike",
+      "priority": "0.6"
+    },
+    {
+      "param": "foca",
+      "priority": "0.6"
+    },
+    {
+      "param": "gaziantep",
+      "priority": "0.8"
+    },
+    {
+      "param": "gaziemir",
+      "priority": "0.6"
+    },
+    {
+      "param": "gaziosmanpasa",
+      "priority": "0.6"
+    },
+    {
+      "param": "gazipasa",
+      "priority": "0.6"
+    },
+    {
+      "param": "gebze",
+      "priority": "0.6"
+    },
+    {
+      "param": "gediz",
+      "priority": "0.6"
+    },
+    {
+      "param": "gelendost",
+      "priority": "0.6"
+    },
+    {
+      "param": "gelibolu",
+      "priority": "0.6"
+    },
+    {
+      "param": "gemerek",
+      "priority": "0.6"
+    },
+    {
+      "param": "gemlik",
+      "priority": "0.6"
+    },
+    {
+      "param": "genc",
+      "priority": "0.6"
+    },
+    {
+      "param": "gercus",
+      "priority": "0.6"
+    },
+    {
+      "param": "gerede",
+      "priority": "0.6"
+    },
+    {
+      "param": "gerger",
+      "priority": "0.6"
+    },
+    {
+      "param": "germencik",
+      "priority": "0.6"
+    },
+    {
+      "param": "gerze",
+      "priority": "0.6"
+    },
+    {
+      "param": "gevas",
+      "priority": "0.6"
+    },
+    {
+      "param": "geyve",
+      "priority": "0.6"
+    },
+    {
+      "param": "giresun",
+      "priority": "0.6"
+    },
+    {
+      "param": "gokceada",
+      "priority": "0.6"
+    },
+    {
+      "param": "gokcebey",
+      "priority": "0.6"
+    },
+    {
+      "param": "goksun",
+      "priority": "0.6"
+    },
+    {
+      "param": "golbasi-adiyaman",
+      "priority": "0.6"
+    },
+    {
+      "param": "golcuk",
+      "priority": "0.6"
+    },
+    {
+      "param": "gole",
+      "priority": "0.6"
+    },
+    {
+      "param": "golhisar",
+      "priority": "0.6"
+    },
+    {
+      "param": "golkoy",
+      "priority": "0.6"
+    },
+    {
+      "param": "golmarmara",
+      "priority": "0.6"
+    },
+    {
+      "param": "golova",
+      "priority": "0.6"
+    },
+    {
+      "param": "golpazari",
+      "priority": "0.6"
+    },
+    {
+      "param": "golyaka",
+      "priority": "0.6"
+    },
+    {
+      "param": "gomec",
+      "priority": "0.6"
+    },
+    {
+      "param": "gonen-balikesir",
+      "priority": "0.6"
+    },
+    {
+      "param": "gordes",
+      "priority": "0.6"
+    },
+    {
+      "param": "gorele",
+      "priority": "0.6"
+    },
+    {
+      "param": "goynucek",
+      "priority": "0.6"
+    },
+    {
+      "param": "goynuk",
+      "priority": "0.6"
+    },
+    {
+      "param": "guce",
+      "priority": "0.6"
+    },
+    {
+      "param": "guclukonak",
+      "priority": "0.6"
+    },
+    {
+      "param": "gudul",
+      "priority": "0.6"
+    },
+    {
+      "param": "gulagac",
+      "priority": "0.6"
+    },
+    {
+      "param": "gulnar",
+      "priority": "0.6"
+    },
+    {
+      "param": "gulsehir",
+      "priority": "0.6"
+    },
+    {
+      "param": "gulyali",
+      "priority": "0.6"
+    },
+    {
+      "param": "gumushacikoy",
+      "priority": "0.6"
+    },
+    {
+      "param": "gumushane",
+      "priority": "0.6"
+    },
+    {
+      "param": "gumusova",
+      "priority": "0.6"
+    },
+    {
+      "param": "gundogmus",
+      "priority": "0.6"
+    },
+    {
+      "param": "guney",
+      "priority": "0.6"
+    },
+    {
+      "param": "guneysinir",
+      "priority": "0.6"
+    },
+    {
+      "param": "guneysu",
+      "priority": "0.6"
+    },
+    {
+      "param": "gungoren",
+      "priority": "0.6"
+    },
+    {
+      "param": "gunyuzu",
+      "priority": "0.6"
+    },
+    {
+      "param": "gurgentepe",
+      "priority": "0.6"
+    },
+    {
+      "param": "guroymak",
+      "priority": "0.6"
+    },
+    {
+      "param": "gurpinar",
+      "priority": "0.6"
+    },
+    {
+      "param": "gursu",
+      "priority": "0.6"
+    },
+    {
+      "param": "gurun",
+      "priority": "0.6"
+    },
+    {
+      "param": "guzelbahce",
+      "priority": "0.6"
+    },
+    {
+      "param": "guzelyurt",
+      "priority": "0.6"
+    },
+    {
+      "param": "hacibektas",
+      "priority": "0.6"
+    },
+    {
+      "param": "hacilar",
+      "priority": "0.6"
+    },
+    {
+      "param": "hadim",
+      "priority": "0.6"
+    },
+    {
+      "param": "hafik",
+      "priority": "0.6"
+    },
+    {
+      "param": "hakkari",
+      "priority": "0.6"
+    },
+    {
+      "param": "halfeti",
+      "priority": "0.6"
+    },
+    {
+      "param": "haliliye",
+      "priority": "0.6"
+    },
+    {
+      "param": "halkapinar",
+      "priority": "0.6"
+    },
+    {
+      "param": "hamamozu",
+      "priority": "0.6"
+    },
+    {
+      "param": "hamur",
+      "priority": "0.6"
+    },
+    {
+      "param": "han",
+      "priority": "0.6"
+    },
+    {
+      "param": "hanak",
+      "priority": "0.6"
+    },
+    {
+      "param": "hani",
+      "priority": "0.6"
+    },
+    {
+      "param": "hanonu",
+      "priority": "0.6"
+    },
+    {
+      "param": "harmancik",
+      "priority": "0.6"
+    },
+    {
+      "param": "harran",
+      "priority": "0.6"
+    },
+    {
+      "param": "hasanbeyli",
+      "priority": "0.6"
+    },
+    {
+      "param": "hasankeyf",
+      "priority": "0.6"
+    },
+    {
+      "param": "haskoy",
+      "priority": "0.6"
+    },
+    {
+      "param": "hassa",
+      "priority": "0.6"
+    },
+    {
+      "param": "hatay",
+      "priority": "0.8"
+    },
+    {
+      "param": "havran",
+      "priority": "0.6"
+    },
+    {
+      "param": "havsa",
+      "priority": "0.6"
+    },
+    {
+      "param": "havza",
+      "priority": "0.6"
+    },
+    {
+      "param": "haymana",
+      "priority": "0.6"
+    },
+    {
+      "param": "hayrabolu",
+      "priority": "0.6"
+    },
+    {
+      "param": "hayrat",
+      "priority": "0.6"
+    },
+    {
+      "param": "hazro",
+      "priority": "0.6"
+    },
+    {
+      "param": "hekimhan",
+      "priority": "0.6"
+    },
+    {
+      "param": "hemsin",
+      "priority": "0.6"
+    },
+    {
+      "param": "hendek",
+      "priority": "0.6"
+    },
+    {
+      "param": "hilvan",
+      "priority": "0.6"
+    },
+    {
+      "param": "hinis",
+      "priority": "0.6"
+    },
+    {
+      "param": "hisarcik",
+      "priority": "0.6"
+    },
+    {
+      "param": "hizan",
+      "priority": "0.6"
+    },
+    {
+      "param": "hocalar",
+      "priority": "0.6"
+    },
+    {
+      "param": "honaz",
+      "priority": "0.6"
+    },
+    {
+      "param": "hopa",
+      "priority": "0.6"
+    },
+    {
+      "param": "horasan",
+      "priority": "0.6"
+    },
+    {
+      "param": "hozat",
+      "priority": "0.6"
+    },
+    {
+      "param": "huyuk",
+      "priority": "0.6"
+    },
+    {
+      "param": "ibradi",
+      "priority": "0.6"
+    },
+    {
+      "param": "idil",
+      "priority": "0.6"
+    },
+    {
+      "param": "igdir",
+      "priority": "0.6"
+    },
+    {
+      "param": "ihsangazi",
+      "priority": "0.6"
+    },
+    {
+      "param": "ihsaniye",
+      "priority": "0.6"
+    },
+    {
+      "param": "ikizce",
+      "priority": "0.6"
+    },
+    {
+      "param": "ikizdere",
+      "priority": "0.6"
+    },
+    {
+      "param": "ilgaz",
+      "priority": "0.6"
+    },
+    {
+      "param": "ilgin",
+      "priority": "0.6"
+    },
+    {
+      "param": "ilic",
+      "priority": "0.6"
+    },
+    {
+      "param": "ilkadim",
+      "priority": "0.6"
+    },
+    {
+      "param": "imamoglu",
+      "priority": "0.6"
+    },
+    {
+      "param": "imranli",
+      "priority": "0.6"
+    },
+    {
+      "param": "incesu",
+      "priority": "0.6"
+    },
+    {
+      "param": "incirliova",
+      "priority": "0.6"
+    },
+    {
+      "param": "inebolu",
+      "priority": "0.6"
+    },
+    {
+      "param": "inegol",
+      "priority": "0.6"
+    },
+    {
+      "param": "inhisar",
+      "priority": "0.6"
+    },
+    {
+      "param": "inonu",
+      "priority": "0.6"
+    },
+    {
+      "param": "ipekyolu",
+      "priority": "0.6"
+    },
+    {
+      "param": "ipsala",
+      "priority": "0.6"
+    },
+    {
+      "param": "iscehisar",
+      "priority": "0.6"
+    },
+    {
+      "param": "iskenderun",
+      "priority": "0.6"
+    },
+    {
+      "param": "iskilip",
+      "priority": "0.6"
+    },
+    {
+      "param": "islahiye",
+      "priority": "0.6"
+    },
+    {
+      "param": "isparta",
+      "priority": "0.6"
+    },
+    {
+      "param": "ispir",
+      "priority": "0.6"
+    },
+    {
+      "param": "istanbul",
+      "priority": "0.8"
+    },
+    {
+      "param": "ivrindi",
+      "priority": "0.6"
+    },
+    {
+      "param": "iyidere",
+      "priority": "0.6"
+    },
+    {
+      "param": "izmir",
+      "priority": "0.8"
+    },
+    {
+      "param": "izmit",
+      "priority": "0.6"
+    },
+    {
+      "param": "iznik",
+      "priority": "0.6"
+    },
+    {
+      "param": "kabaduz",
+      "priority": "0.6"
+    },
+    {
+      "param": "kabatas",
+      "priority": "0.6"
+    },
+    {
+      "param": "kadikoy",
+      "priority": "0.6"
+    },
+    {
+      "param": "kadinhani",
+      "priority": "0.6"
+    },
+    {
+      "param": "kadirli",
+      "priority": "0.6"
+    },
+    {
+      "param": "kadisehri",
+      "priority": "0.6"
+    },
+    {
+      "param": "kagithane",
+      "priority": "0.6"
+    },
+    {
+      "param": "kagizman",
+      "priority": "0.6"
+    },
+    {
+      "param": "kahramanmaras",
+      "priority": "0.8"
+    },
+    {
+      "param": "kahta",
+      "priority": "0.6"
+    },
+    {
+      "param": "kale-denizli",
+      "priority": "0.6"
+    },
+    {
+      "param": "kalecik",
+      "priority": "0.6"
+    },
+    {
+      "param": "kalkandere",
+      "priority": "0.6"
+    },
+    {
+      "param": "kaman",
+      "priority": "0.6"
+    },
+    {
+      "param": "kandira",
+      "priority": "0.6"
+    },
+    {
+      "param": "kangal",
+      "priority": "0.6"
+    },
+    {
+      "param": "kapakli",
+      "priority": "0.6"
+    },
+    {
+      "param": "karabaglar",
+      "priority": "0.6"
+    },
+    {
+      "param": "karabuk",
+      "priority": "0.6"
+    },
+    {
+      "param": "karaburun",
+      "priority": "0.6"
+    },
+    {
+      "param": "karacabey",
+      "priority": "0.6"
+    },
+    {
+      "param": "karacasu",
+      "priority": "0.6"
+    },
+    {
+      "param": "karacoban",
+      "priority": "0.6"
+    },
+    {
+      "param": "karahalli",
+      "priority": "0.6"
+    },
+    {
+      "param": "karaisali",
+      "priority": "0.6"
+    },
+    {
+      "param": "karakecili",
+      "priority": "0.6"
+    },
+    {
+      "param": "karakocan",
+      "priority": "0.6"
+    },
+    {
+      "param": "karakopru",
+      "priority": "0.6"
+    },
+    {
+      "param": "karakoyunlu",
+      "priority": "0.6"
+    },
+    {
+      "param": "karaman",
+      "priority": "0.6"
+    },
+    {
+      "param": "karamanli",
+      "priority": "0.6"
+    },
+    {
+      "param": "karamursel",
+      "priority": "0.6"
+    },
+    {
+      "param": "karapinar",
+      "priority": "0.6"
+    },
+    {
+      "param": "karapurcek",
+      "priority": "0.6"
+    },
+    {
+      "param": "karasu",
+      "priority": "0.6"
+    },
+    {
+      "param": "karatas",
+      "priority": "0.6"
+    },
+    {
+      "param": "karatay",
+      "priority": "0.6"
+    },
+    {
+      "param": "karayazi",
+      "priority": "0.6"
+    },
+    {
+      "param": "karesi",
+      "priority": "0.6"
+    },
+    {
+      "param": "kargi",
+      "priority": "0.6"
+    },
+    {
+      "param": "karkamis",
+      "priority": "0.6"
+    },
+    {
+      "param": "karliova",
+      "priority": "0.6"
+    },
+    {
+      "param": "karpuzlu",
+      "priority": "0.6"
+    },
+    {
+      "param": "kars",
+      "priority": "0.6"
+    },
+    {
+      "param": "karsiyaka",
+      "priority": "0.6"
+    },
+    {
+      "param": "kartal",
+      "priority": "0.6"
+    },
+    {
+      "param": "kartepe",
+      "priority": "0.6"
+    },
+    {
+      "param": "kas",
+      "priority": "0.6"
+    },
+    {
+      "param": "kastamonu",
+      "priority": "0.6"
+    },
+    {
+      "param": "kavak",
+      "priority": "0.6"
+    },
+    {
+      "param": "kavaklidere",
+      "priority": "0.6"
+    },
+    {
+      "param": "kayapinar",
+      "priority": "0.6"
+    },
+    {
+      "param": "kaynarca",
+      "priority": "0.6"
+    },
+    {
+      "param": "kaynasli",
+      "priority": "0.6"
+    },
+    {
+      "param": "kayseri",
+      "priority": "0.8"
+    },
+    {
+      "param": "kazan",
+      "priority": "0.6"
+    },
+    {
+      "param": "kazimkarabekir",
+      "priority": "0.6"
+    },
+    {
+      "param": "keban",
+      "priority": "0.6"
+    },
+    {
+      "param": "keciborlu",
+      "priority": "0.6"
+    },
+    {
+      "param": "kecioren",
+      "priority": "0.6"
+    },
+    {
+      "param": "keles",
+      "priority": "0.6"
+    },
+    {
+      "param": "kelkit",
+      "priority": "0.6"
+    },
+    {
+      "param": "kemah",
+      "priority": "0.6"
+    },
+    {
+      "param": "kemaliye",
+      "priority": "0.6"
+    },
+    {
+      "param": "kemalpasa",
+      "priority": "0.6"
+    },
+    {
+      "param": "kemer-antalya",
+      "priority": "0.6"
+    },
+    {
+      "param": "kepez",
+      "priority": "0.6"
+    },
+    {
+      "param": "kepsut",
+      "priority": "0.6"
+    },
+    {
+      "param": "kesan",
+      "priority": "0.6"
+    },
+    {
+      "param": "kesap",
+      "priority": "0.6"
+    },
+    {
+      "param": "keskin",
+      "priority": "0.6"
+    },
+    {
+      "param": "kestel",
+      "priority": "0.6"
+    },
+    {
+      "param": "kibriscik",
+      "priority": "0.6"
+    },
+    {
+      "param": "kigi",
+      "priority": "0.6"
+    },
+    {
+      "param": "kilimli",
+      "priority": "0.6"
+    },
+    {
+      "param": "kilis",
+      "priority": "0.6"
+    },
+    {
+      "param": "kinik",
+      "priority": "0.6"
+    },
+    {
+      "param": "kiraz",
+      "priority": "0.6"
+    },
+    {
+      "param": "kirikhan",
+      "priority": "0.6"
+    },
+    {
+      "param": "kirikkale",
+      "priority": "0.6"
+    },
+    {
+      "param": "kirkagac",
+      "priority": "0.6"
+    },
+    {
+      "param": "kirklareli",
+      "priority": "0.6"
+    },
+    {
+      "param": "kirsehir",
+      "priority": "0.6"
+    },
+    {
+      "param": "kizilcahamam",
+      "priority": "0.6"
+    },
+    {
+      "param": "kizilirmak",
+      "priority": "0.6"
+    },
+    {
+      "param": "kiziloren",
+      "priority": "0.6"
+    },
+    {
+      "param": "kiziltepe",
+      "priority": "0.6"
+    },
+    {
+      "param": "kocaali",
+      "priority": "0.6"
+    },
+    {
+      "param": "kocaeli",
+      "priority": "0.8"
+    },
+    {
+      "param": "kocakoy",
+      "priority": "0.6"
+    },
+    {
+      "param": "kocarli",
+      "priority": "0.6"
+    },
+    {
+      "param": "kocasinan",
+      "priority": "0.6"
+    },
+    {
+      "param": "kofcaz",
+      "priority": "0.6"
+    },
+    {
+      "param": "konak",
+      "priority": "0.6"
+    },
+    {
+      "param": "konya",
+      "priority": "0.8"
+    },
+    {
+      "param": "konyaalti",
+      "priority": "0.6"
+    },
+    {
+      "param": "koprubasi-manisa",
+      "priority": "0.6"
+    },
+    {
+      "param": "koprukoy",
+      "priority": "0.6"
+    },
+    {
+      "param": "korfez",
+      "priority": "0.6"
+    },
+    {
+      "param": "korgan",
+      "priority": "0.6"
+    },
+    {
+      "param": "korgun",
+      "priority": "0.6"
+    },
+    {
+      "param": "korkut",
+      "priority": "0.6"
+    },
+    {
+      "param": "korkuteli",
+      "priority": "0.6"
+    },
+    {
+      "param": "kose",
+      "priority": "0.6"
+    },
+    {
+      "param": "kosk",
+      "priority": "0.6"
+    },
+    {
+      "param": "kovancilar",
+      "priority": "0.6"
+    },
+    {
+      "param": "koycegiz",
+      "priority": "0.6"
+    },
+    {
+      "param": "koyulhisar",
+      "priority": "0.6"
+    },
+    {
+      "param": "kozakli",
+      "priority": "0.6"
+    },
+    {
+      "param": "kozan",
+      "priority": "0.6"
+    },
+    {
+      "param": "kozlu",
+      "priority": "0.6"
+    },
+    {
+      "param": "kozluk",
+      "priority": "0.6"
+    },
+    {
+      "param": "kucukcekmece",
+      "priority": "0.6"
+    },
+    {
+      "param": "kula",
+      "priority": "0.6"
+    },
+    {
+      "param": "kulp",
+      "priority": "0.6"
+    },
+    {
+      "param": "kulu",
+      "priority": "0.6"
+    },
+    {
+      "param": "kuluncak",
+      "priority": "0.6"
+    },
+    {
+      "param": "kumlu",
+      "priority": "0.6"
+    },
+    {
+      "param": "kumluca",
+      "priority": "0.6"
+    },
+    {
+      "param": "kumru",
+      "priority": "0.6"
+    },
+    {
+      "param": "kure",
+      "priority": "0.6"
+    },
+    {
+      "param": "kursunlu",
+      "priority": "0.6"
+    },
+    {
+      "param": "kurtalan",
+      "priority": "0.6"
+    },
+    {
+      "param": "kurtun",
+      "priority": "0.6"
+    },
+    {
+      "param": "kurucasile",
+      "priority": "0.6"
+    },
+    {
+      "param": "kusadasi",
+      "priority": "0.6"
+    },
+    {
+      "param": "kutahya",
+      "priority": "0.6"
+    },
+    {
+      "param": "kuyucak",
+      "priority": "0.6"
+    },
+    {
+      "param": "lacin",
+      "priority": "0.6"
+    },
+    {
+      "param": "ladik",
+      "priority": "0.6"
+    },
+    {
+      "param": "lalapasa",
+      "priority": "0.6"
+    },
+    {
+      "param": "lapseki",
+      "priority": "0.6"
+    },
+    {
+      "param": "lice",
+      "priority": "0.6"
+    },
+    {
+      "param": "luleburgaz",
+      "priority": "0.6"
+    },
+    {
+      "param": "macka",
+      "priority": "0.6"
+    },
+    {
+      "param": "maden",
+      "priority": "0.6"
+    },
+    {
+      "param": "mahmudiye",
+      "priority": "0.6"
+    },
+    {
+      "param": "malatya",
+      "priority": "0.8"
+    },
+    {
+      "param": "malazgirt",
+      "priority": "0.6"
+    },
+    {
+      "param": "malkara",
+      "priority": "0.6"
+    },
+    {
+      "param": "maltepe",
+      "priority": "0.6"
+    },
+    {
+      "param": "mamak",
+      "priority": "0.6"
+    },
+    {
+      "param": "manavgat",
+      "priority": "0.6"
+    },
+    {
+      "param": "manisa",
+      "priority": "0.8"
+    },
+    {
+      "param": "manyas",
+      "priority": "0.6"
+    },
+    {
+      "param": "mardin",
+      "priority": "0.8"
+    },
+    {
+      "param": "marmara",
+      "priority": "0.6"
+    },
+    {
+      "param": "marmaraereglisi",
+      "priority": "0.6"
+    },
+    {
+      "param": "marmaris",
+      "priority": "0.6"
+    },
+    {
+      "param": "mazgirt",
+      "priority": "0.6"
+    },
+    {
+      "param": "mazidagi",
+      "priority": "0.6"
+    },
+    {
+      "param": "mecitozu",
+      "priority": "0.6"
+    },
+    {
+      "param": "melikgazi",
+      "priority": "0.6"
+    },
+    {
+      "param": "menderes",
+      "priority": "0.6"
+    },
+    {
+      "param": "menemen",
+      "priority": "0.6"
+    },
+    {
+      "param": "mengen",
+      "priority": "0.6"
+    },
+    {
+      "param": "mentese",
+      "priority": "0.6"
+    },
+    {
+      "param": "meram",
+      "priority": "0.6"
+    },
+    {
+      "param": "meric",
+      "priority": "0.6"
+    },
+    {
+      "param": "merkezefendi",
+      "priority": "0.6"
+    },
+    {
+      "param": "mersin",
+      "priority": "0.8"
+    },
+    {
+      "param": "merzifon",
+      "priority": "0.6"
+    },
+    {
+      "param": "mesudiye",
+      "priority": "0.6"
+    },
+    {
+      "param": "mezitli",
+      "priority": "0.6"
+    },
+    {
+      "param": "midyat",
+      "priority": "0.6"
+    },
+    {
+      "param": "mihalgazi",
+      "priority": "0.6"
+    },
+    {
+      "param": "mihaliccik",
+      "priority": "0.6"
+    },
+    {
+      "param": "milas",
+      "priority": "0.6"
+    },
+    {
+      "param": "mucur",
+      "priority": "0.6"
+    },
+    {
+      "param": "mudanya",
+      "priority": "0.6"
+    },
+    {
+      "param": "mudurnu",
+      "priority": "0.6"
+    },
+    {
+      "param": "mugla",
+      "priority": "0.8"
+    },
+    {
+      "param": "muradiye",
+      "priority": "0.6"
+    },
+    {
+      "param": "muratli",
+      "priority": "0.6"
+    },
+    {
+      "param": "muratpasa",
+      "priority": "0.6"
+    },
+    {
+      "param": "murgul",
+      "priority": "0.6"
+    },
+    {
+      "param": "mus",
+      "priority": "0.6"
+    },
+    {
+      "param": "musabeyli",
+      "priority": "0.6"
+    },
+    {
+      "param": "mustafakemalpasa",
+      "priority": "0.6"
+    },
+    {
+      "param": "mut",
+      "priority": "0.6"
+    },
+    {
+      "param": "mutki",
+      "priority": "0.6"
+    },
+    {
+      "param": "nallihan",
+      "priority": "0.6"
+    },
+    {
+      "param": "narlidere",
+      "priority": "0.6"
+    },
+    {
+      "param": "narman",
+      "priority": "0.6"
+    },
+    {
+      "param": "nazilli",
+      "priority": "0.6"
+    },
+    {
+      "param": "nazimiye",
+      "priority": "0.6"
+    },
+    {
+      "param": "nevsehir",
+      "priority": "0.6"
+    },
+    {
+      "param": "nigde",
+      "priority": "0.6"
+    },
+    {
+      "param": "niksar",
+      "priority": "0.6"
+    },
+    {
+      "param": "nilufer",
+      "priority": "0.6"
+    },
+    {
+      "param": "nizip",
+      "priority": "0.6"
+    },
+    {
+      "param": "nurdagi",
+      "priority": "0.6"
+    },
+    {
+      "param": "nurhak",
+      "priority": "0.6"
+    },
+    {
+      "param": "nusaybin",
+      "priority": "0.6"
+    },
+    {
+      "param": "odemis",
+      "priority": "0.6"
+    },
+    {
+      "param": "odunpazari",
+      "priority": "0.6"
+    },
+    {
+      "param": "of",
+      "priority": "0.6"
+    },
+    {
+      "param": "oguzeli",
+      "priority": "0.6"
+    },
+    {
+      "param": "oguzlar",
+      "priority": "0.6"
+    },
+    {
+      "param": "oltu",
+      "priority": "0.6"
+    },
+    {
+      "param": "olur",
+      "priority": "0.6"
+    },
+    {
+      "param": "omerli",
+      "priority": "0.6"
+    },
+    {
+      "param": "ondokuzmayis",
+      "priority": "0.6"
+    },
+    {
+      "param": "onikisubat",
+      "priority": "0.6"
+    },
+    {
+      "param": "ordu",
+      "priority": "0.8"
+    },
+    {
+      "param": "orhaneli",
+      "priority": "0.6"
+    },
+    {
+      "param": "orhangazi",
+      "priority": "0.6"
+    },
+    {
+      "param": "orta",
+      "priority": "0.6"
+    },
+    {
+      "param": "ortaca",
+      "priority": "0.6"
+    },
+    {
+      "param": "ortahisar",
+      "priority": "0.6"
+    },
+    {
+      "param": "ortakoy-aksaray",
+      "priority": "0.6"
+    },
+    {
+      "param": "osmancik",
+      "priority": "0.6"
+    },
+    {
+      "param": "osmaneli",
+      "priority": "0.6"
+    },
+    {
+      "param": "osmangazi",
+      "priority": "0.6"
+    },
+    {
+      "param": "osmaniye",
+      "priority": "0.6"
+    },
+    {
+      "param": "otlukbeli",
+      "priority": "0.6"
+    },
+    {
+      "param": "ovacik-karabuk",
+      "priority": "0.6"
+    },
+    {
+      "param": "ozalp",
+      "priority": "0.6"
+    },
+    {
+      "param": "ozvatan",
+      "priority": "0.6"
+    },
+    {
+      "param": "palandoken",
+      "priority": "0.6"
+    },
+    {
+      "param": "palu",
+      "priority": "0.6"
+    },
+    {
+      "param": "pamukkale",
+      "priority": "0.6"
+    },
+    {
+      "param": "pamukova",
+      "priority": "0.6"
+    },
+    {
+      "param": "pasinler",
+      "priority": "0.6"
+    },
+    {
+      "param": "patnos",
+      "priority": "0.6"
+    },
+    {
+      "param": "payas",
+      "priority": "0.6"
+    },
+    {
+      "param": "pazar-rize",
+      "priority": "0.6"
+    },
+    {
+      "param": "pazarcik",
+      "priority": "0.6"
+    },
+    {
+      "param": "pazarlar",
+      "priority": "0.6"
+    },
+    {
+      "param": "pazaryeri",
+      "priority": "0.6"
+    },
+    {
+      "param": "pazaryolu",
+      "priority": "0.6"
+    },
+    {
+      "param": "pehlivankoy",
+      "priority": "0.6"
+    },
+    {
+      "param": "pendik",
+      "priority": "0.6"
+    },
+    {
+      "param": "persembe",
+      "priority": "0.6"
+    },
+    {
+      "param": "pertek",
+      "priority": "0.6"
+    },
+    {
+      "param": "pervari",
+      "priority": "0.6"
+    },
+    {
+      "param": "pinarbasi-kastamonu",
+      "priority": "0.6"
+    },
+    {
+      "param": "pinarhisar",
+      "priority": "0.6"
+    },
+    {
+      "param": "piraziz",
+      "priority": "0.6"
+    },
+    {
+      "param": "polateli",
+      "priority": "0.6"
+    },
+    {
+      "param": "polatli",
+      "priority": "0.6"
+    },
+    {
+      "param": "posof",
+      "priority": "0.6"
+    },
+    {
+      "param": "pozanti",
+      "priority": "0.6"
+    },
+    {
+      "param": "pulumur",
+      "priority": "0.6"
+    },
+    {
+      "param": "pursaklar",
+      "priority": "0.6"
+    },
+    {
+      "param": "puturge",
+      "priority": "0.6"
+    },
+    {
+      "param": "refahiye",
+      "priority": "0.6"
+    },
+    {
+      "param": "resadiye",
+      "priority": "0.6"
+    },
+    {
+      "param": "reyhanli",
+      "priority": "0.6"
+    },
+    {
+      "param": "rize",
+      "priority": "0.6"
+    },
+    {
+      "param": "sabanozu",
+      "priority": "0.6"
+    },
+    {
+      "param": "safranbolu",
+      "priority": "0.6"
+    },
+    {
+      "param": "sahinbey",
+      "priority": "0.6"
+    },
+    {
+      "param": "saimbeyli",
+      "priority": "0.6"
+    },
+    {
+      "param": "sakarya",
+      "priority": "0.8"
+    },
+    {
+      "param": "salihli",
+      "priority": "0.6"
+    },
+    {
+      "param": "salipazari",
+      "priority": "0.6"
+    },
+    {
+      "param": "salpazari",
+      "priority": "0.6"
+    },
+    {
+      "param": "samandag",
+      "priority": "0.6"
+    },
+    {
+      "param": "samsat",
+      "priority": "0.6"
+    },
+    {
+      "param": "samsun",
+      "priority": "0.8"
+    },
+    {
+      "param": "sancaktepe",
+      "priority": "0.6"
+    },
+    {
+      "param": "sandikli",
+      "priority": "0.6"
+    },
+    {
+      "param": "sanliurfa",
+      "priority": "0.8"
+    },
+    {
+      "param": "sapanca",
+      "priority": "0.6"
+    },
+    {
+      "param": "saphane",
+      "priority": "0.6"
+    },
+    {
+      "param": "saray-tekirdag",
+      "priority": "0.6"
+    },
+    {
+      "param": "sarayduzu",
+      "priority": "0.6"
+    },
+    {
+      "param": "saraykent",
+      "priority": "0.6"
+    },
+    {
+      "param": "saraykoy",
+      "priority": "0.6"
+    },
+    {
+      "param": "sarayonu",
+      "priority": "0.6"
+    },
+    {
+      "param": "saricakaya",
+      "priority": "0.6"
+    },
+    {
+      "param": "saricam",
+      "priority": "0.6"
+    },
+    {
+      "param": "sarigol",
+      "priority": "0.6"
+    },
+    {
+      "param": "sarikamis",
+      "priority": "0.6"
+    },
+    {
+      "param": "sarikaya",
+      "priority": "0.6"
+    },
+    {
+      "param": "sarioglan",
+      "priority": "0.6"
+    },
+    {
+      "param": "sariveliler",
+      "priority": "0.6"
+    },
+    {
+      "param": "sariyahsi",
+      "priority": "0.6"
+    },
+    {
+      "param": "sariyer",
+      "priority": "0.6"
+    },
+    {
+      "param": "sariz",
+      "priority": "0.6"
+    },
+    {
+      "param": "sarkikaraagac",
+      "priority": "0.6"
+    },
+    {
+      "param": "sarkisla",
+      "priority": "0.6"
+    },
+    {
+      "param": "sarkoy",
+      "priority": "0.6"
+    },
+    {
+      "param": "saruhanli",
+      "priority": "0.6"
+    },
+    {
+      "param": "sason",
+      "priority": "0.6"
+    },
+    {
+      "param": "savastepe",
+      "priority": "0.6"
+    },
+    {
+      "param": "savsat",
+      "priority": "0.6"
+    },
+    {
+      "param": "savur",
+      "priority": "0.6"
+    },
+    {
+      "param": "seben",
+      "priority": "0.6"
+    },
+    {
+      "param": "sebinkarahisar",
+      "priority": "0.6"
+    },
+    {
+      "param": "sefaatli",
+      "priority": "0.6"
+    },
+    {
+      "param": "seferihisar",
+      "priority": "0.6"
+    },
+    {
+      "param": "sehitkamil",
+      "priority": "0.6"
+    },
+    {
+      "param": "sehzadeler",
+      "priority": "0.6"
+    },
+    {
+      "param": "selcuk",
+      "priority": "0.6"
+    },
+    {
+      "param": "selcuklu",
+      "priority": "0.6"
+    },
+    {
+      "param": "selendi",
+      "priority": "0.6"
+    },
+    {
+      "param": "selim",
+      "priority": "0.6"
+    },
+    {
+      "param": "semdinli",
+      "priority": "0.6"
+    },
+    {
+      "param": "senirkent",
+      "priority": "0.6"
+    },
+    {
+      "param": "senkaya",
+      "priority": "0.6"
+    },
+    {
+      "param": "senpazar",
+      "priority": "0.6"
+    },
+    {
+      "param": "serdivan",
+      "priority": "0.6"
+    },
+    {
+      "param": "sereflikochisar",
+      "priority": "0.6"
+    },
+    {
+      "param": "serik",
+      "priority": "0.6"
+    },
+    {
+      "param": "serinhisar",
+      "priority": "0.6"
+    },
+    {
+      "param": "seydikemer",
+      "priority": "0.6"
+    },
+    {
+      "param": "seydiler",
+      "priority": "0.6"
+    },
+    {
+      "param": "seydisehir",
+      "priority": "0.6"
+    },
+    {
+      "param": "seyhan",
+      "priority": "0.6"
+    },
+    {
+      "param": "seyitgazi",
+      "priority": "0.6"
+    },
+    {
+      "param": "siirt",
+      "priority": "0.6"
+    },
+    {
+      "param": "sile",
+      "priority": "0.6"
+    },
+    {
+      "param": "silifke",
+      "priority": "0.6"
+    },
+    {
+      "param": "silivri",
+      "priority": "0.6"
+    },
+    {
+      "param": "silopi",
+      "priority": "0.6"
+    },
+    {
+      "param": "silvan",
+      "priority": "0.6"
+    },
+    {
+      "param": "simav",
+      "priority": "0.6"
+    },
+    {
+      "param": "sinanpasa",
+      "priority": "0.6"
+    },
+    {
+      "param": "sincan",
+      "priority": "0.6"
+    },
+    {
+      "param": "sincik",
+      "priority": "0.6"
+    },
+    {
+      "param": "sindirgi",
+      "priority": "0.6"
+    },
+    {
+      "param": "sinop",
+      "priority": "0.6"
+    },
+    {
+      "param": "siran",
+      "priority": "0.6"
+    },
+    {
+      "param": "sirnak",
+      "priority": "0.6"
+    },
+    {
+      "param": "sirvan",
+      "priority": "0.6"
+    },
+    {
+      "param": "sisli",
+      "priority": "0.6"
+    },
+    {
+      "param": "sivas",
+      "priority": "0.6"
+    },
+    {
+      "param": "sivasli",
+      "priority": "0.6"
+    },
+    {
+      "param": "siverek",
+      "priority": "0.6"
+    },
+    {
+      "param": "sivrice",
+      "priority": "0.6"
+    },
+    {
+      "param": "sivrihisar",
+      "priority": "0.6"
+    },
+    {
+      "param": "sogut",
+      "priority": "0.6"
+    },
+    {
+      "param": "sogutlu",
+      "priority": "0.6"
+    },
+    {
+      "param": "soke",
+      "priority": "0.6"
+    },
+    {
+      "param": "solhan",
+      "priority": "0.6"
+    },
+    {
+      "param": "soma",
+      "priority": "0.6"
+    },
+    {
+      "param": "sorgun",
+      "priority": "0.6"
+    },
+    {
+      "param": "suhut",
+      "priority": "0.6"
+    },
+    {
+      "param": "sulakyurt",
+      "priority": "0.6"
+    },
+    {
+      "param": "suleymanpasa",
+      "priority": "0.6"
+    },
+    {
+      "param": "suloglu",
+      "priority": "0.6"
+    },
+    {
+      "param": "sultanbeyli",
+      "priority": "0.6"
+    },
+    {
+      "param": "sultandagi",
+      "priority": "0.6"
+    },
+    {
+      "param": "sultangazi",
+      "priority": "0.6"
+    },
+    {
+      "param": "sultanhisar",
+      "priority": "0.6"
+    },
+    {
+      "param": "suluova",
+      "priority": "0.6"
+    },
+    {
+      "param": "sulusaray",
+      "priority": "0.6"
+    },
+    {
+      "param": "sumbas",
+      "priority": "0.6"
+    },
+    {
+      "param": "sungurlu",
+      "priority": "0.6"
+    },
+    {
+      "param": "sur",
+      "priority": "0.6"
+    },
+    {
+      "param": "surmene",
+      "priority": "0.6"
+    },
+    {
+      "param": "suruc",
+      "priority": "0.6"
+    },
+    {
+      "param": "susehri",
+      "priority": "0.6"
+    },
+    {
+      "param": "susurluk",
+      "priority": "0.6"
+    },
+    {
+      "param": "susuz",
+      "priority": "0.6"
+    },
+    {
+      "param": "sutculer",
+      "priority": "0.6"
+    },
+    {
+      "param": "talas",
+      "priority": "0.6"
+    },
+    {
+      "param": "tarakli",
+      "priority": "0.6"
+    },
+    {
+      "param": "tarsus",
+      "priority": "0.6"
+    },
+    {
+      "param": "taskent",
+      "priority": "0.6"
+    },
+    {
+      "param": "taskopru",
+      "priority": "0.6"
+    },
+    {
+      "param": "taslicay",
+      "priority": "0.6"
+    },
+    {
+      "param": "tasova",
+      "priority": "0.6"
+    },
+    {
+      "param": "tatvan",
+      "priority": "0.6"
+    },
+    {
+      "param": "tavas",
+      "priority": "0.6"
+    },
+    {
+      "param": "tavsanli",
+      "priority": "0.6"
+    },
+    {
+      "param": "tefenni",
+      "priority": "0.6"
+    },
+    {
+      "param": "tekirdag",
+      "priority": "0.8"
+    },
+    {
+      "param": "tekkekoy",
+      "priority": "0.6"
+    },
+    {
+      "param": "tekman",
+      "priority": "0.6"
+    },
+    {
+      "param": "tepebasi",
+      "priority": "0.6"
+    },
+    {
+      "param": "tercan",
+      "priority": "0.6"
+    },
+    {
+      "param": "termal",
+      "priority": "0.6"
+    },
+    {
+      "param": "terme",
+      "priority": "0.6"
+    },
+    {
+      "param": "tillo",
+      "priority": "0.6"
+    },
+    {
+      "param": "tire",
+      "priority": "0.6"
+    },
+    {
+      "param": "tirebolu",
+      "priority": "0.6"
+    },
+    {
+      "param": "tokat",
+      "priority": "0.6"
+    },
+    {
+      "param": "tomarza",
+      "priority": "0.6"
+    },
+    {
+      "param": "tonya",
+      "priority": "0.6"
+    },
+    {
+      "param": "toprakkale",
+      "priority": "0.6"
+    },
+    {
+      "param": "torbali",
+      "priority": "0.6"
+    },
+    {
+      "param": "toroslar",
+      "priority": "0.6"
+    },
+    {
+      "param": "tortum",
+      "priority": "0.6"
+    },
+    {
+      "param": "torul",
+      "priority": "0.6"
+    },
+    {
+      "param": "tosya",
+      "priority": "0.6"
+    },
+    {
+      "param": "trabzon",
+      "priority": "0.8"
+    },
+    {
+      "param": "tufanbeyli",
+      "priority": "0.6"
+    },
+    {
+      "param": "tunceli",
+      "priority": "0.6"
+    },
+    {
+      "param": "turgutlu",
+      "priority": "0.6"
+    },
+    {
+      "param": "turhal",
+      "priority": "0.6"
+    },
+    {
+      "param": "turkeli",
+      "priority": "0.6"
+    },
+    {
+      "param": "turkoglu",
+      "priority": "0.6"
+    },
+    {
+      "param": "tusba",
+      "priority": "0.6"
+    },
+    {
+      "param": "tut",
+      "priority": "0.6"
+    },
+    {
+      "param": "tutak",
+      "priority": "0.6"
+    },
+    {
+      "param": "tuzla",
+      "priority": "0.6"
+    },
+    {
+      "param": "tuzluca",
+      "priority": "0.6"
+    },
+    {
+      "param": "tuzlukcu",
+      "priority": "0.6"
+    },
+    {
+      "param": "ugurludag",
+      "priority": "0.6"
+    },
+    {
+      "param": "ula",
+      "priority": "0.6"
+    },
+    {
+      "param": "ulas",
+      "priority": "0.6"
+    },
+    {
+      "param": "ulubey-ordu",
+      "priority": "0.6"
+    },
+    {
+      "param": "uluborlu",
+      "priority": "0.6"
+    },
+    {
+      "param": "uludere",
+      "priority": "0.6"
+    },
+    {
+      "param": "ulukisla",
+      "priority": "0.6"
+    },
+    {
+      "param": "ulus",
+      "priority": "0.6"
+    },
+    {
+      "param": "umraniye",
+      "priority": "0.6"
+    },
+    {
+      "param": "unye",
+      "priority": "0.6"
+    },
+    {
+      "param": "urgup",
+      "priority": "0.6"
+    },
+    {
+      "param": "urla",
+      "priority": "0.6"
+    },
+    {
+      "param": "usak",
+      "priority": "0.6"
+    },
+    {
+      "param": "uskudar",
+      "priority": "0.6"
+    },
+    {
+      "param": "uzumlu",
+      "priority": "0.6"
+    },
+    {
+      "param": "uzundere",
+      "priority": "0.6"
+    },
+    {
+      "param": "uzunkopru",
+      "priority": "0.6"
+    },
+    {
+      "param": "vakfikebir",
+      "priority": "0.6"
+    },
+    {
+      "param": "van",
+      "priority": "0.8"
+    },
+    {
+      "param": "varto",
+      "priority": "0.6"
+    },
+    {
+      "param": "vezirkopru",
+      "priority": "0.6"
+    },
+    {
+      "param": "viransehir",
+      "priority": "0.6"
+    },
+    {
+      "param": "vize",
+      "priority": "0.6"
+    },
+    {
+      "param": "yaglidere",
+      "priority": "0.6"
+    },
+    {
+      "param": "yahsihan",
+      "priority": "0.6"
+    },
+    {
+      "param": "yahyali",
+      "priority": "0.6"
+    },
+    {
+      "param": "yakakent",
+      "priority": "0.6"
+    },
+    {
+      "param": "yakutiye",
+      "priority": "0.6"
+    },
+    {
+      "param": "yalihuyuk",
+      "priority": "0.6"
+    },
+    {
+      "param": "yalova",
+      "priority": "0.6"
+    },
+    {
+      "param": "yalvac",
+      "priority": "0.6"
+    },
+    {
+      "param": "yaprakli",
+      "priority": "0.6"
+    },
+    {
+      "param": "yatagan",
+      "priority": "0.6"
+    },
+    {
+      "param": "yavuzeli",
+      "priority": "0.6"
+    },
+    {
+      "param": "yayladagi",
+      "priority": "0.6"
+    },
+    {
+      "param": "yayladere",
+      "priority": "0.6"
+    },
+    {
+      "param": "yazihan",
+      "priority": "0.6"
+    },
+    {
+      "param": "yedisu",
+      "priority": "0.6"
+    },
+    {
+      "param": "yenicaga",
+      "priority": "0.6"
+    },
+    {
+      "param": "yenice-canakkale",
+      "priority": "0.6"
+    },
+    {
+      "param": "yenifakili",
+      "priority": "0.6"
+    },
+    {
+      "param": "yenimahalle",
+      "priority": "0.6"
+    },
+    {
+      "param": "yenipazar-aydin",
+      "priority": "0.6"
+    },
+    {
+      "param": "yenisarbademli",
+      "priority": "0.6"
+    },
+    {
+      "param": "yenisehir-bursa",
+      "priority": "0.6"
+    },
+    {
+      "param": "yerkoy",
+      "priority": "0.6"
+    },
+    {
+      "param": "yesilhisar",
+      "priority": "0.6"
+    },
+    {
+      "param": "yesilli",
+      "priority": "0.6"
+    },
+    {
+      "param": "yesilova",
+      "priority": "0.6"
+    },
+    {
+      "param": "yesilyurt-malatya",
+      "priority": "0.6"
+    },
+    {
+      "param": "yigilca",
+      "priority": "0.6"
+    },
+    {
+      "param": "yildirim",
+      "priority": "0.6"
+    },
+    {
+      "param": "yildizeli",
+      "priority": "0.6"
+    },
+    {
+      "param": "yomra",
+      "priority": "0.6"
+    },
+    {
+      "param": "yozgat",
+      "priority": "0.6"
+    },
+    {
+      "param": "yuksekova",
+      "priority": "0.6"
+    },
+    {
+      "param": "yumurtalik",
+      "priority": "0.6"
+    },
+    {
+      "param": "yunak",
+      "priority": "0.6"
+    },
+    {
+      "param": "yunusemre",
+      "priority": "0.6"
+    },
+    {
+      "param": "yuregir",
+      "priority": "0.6"
+    },
+    {
+      "param": "yusufeli",
+      "priority": "0.6"
+    },
+    {
+      "param": "zara",
+      "priority": "0.6"
+    },
+    {
+      "param": "zeytinburnu",
+      "priority": "0.6"
+    },
+    {
+      "param": "zile",
+      "priority": "0.6"
+    },
+    {
+      "param": "zonguldak",
+      "priority": "0.6"
+    }
+  ],
+  "en": [
+    {
+      "param": "abana",
+      "priority": "0.6"
+    },
+    {
+      "param": "acigol",
+      "priority": "0.6"
+    },
+    {
+      "param": "acipayam",
+      "priority": "0.6"
+    },
+    {
+      "param": "adakli",
+      "priority": "0.6"
+    },
+    {
+      "param": "adalar",
+      "priority": "0.6"
+    },
+    {
+      "param": "adana",
+      "priority": "0.8"
+    },
+    {
+      "param": "adapazari",
+      "priority": "0.6"
+    },
+    {
+      "param": "adilcevaz",
+      "priority": "0.6"
+    },
+    {
+      "param": "adiyaman",
+      "priority": "0.6"
+    },
+    {
+      "param": "afsin",
+      "priority": "0.6"
+    },
+    {
+      "param": "afyonkarahisar",
+      "priority": "0.6"
+    },
+    {
+      "param": "agacoren",
+      "priority": "0.6"
+    },
+    {
+      "param": "agin",
+      "priority": "0.6"
+    },
+    {
+      "param": "aglasun",
+      "priority": "0.6"
+    },
+    {
+      "param": "agli",
+      "priority": "0.6"
+    },
+    {
+      "param": "agri",
+      "priority": "0.6"
+    },
+    {
+      "param": "ahirli",
+      "priority": "0.6"
+    },
+    {
+      "param": "ahlat",
+      "priority": "0.6"
+    },
+    {
+      "param": "ahmetli",
+      "priority": "0.6"
+    },
+    {
+      "param": "akcaabat",
+      "priority": "0.6"
+    },
+    {
+      "param": "akcadag",
+      "priority": "0.6"
+    },
+    {
+      "param": "akcakale",
+      "priority": "0.6"
+    },
+    {
+      "param": "akcakent",
+      "priority": "0.6"
+    },
+    {
+      "param": "akcakoca",
+      "priority": "0.6"
+    },
+    {
+      "param": "akdagmadeni",
+      "priority": "0.6"
+    },
+    {
+      "param": "akdeniz",
+      "priority": "0.6"
+    },
+    {
+      "param": "akhisar",
+      "priority": "0.6"
+    },
+    {
+      "param": "akincilar",
+      "priority": "0.6"
+    },
+    {
+      "param": "akkisla",
+      "priority": "0.6"
+    },
+    {
+      "param": "akkus",
+      "priority": "0.6"
+    },
+    {
+      "param": "akoren",
+      "priority": "0.6"
+    },
+    {
+      "param": "akpinar",
+      "priority": "0.6"
+    },
+    {
+      "param": "aksaray",
+      "priority": "0.6"
+    },
+    {
+      "param": "aksehir",
+      "priority": "0.6"
+    },
+    {
+      "param": "akseki",
+      "priority": "0.6"
+    },
+    {
+      "param": "aksu-antalya",
+      "priority": "0.6"
+    },
+    {
+      "param": "akyaka",
+      "priority": "0.6"
+    },
+    {
+      "param": "akyazi",
+      "priority": "0.6"
+    },
+    {
+      "param": "akyurt",
+      "priority": "0.6"
+    },
+    {
+      "param": "alaca",
+      "priority": "0.6"
+    },
+    {
+      "param": "alacakaya",
+      "priority": "0.6"
+    },
+    {
+      "param": "alacam",
+      "priority": "0.6"
+    },
+    {
+      "param": "aladag",
+      "priority": "0.6"
+    },
+    {
+      "param": "alanya",
+      "priority": "0.6"
+    },
+    {
+      "param": "alapli",
+      "priority": "0.6"
+    },
+    {
+      "param": "alasehir",
+      "priority": "0.6"
+    },
+    {
+      "param": "aliaga",
+      "priority": "0.6"
+    },
+    {
+      "param": "almus",
+      "priority": "0.6"
+    },
+    {
+      "param": "alpu",
+      "priority": "0.6"
+    },
+    {
+      "param": "altieylul",
+      "priority": "0.6"
+    },
+    {
+      "param": "altindag",
+      "priority": "0.6"
+    },
+    {
+      "param": "altinekin",
+      "priority": "0.6"
+    },
+    {
+      "param": "altinordu",
+      "priority": "0.6"
+    },
+    {
+      "param": "altinova",
+      "priority": "0.6"
+    },
+    {
+      "param": "altinozu",
+      "priority": "0.6"
+    },
+    {
+      "param": "altintas",
+      "priority": "0.6"
+    },
+    {
+      "param": "altinyayla-burdur",
+      "priority": "0.6"
+    },
+    {
+      "param": "altunhisar",
+      "priority": "0.6"
+    },
+    {
+      "param": "alucra",
+      "priority": "0.6"
+    },
+    {
+      "param": "amasra",
+      "priority": "0.6"
+    },
+    {
+      "param": "amasya",
+      "priority": "0.6"
+    },
+    {
+      "param": "anamur",
+      "priority": "0.6"
+    },
+    {
+      "param": "andirin",
+      "priority": "0.6"
+    },
+    {
+      "param": "ankara",
+      "priority": "0.8"
+    },
+    {
+      "param": "antakya",
+      "priority": "0.6"
+    },
+    {
+      "param": "antalya",
+      "priority": "0.8"
+    },
+    {
+      "param": "araban",
+      "priority": "0.6"
+    },
+    {
+      "param": "arac",
+      "priority": "0.6"
+    },
+    {
+      "param": "arakli",
+      "priority": "0.6"
+    },
+    {
+      "param": "aralik",
+      "priority": "0.6"
+    },
+    {
+      "param": "arapgir",
+      "priority": "0.6"
+    },
+    {
+      "param": "ardahan",
+      "priority": "0.6"
+    },
+    {
+      "param": "ardanuc",
+      "priority": "0.6"
+    },
+    {
+      "param": "ardesen",
+      "priority": "0.6"
+    },
+    {
+      "param": "arguvan",
+      "priority": "0.6"
+    },
+    {
+      "param": "arhavi",
+      "priority": "0.6"
+    },
+    {
+      "param": "aricak",
+      "priority": "0.6"
+    },
+    {
+      "param": "arifiye",
+      "priority": "0.6"
+    },
+    {
+      "param": "armutlu",
+      "priority": "0.6"
+    },
+    {
+      "param": "arnavutkoy",
+      "priority": "0.6"
+    },
+    {
+      "param": "arpacay",
+      "priority": "0.6"
+    },
+    {
+      "param": "arsin",
+      "priority": "0.6"
+    },
+    {
+      "param": "arsuz",
+      "priority": "0.6"
+    },
+    {
+      "param": "artova",
+      "priority": "0.6"
+    },
+    {
+      "param": "artuklu",
+      "priority": "0.6"
+    },
+    {
+      "param": "artvin",
+      "priority": "0.6"
+    },
+    {
+      "param": "asarcik",
+      "priority": "0.6"
+    },
+    {
+      "param": "askale",
+      "priority": "0.6"
+    },
+    {
+      "param": "aslanapa",
+      "priority": "0.6"
+    },
+    {
+      "param": "atabey",
+      "priority": "0.6"
+    },
+    {
+      "param": "atakum",
+      "priority": "0.6"
+    },
+    {
+      "param": "atasehir",
+      "priority": "0.6"
+    },
+    {
+      "param": "atkaracalar",
+      "priority": "0.6"
+    },
+    {
+      "param": "avanos",
+      "priority": "0.6"
+    },
+    {
+      "param": "avcilar",
+      "priority": "0.6"
+    },
+    {
+      "param": "ayancik",
+      "priority": "0.6"
+    },
+    {
+      "param": "ayas",
+      "priority": "0.6"
+    },
+    {
+      "param": "aybasti",
+      "priority": "0.6"
+    },
+    {
+      "param": "aydin",
+      "priority": "0.8"
+    },
+    {
+      "param": "aydincik-mersin",
+      "priority": "0.6"
+    },
+    {
+      "param": "aydintepe",
+      "priority": "0.6"
+    },
+    {
+      "param": "ayranci",
+      "priority": "0.6"
+    },
+    {
+      "param": "ayvacik-canakkale",
+      "priority": "0.6"
+    },
+    {
+      "param": "ayvalik",
+      "priority": "0.6"
+    },
+    {
+      "param": "azdavay",
+      "priority": "0.6"
+    },
+    {
+      "param": "aziziye",
+      "priority": "0.6"
+    },
+    {
+      "param": "babadag",
+      "priority": "0.6"
+    },
+    {
+      "param": "babaeski",
+      "priority": "0.6"
+    },
+    {
+      "param": "bafra",
+      "priority": "0.6"
+    },
+    {
+      "param": "bagcilar",
+      "priority": "0.6"
+    },
+    {
+      "param": "baglar",
+      "priority": "0.6"
+    },
+    {
+      "param": "bahce",
+      "priority": "0.6"
+    },
+    {
+      "param": "bahcelievler",
+      "priority": "0.6"
+    },
+    {
+      "param": "bahcesaray",
+      "priority": "0.6"
+    },
+    {
+      "param": "bahsili",
+      "priority": "0.6"
+    },
+    {
+      "param": "bakirkoy",
+      "priority": "0.6"
+    },
+    {
+      "param": "baklan",
+      "priority": "0.6"
+    },
+    {
+      "param": "bala",
+      "priority": "0.6"
+    },
+    {
+      "param": "balcova",
+      "priority": "0.6"
+    },
+    {
+      "param": "balikesir",
+      "priority": "0.8"
+    },
+    {
+      "param": "baliseyh",
+      "priority": "0.6"
+    },
+    {
+      "param": "balya",
+      "priority": "0.6"
+    },
+    {
+      "param": "banaz",
+      "priority": "0.6"
+    },
+    {
+      "param": "bandirma",
+      "priority": "0.6"
+    },
+    {
+      "param": "bartin",
+      "priority": "0.6"
+    },
+    {
+      "param": "basaksehir",
+      "priority": "0.6"
+    },
+    {
+      "param": "basciftlik",
+      "priority": "0.6"
+    },
+    {
+      "param": "basiskele",
+      "priority": "0.6"
+    },
+    {
+      "param": "baskale",
+      "priority": "0.6"
+    },
+    {
+      "param": "baskil",
+      "priority": "0.6"
+    },
+    {
+      "param": "basmakci",
+      "priority": "0.6"
+    },
+    {
+      "param": "basyayla",
+      "priority": "0.6"
+    },
+    {
+      "param": "batman",
+      "priority": "0.6"
+    },
+    {
+      "param": "battalgazi",
+      "priority": "0.6"
+    },
+    {
+      "param": "bayat-afyonkarahisar",
+      "priority": "0.6"
+    },
+    {
+      "param": "bayburt",
+      "priority": "0.6"
+    },
+    {
+      "param": "bayindir",
+      "priority": "0.6"
+    },
+    {
+      "param": "baykan",
+      "priority": "0.6"
+    },
+    {
+      "param": "bayrakli",
+      "priority": "0.6"
+    },
+    {
+      "param": "bayramic",
+      "priority": "0.6"
+    },
+    {
+      "param": "bayramoren",
+      "priority": "0.6"
+    },
+    {
+      "param": "bayrampasa",
+      "priority": "0.6"
+    },
+    {
+      "param": "bekilli",
+      "priority": "0.6"
+    },
+    {
+      "param": "belen",
+      "priority": "0.6"
+    },
+    {
+      "param": "bergama",
+      "priority": "0.6"
+    },
+    {
+      "param": "berlin",
+      "priority": "0.8"
+    },
+    {
+      "param": "besikduzu",
+      "priority": "0.6"
+    },
+    {
+      "param": "besiktas",
+      "priority": "0.6"
+    },
+    {
+      "param": "besiri",
+      "priority": "0.6"
+    },
+    {
+      "param": "besni",
+      "priority": "0.6"
+    },
+    {
+      "param": "beyagac",
+      "priority": "0.6"
+    },
+    {
+      "param": "beydag",
+      "priority": "0.6"
+    },
+    {
+      "param": "beykoz",
+      "priority": "0.6"
+    },
+    {
+      "param": "beylikduzu",
+      "priority": "0.6"
+    },
+    {
+      "param": "beylikova",
+      "priority": "0.6"
+    },
+    {
+      "param": "beyoglu",
+      "priority": "0.6"
+    },
+    {
+      "param": "beypazari",
+      "priority": "0.6"
+    },
+    {
+      "param": "beysehir",
+      "priority": "0.6"
+    },
+    {
+      "param": "beytussebap",
+      "priority": "0.6"
+    },
+    {
+      "param": "biga",
+      "priority": "0.6"
+    },
+    {
+      "param": "bigadic",
+      "priority": "0.6"
+    },
+    {
+      "param": "bilecik",
+      "priority": "0.6"
+    },
+    {
+      "param": "bingol",
+      "priority": "0.6"
+    },
+    {
+      "param": "birecik",
+      "priority": "0.6"
+    },
+    {
+      "param": "bismil",
+      "priority": "0.6"
+    },
+    {
+      "param": "bitlis",
+      "priority": "0.6"
+    },
+    {
+      "param": "bodrum",
+      "priority": "0.6"
+    },
+    {
+      "param": "bogazkale",
+      "priority": "0.6"
+    },
+    {
+      "param": "bogazliyan",
+      "priority": "0.6"
+    },
+    {
+      "param": "bolu",
+      "priority": "0.6"
+    },
+    {
+      "param": "bolvadin",
+      "priority": "0.6"
+    },
+    {
+      "param": "bor",
+      "priority": "0.6"
+    },
+    {
+      "param": "borcka",
+      "priority": "0.6"
+    },
+    {
+      "param": "bornova",
+      "priority": "0.6"
+    },
+    {
+      "param": "boyabat",
+      "priority": "0.6"
+    },
+    {
+      "param": "bozcaada",
+      "priority": "0.6"
+    },
+    {
+      "param": "bozdogan",
+      "priority": "0.6"
+    },
+    {
+      "param": "bozkir",
+      "priority": "0.6"
+    },
+    {
+      "param": "bozkurt-denizli",
+      "priority": "0.6"
+    },
+    {
+      "param": "bozova",
+      "priority": "0.6"
+    },
+    {
+      "param": "boztepe",
+      "priority": "0.6"
+    },
+    {
+      "param": "bozuyuk",
+      "priority": "0.6"
+    },
+    {
+      "param": "bozyazi",
+      "priority": "0.6"
+    },
+    {
+      "param": "buca",
+      "priority": "0.6"
+    },
+    {
+      "param": "bucak",
+      "priority": "0.6"
+    },
+    {
+      "param": "buharkent",
+      "priority": "0.6"
+    },
+    {
+      "param": "bulancak",
+      "priority": "0.6"
+    },
+    {
+      "param": "bulanik",
+      "priority": "0.6"
+    },
+    {
+      "param": "buldan",
+      "priority": "0.6"
+    },
+    {
+      "param": "bunyan",
+      "priority": "0.6"
+    },
+    {
+      "param": "burdur",
+      "priority": "0.6"
+    },
+    {
+      "param": "burhaniye",
+      "priority": "0.6"
+    },
+    {
+      "param": "bursa",
+      "priority": "0.8"
+    },
+    {
+      "param": "buyukcekmece",
+      "priority": "0.6"
+    },
+    {
+      "param": "buyukorhan",
+      "priority": "0.6"
+    },
+    {
+      "param": "caglayancerit",
+      "priority": "0.6"
+    },
+    {
+      "param": "cal",
+      "priority": "0.6"
+    },
+    {
+      "param": "caldiran",
+      "priority": "0.6"
+    },
+    {
+      "param": "camardi",
+      "priority": "0.6"
+    },
+    {
+      "param": "camas",
+      "priority": "0.6"
+    },
+    {
+      "param": "cameli",
+      "priority": "0.6"
+    },
+    {
+      "param": "camlidere",
+      "priority": "0.6"
+    },
+    {
+      "param": "camlihemsin",
+      "priority": "0.6"
+    },
+    {
+      "param": "camliyayla",
+      "priority": "0.6"
+    },
+    {
+      "param": "camoluk",
+      "priority": "0.6"
+    },
+    {
+      "param": "can",
+      "priority": "0.6"
+    },
+    {
+      "param": "canakci",
+      "priority": "0.6"
+    },
+    {
+      "param": "canakkale",
+      "priority": "0.6"
+    },
+    {
+      "param": "candir",
+      "priority": "0.6"
+    },
+    {
+      "param": "canik",
+      "priority": "0.6"
+    },
+    {
+      "param": "cankaya",
+      "priority": "0.6"
+    },
+    {
+      "param": "cankiri",
+      "priority": "0.6"
+    },
+    {
+      "param": "cardak",
+      "priority": "0.6"
+    },
+    {
+      "param": "carsamba",
+      "priority": "0.6"
+    },
+    {
+      "param": "carsibasi",
+      "priority": "0.6"
+    },
+    {
+      "param": "cat",
+      "priority": "0.6"
+    },
+    {
+      "param": "catak",
+      "priority": "0.6"
+    },
+    {
+      "param": "catalca",
+      "priority": "0.6"
+    },
+    {
+      "param": "catalpinar",
+      "priority": "0.6"
+    },
+    {
+      "param": "catalzeytin",
+      "priority": "0.6"
+    },
+    {
+      "param": "cavdarhisar",
+      "priority": "0.6"
+    },
+    {
+      "param": "cavdir",
+      "priority": "0.6"
+    },
+    {
+      "param": "cay",
+      "priority": "0.6"
+    },
+    {
+      "param": "caybasi",
+      "priority": "0.6"
+    },
+    {
+      "param": "caycuma",
+      "priority": "0.6"
+    },
+    {
+      "param": "cayeli",
+      "priority": "0.6"
+    },
+    {
+      "param": "cayiralan",
+      "priority": "0.6"
+    },
+    {
+      "param": "cayirli",
+      "priority": "0.6"
+    },
+    {
+      "param": "cayirova",
+      "priority": "0.6"
+    },
+    {
+      "param": "caykara",
+      "priority": "0.6"
+    },
+    {
+      "param": "cekerek",
+      "priority": "0.6"
+    },
+    {
+      "param": "cekmekoy",
+      "priority": "0.6"
+    },
+    {
+      "param": "celebi",
+      "priority": "0.6"
+    },
+    {
+      "param": "celikhan",
+      "priority": "0.6"
+    },
+    {
+      "param": "celtik",
+      "priority": "0.6"
+    },
+    {
+      "param": "celtikci",
+      "priority": "0.6"
+    },
+    {
+      "param": "cemisgezek",
+      "priority": "0.6"
+    },
+    {
+      "param": "cerkes",
+      "priority": "0.6"
+    },
+    {
+      "param": "cerkezkoy",
+      "priority": "0.6"
+    },
+    {
+      "param": "cermik",
+      "priority": "0.6"
+    },
+    {
+      "param": "cesme",
+      "priority": "0.6"
+    },
+    {
+      "param": "ceyhan",
+      "priority": "0.6"
+    },
+    {
+      "param": "ceylanpinar",
+      "priority": "0.6"
+    },
+    {
+      "param": "cicekdagi",
+      "priority": "0.6"
+    },
+    {
+      "param": "cide",
+      "priority": "0.6"
+    },
+    {
+      "param": "cifteler",
+      "priority": "0.6"
+    },
+    {
+      "param": "ciftlik",
+      "priority": "0.6"
+    },
+    {
+      "param": "ciftlikkoy",
+      "priority": "0.6"
+    },
+    {
+      "param": "cigli",
+      "priority": "0.6"
+    },
+    {
+      "param": "cihanbeyli",
+      "priority": "0.6"
+    },
+    {
+      "param": "cildir",
+      "priority": "0.6"
+    },
+    {
+      "param": "cilimli",
+      "priority": "0.6"
+    },
+    {
+      "param": "cinar",
+      "priority": "0.6"
+    },
+    {
+      "param": "cinarcik",
+      "priority": "0.6"
+    },
+    {
+      "param": "cine",
+      "priority": "0.6"
+    },
+    {
+      "param": "civril",
+      "priority": "0.6"
+    },
+    {
+      "param": "cizre",
+      "priority": "0.6"
+    },
+    {
+      "param": "cobanlar",
+      "priority": "0.6"
+    },
+    {
+      "param": "corlu",
+      "priority": "0.6"
+    },
+    {
+      "param": "corum",
+      "priority": "0.6"
+    },
+    {
+      "param": "cubuk",
+      "priority": "0.6"
+    },
+    {
+      "param": "cukurca",
+      "priority": "0.6"
+    },
+    {
+      "param": "cukurova",
+      "priority": "0.6"
+    },
+    {
+      "param": "cumayeri",
+      "priority": "0.6"
+    },
+    {
+      "param": "cumra",
+      "priority": "0.6"
+    },
+    {
+      "param": "cungus",
+      "priority": "0.6"
+    },
+    {
+      "param": "daday",
+      "priority": "0.6"
+    },
+    {
+      "param": "dalaman",
+      "priority": "0.6"
+    },
+    {
+      "param": "damal",
+      "priority": "0.6"
+    },
+    {
+      "param": "darende",
+      "priority": "0.6"
+    },
+    {
+      "param": "dargecit",
+      "priority": "0.6"
+    },
+    {
+      "param": "darica",
+      "priority": "0.6"
+    },
+    {
+      "param": "datca",
+      "priority": "0.6"
+    },
+    {
+      "param": "dazkiri",
+      "priority": "0.6"
+    },
+    {
+      "param": "defne",
+      "priority": "0.6"
+    },
+    {
+      "param": "delice",
+      "priority": "0.6"
+    },
+    {
+      "param": "demirci",
+      "priority": "0.6"
+    },
+    {
+      "param": "demirkoy",
+      "priority": "0.6"
+    },
+    {
+      "param": "demirozu",
+      "priority": "0.6"
+    },
+    {
+      "param": "demre",
+      "priority": "0.6"
+    },
+    {
+      "param": "denizli",
+      "priority": "0.8"
+    },
+    {
+      "param": "derbent",
+      "priority": "0.6"
+    },
+    {
+      "param": "derebucak",
+      "priority": "0.6"
+    },
+    {
+      "param": "dereli",
+      "priority": "0.6"
+    },
+    {
+      "param": "derepazari",
+      "priority": "0.6"
+    },
+    {
+      "param": "derik",
+      "priority": "0.6"
+    },
+    {
+      "param": "derince",
+      "priority": "0.6"
+    },
+    {
+      "param": "derinkuyu",
+      "priority": "0.6"
+    },
+    {
+      "param": "dernekpazari",
+      "priority": "0.6"
+    },
+    {
+      "param": "develi",
+      "priority": "0.6"
+    },
+    {
+      "param": "devrek",
+      "priority": "0.6"
+    },
+    {
+      "param": "devrekani",
+      "priority": "0.6"
+    },
+    {
+      "param": "dicle",
+      "priority": "0.6"
+    },
+    {
+      "param": "didim",
+      "priority": "0.6"
+    },
+    {
+      "param": "digor",
+      "priority": "0.6"
+    },
+    {
+      "param": "dikili",
+      "priority": "0.6"
+    },
+    {
+      "param": "dikmen",
+      "priority": "0.6"
+    },
+    {
+      "param": "dilovasi",
+      "priority": "0.6"
+    },
+    {
+      "param": "dinar",
+      "priority": "0.6"
+    },
+    {
+      "param": "divrigi",
+      "priority": "0.6"
+    },
+    {
+      "param": "diyadin",
+      "priority": "0.6"
+    },
+    {
+      "param": "diyarbakir",
+      "priority": "0.8"
+    },
+    {
+      "param": "dodurga",
+      "priority": "0.6"
+    },
+    {
+      "param": "doganhisar",
+      "priority": "0.6"
+    },
+    {
+      "param": "dogankent",
+      "priority": "0.6"
+    },
+    {
+      "param": "dogansar",
+      "priority": "0.6"
+    },
+    {
+      "param": "dogansehir",
+      "priority": "0.6"
+    },
+    {
+      "param": "doganyol",
+      "priority": "0.6"
+    },
+    {
+      "param": "doganyurt",
+      "priority": "0.6"
+    },
+    {
+      "param": "dogubayazit",
+      "priority": "0.6"
+    },
+    {
+      "param": "domanic",
+      "priority": "0.6"
+    },
+    {
+      "param": "dortdivan",
+      "priority": "0.6"
+    },
+    {
+      "param": "dortyol",
+      "priority": "0.6"
+    },
+    {
+      "param": "dosemealti",
+      "priority": "0.6"
+    },
+    {
+      "param": "dulkadiroglu",
+      "priority": "0.6"
+    },
+    {
+      "param": "dumlupinar",
+      "priority": "0.6"
+    },
+    {
+      "param": "duragan",
+      "priority": "0.6"
+    },
+    {
+      "param": "dursunbey",
+      "priority": "0.6"
+    },
+    {
+      "param": "duzce",
+      "priority": "0.6"
+    },
+    {
+      "param": "duzici",
+      "priority": "0.6"
+    },
+    {
+      "param": "duzkoy",
+      "priority": "0.6"
+    },
+    {
+      "param": "eceabat",
+      "priority": "0.6"
+    },
+    {
+      "param": "edirne",
+      "priority": "0.6"
+    },
+    {
+      "param": "edremit-balikesir",
+      "priority": "0.6"
+    },
+    {
+      "param": "efeler",
+      "priority": "0.6"
+    },
+    {
+      "param": "eflani",
+      "priority": "0.6"
+    },
+    {
+      "param": "egil",
+      "priority": "0.6"
+    },
+    {
+      "param": "egirdir",
+      "priority": "0.6"
+    },
+    {
+      "param": "ekinozu",
+      "priority": "0.6"
+    },
+    {
+      "param": "elazig",
+      "priority": "0.6"
+    },
+    {
+      "param": "elbeyli",
+      "priority": "0.6"
+    },
+    {
+      "param": "elbistan",
+      "priority": "0.6"
+    },
+    {
+      "param": "eldivan",
+      "priority": "0.6"
+    },
+    {
+      "param": "eleskirt",
+      "priority": "0.6"
+    },
+    {
+      "param": "elmadag",
+      "priority": "0.6"
+    },
+    {
+      "param": "elmali",
+      "priority": "0.6"
+    },
+    {
+      "param": "emet",
+      "priority": "0.6"
+    },
+    {
+      "param": "emirdag",
+      "priority": "0.6"
+    },
+    {
+      "param": "emirgazi",
+      "priority": "0.6"
+    },
+    {
+      "param": "enez",
+      "priority": "0.6"
+    },
+    {
+      "param": "erbaa",
+      "priority": "0.6"
+    },
+    {
+      "param": "ercis",
+      "priority": "0.6"
+    },
+    {
+      "param": "erdek",
+      "priority": "0.6"
+    },
+    {
+      "param": "erdemli",
+      "priority": "0.6"
+    },
+    {
+      "param": "eregli-konya",
+      "priority": "0.6"
+    },
+    {
+      "param": "erenler",
+      "priority": "0.6"
+    },
+    {
+      "param": "erfelek",
+      "priority": "0.6"
+    },
+    {
+      "param": "ergani",
+      "priority": "0.6"
+    },
+    {
+      "param": "ergene",
+      "priority": "0.6"
+    },
+    {
+      "param": "ermenek",
+      "priority": "0.6"
+    },
+    {
+      "param": "eruh",
+      "priority": "0.6"
+    },
+    {
+      "param": "erzin",
+      "priority": "0.6"
+    },
+    {
+      "param": "erzincan",
+      "priority": "0.6"
+    },
+    {
+      "param": "erzurum",
+      "priority": "0.8"
+    },
+    {
+      "param": "esenler",
+      "priority": "0.6"
+    },
+    {
+      "param": "esenyurt",
+      "priority": "0.6"
+    },
+    {
+      "param": "eskil",
+      "priority": "0.6"
+    },
+    {
+      "param": "eskipazar",
+      "priority": "0.6"
+    },
+    {
+      "param": "eskisehir",
+      "priority": "0.8"
+    },
+    {
+      "param": "esme",
+      "priority": "0.6"
+    },
+    {
+      "param": "espiye",
+      "priority": "0.6"
+    },
+    {
+      "param": "etimesgut",
+      "priority": "0.6"
+    },
+    {
+      "param": "evciler",
+      "priority": "0.6"
+    },
+    {
+      "param": "evren",
+      "priority": "0.6"
+    },
+    {
+      "param": "eynesil",
+      "priority": "0.6"
+    },
+    {
+      "param": "eyup",
+      "priority": "0.6"
+    },
+    {
+      "param": "eyyubiye",
+      "priority": "0.6"
+    },
+    {
+      "param": "ezine",
+      "priority": "0.6"
+    },
+    {
+      "param": "fatih",
+      "priority": "0.6"
+    },
+    {
+      "param": "fatsa",
+      "priority": "0.6"
+    },
+    {
+      "param": "feke",
+      "priority": "0.6"
+    },
+    {
+      "param": "felahiye",
+      "priority": "0.6"
+    },
+    {
+      "param": "ferizli",
+      "priority": "0.6"
+    },
+    {
+      "param": "fethiye",
+      "priority": "0.6"
+    },
+    {
+      "param": "findikli",
+      "priority": "0.6"
+    },
+    {
+      "param": "finike",
+      "priority": "0.6"
+    },
+    {
+      "param": "foca",
+      "priority": "0.6"
+    },
+    {
+      "param": "gaziantep",
+      "priority": "0.8"
+    },
+    {
+      "param": "gaziemir",
+      "priority": "0.6"
+    },
+    {
+      "param": "gaziosmanpasa",
+      "priority": "0.6"
+    },
+    {
+      "param": "gazipasa",
+      "priority": "0.6"
+    },
+    {
+      "param": "gebze",
+      "priority": "0.6"
+    },
+    {
+      "param": "gediz",
+      "priority": "0.6"
+    },
+    {
+      "param": "gelendost",
+      "priority": "0.6"
+    },
+    {
+      "param": "gelibolu",
+      "priority": "0.6"
+    },
+    {
+      "param": "gemerek",
+      "priority": "0.6"
+    },
+    {
+      "param": "gemlik",
+      "priority": "0.6"
+    },
+    {
+      "param": "genc",
+      "priority": "0.6"
+    },
+    {
+      "param": "gercus",
+      "priority": "0.6"
+    },
+    {
+      "param": "gerede",
+      "priority": "0.6"
+    },
+    {
+      "param": "gerger",
+      "priority": "0.6"
+    },
+    {
+      "param": "germencik",
+      "priority": "0.6"
+    },
+    {
+      "param": "gerze",
+      "priority": "0.6"
+    },
+    {
+      "param": "gevas",
+      "priority": "0.6"
+    },
+    {
+      "param": "geyve",
+      "priority": "0.6"
+    },
+    {
+      "param": "giresun",
+      "priority": "0.6"
+    },
+    {
+      "param": "gokceada",
+      "priority": "0.6"
+    },
+    {
+      "param": "gokcebey",
+      "priority": "0.6"
+    },
+    {
+      "param": "goksun",
+      "priority": "0.6"
+    },
+    {
+      "param": "golbasi-adiyaman",
+      "priority": "0.6"
+    },
+    {
+      "param": "golcuk",
+      "priority": "0.6"
+    },
+    {
+      "param": "gole",
+      "priority": "0.6"
+    },
+    {
+      "param": "golhisar",
+      "priority": "0.6"
+    },
+    {
+      "param": "golkoy",
+      "priority": "0.6"
+    },
+    {
+      "param": "golmarmara",
+      "priority": "0.6"
+    },
+    {
+      "param": "golova",
+      "priority": "0.6"
+    },
+    {
+      "param": "golpazari",
+      "priority": "0.6"
+    },
+    {
+      "param": "golyaka",
+      "priority": "0.6"
+    },
+    {
+      "param": "gomec",
+      "priority": "0.6"
+    },
+    {
+      "param": "gonen-balikesir",
+      "priority": "0.6"
+    },
+    {
+      "param": "gordes",
+      "priority": "0.6"
+    },
+    {
+      "param": "gorele",
+      "priority": "0.6"
+    },
+    {
+      "param": "goynucek",
+      "priority": "0.6"
+    },
+    {
+      "param": "goynuk",
+      "priority": "0.6"
+    },
+    {
+      "param": "guce",
+      "priority": "0.6"
+    },
+    {
+      "param": "guclukonak",
+      "priority": "0.6"
+    },
+    {
+      "param": "gudul",
+      "priority": "0.6"
+    },
+    {
+      "param": "gulagac",
+      "priority": "0.6"
+    },
+    {
+      "param": "gulnar",
+      "priority": "0.6"
+    },
+    {
+      "param": "gulsehir",
+      "priority": "0.6"
+    },
+    {
+      "param": "gulyali",
+      "priority": "0.6"
+    },
+    {
+      "param": "gumushacikoy",
+      "priority": "0.6"
+    },
+    {
+      "param": "gumushane",
+      "priority": "0.6"
+    },
+    {
+      "param": "gumusova",
+      "priority": "0.6"
+    },
+    {
+      "param": "gundogmus",
+      "priority": "0.6"
+    },
+    {
+      "param": "guney",
+      "priority": "0.6"
+    },
+    {
+      "param": "guneysinir",
+      "priority": "0.6"
+    },
+    {
+      "param": "guneysu",
+      "priority": "0.6"
+    },
+    {
+      "param": "gungoren",
+      "priority": "0.6"
+    },
+    {
+      "param": "gunyuzu",
+      "priority": "0.6"
+    },
+    {
+      "param": "gurgentepe",
+      "priority": "0.6"
+    },
+    {
+      "param": "guroymak",
+      "priority": "0.6"
+    },
+    {
+      "param": "gurpinar",
+      "priority": "0.6"
+    },
+    {
+      "param": "gursu",
+      "priority": "0.6"
+    },
+    {
+      "param": "gurun",
+      "priority": "0.6"
+    },
+    {
+      "param": "guzelbahce",
+      "priority": "0.6"
+    },
+    {
+      "param": "guzelyurt",
+      "priority": "0.6"
+    },
+    {
+      "param": "hacibektas",
+      "priority": "0.6"
+    },
+    {
+      "param": "hacilar",
+      "priority": "0.6"
+    },
+    {
+      "param": "hadim",
+      "priority": "0.6"
+    },
+    {
+      "param": "hafik",
+      "priority": "0.6"
+    },
+    {
+      "param": "hakkari",
+      "priority": "0.6"
+    },
+    {
+      "param": "halfeti",
+      "priority": "0.6"
+    },
+    {
+      "param": "haliliye",
+      "priority": "0.6"
+    },
+    {
+      "param": "halkapinar",
+      "priority": "0.6"
+    },
+    {
+      "param": "hamamozu",
+      "priority": "0.6"
+    },
+    {
+      "param": "hamur",
+      "priority": "0.6"
+    },
+    {
+      "param": "han",
+      "priority": "0.6"
+    },
+    {
+      "param": "hanak",
+      "priority": "0.6"
+    },
+    {
+      "param": "hani",
+      "priority": "0.6"
+    },
+    {
+      "param": "hanonu",
+      "priority": "0.6"
+    },
+    {
+      "param": "harmancik",
+      "priority": "0.6"
+    },
+    {
+      "param": "harran",
+      "priority": "0.6"
+    },
+    {
+      "param": "hasanbeyli",
+      "priority": "0.6"
+    },
+    {
+      "param": "hasankeyf",
+      "priority": "0.6"
+    },
+    {
+      "param": "haskoy",
+      "priority": "0.6"
+    },
+    {
+      "param": "hassa",
+      "priority": "0.6"
+    },
+    {
+      "param": "hatay",
+      "priority": "0.8"
+    },
+    {
+      "param": "havran",
+      "priority": "0.6"
+    },
+    {
+      "param": "havsa",
+      "priority": "0.6"
+    },
+    {
+      "param": "havza",
+      "priority": "0.6"
+    },
+    {
+      "param": "haymana",
+      "priority": "0.6"
+    },
+    {
+      "param": "hayrabolu",
+      "priority": "0.6"
+    },
+    {
+      "param": "hayrat",
+      "priority": "0.6"
+    },
+    {
+      "param": "hazro",
+      "priority": "0.6"
+    },
+    {
+      "param": "hekimhan",
+      "priority": "0.6"
+    },
+    {
+      "param": "hemsin",
+      "priority": "0.6"
+    },
+    {
+      "param": "hendek",
+      "priority": "0.6"
+    },
+    {
+      "param": "hilvan",
+      "priority": "0.6"
+    },
+    {
+      "param": "hinis",
+      "priority": "0.6"
+    },
+    {
+      "param": "hisarcik",
+      "priority": "0.6"
+    },
+    {
+      "param": "hizan",
+      "priority": "0.6"
+    },
+    {
+      "param": "hocalar",
+      "priority": "0.6"
+    },
+    {
+      "param": "honaz",
+      "priority": "0.6"
+    },
+    {
+      "param": "hopa",
+      "priority": "0.6"
+    },
+    {
+      "param": "horasan",
+      "priority": "0.6"
+    },
+    {
+      "param": "hozat",
+      "priority": "0.6"
+    },
+    {
+      "param": "huyuk",
+      "priority": "0.6"
+    },
+    {
+      "param": "ibradi",
+      "priority": "0.6"
+    },
+    {
+      "param": "idil",
+      "priority": "0.6"
+    },
+    {
+      "param": "igdir",
+      "priority": "0.6"
+    },
+    {
+      "param": "ihsangazi",
+      "priority": "0.6"
+    },
+    {
+      "param": "ihsaniye",
+      "priority": "0.6"
+    },
+    {
+      "param": "ikizce",
+      "priority": "0.6"
+    },
+    {
+      "param": "ikizdere",
+      "priority": "0.6"
+    },
+    {
+      "param": "ilgaz",
+      "priority": "0.6"
+    },
+    {
+      "param": "ilgin",
+      "priority": "0.6"
+    },
+    {
+      "param": "ilic",
+      "priority": "0.6"
+    },
+    {
+      "param": "ilkadim",
+      "priority": "0.6"
+    },
+    {
+      "param": "imamoglu",
+      "priority": "0.6"
+    },
+    {
+      "param": "imranli",
+      "priority": "0.6"
+    },
+    {
+      "param": "incesu",
+      "priority": "0.6"
+    },
+    {
+      "param": "incirliova",
+      "priority": "0.6"
+    },
+    {
+      "param": "inebolu",
+      "priority": "0.6"
+    },
+    {
+      "param": "inegol",
+      "priority": "0.6"
+    },
+    {
+      "param": "inhisar",
+      "priority": "0.6"
+    },
+    {
+      "param": "inonu",
+      "priority": "0.6"
+    },
+    {
+      "param": "ipekyolu",
+      "priority": "0.6"
+    },
+    {
+      "param": "ipsala",
+      "priority": "0.6"
+    },
+    {
+      "param": "iscehisar",
+      "priority": "0.6"
+    },
+    {
+      "param": "iskenderun",
+      "priority": "0.6"
+    },
+    {
+      "param": "iskilip",
+      "priority": "0.6"
+    },
+    {
+      "param": "islahiye",
+      "priority": "0.6"
+    },
+    {
+      "param": "isparta",
+      "priority": "0.6"
+    },
+    {
+      "param": "ispir",
+      "priority": "0.6"
+    },
+    {
+      "param": "istanbul",
+      "priority": "0.8"
+    },
+    {
+      "param": "ivrindi",
+      "priority": "0.6"
+    },
+    {
+      "param": "iyidere",
+      "priority": "0.6"
+    },
+    {
+      "param": "izmir",
+      "priority": "0.8"
+    },
+    {
+      "param": "izmit",
+      "priority": "0.6"
+    },
+    {
+      "param": "iznik",
+      "priority": "0.6"
+    },
+    {
+      "param": "kabaduz",
+      "priority": "0.6"
+    },
+    {
+      "param": "kabatas",
+      "priority": "0.6"
+    },
+    {
+      "param": "kadikoy",
+      "priority": "0.6"
+    },
+    {
+      "param": "kadinhani",
+      "priority": "0.6"
+    },
+    {
+      "param": "kadirli",
+      "priority": "0.6"
+    },
+    {
+      "param": "kadisehri",
+      "priority": "0.6"
+    },
+    {
+      "param": "kagithane",
+      "priority": "0.6"
+    },
+    {
+      "param": "kagizman",
+      "priority": "0.6"
+    },
+    {
+      "param": "kahramanmaras",
+      "priority": "0.8"
+    },
+    {
+      "param": "kahta",
+      "priority": "0.6"
+    },
+    {
+      "param": "kale-denizli",
+      "priority": "0.6"
+    },
+    {
+      "param": "kalecik",
+      "priority": "0.6"
+    },
+    {
+      "param": "kalkandere",
+      "priority": "0.6"
+    },
+    {
+      "param": "kaman",
+      "priority": "0.6"
+    },
+    {
+      "param": "kandira",
+      "priority": "0.6"
+    },
+    {
+      "param": "kangal",
+      "priority": "0.6"
+    },
+    {
+      "param": "kapakli",
+      "priority": "0.6"
+    },
+    {
+      "param": "karabaglar",
+      "priority": "0.6"
+    },
+    {
+      "param": "karabuk",
+      "priority": "0.6"
+    },
+    {
+      "param": "karaburun",
+      "priority": "0.6"
+    },
+    {
+      "param": "karacabey",
+      "priority": "0.6"
+    },
+    {
+      "param": "karacasu",
+      "priority": "0.6"
+    },
+    {
+      "param": "karacoban",
+      "priority": "0.6"
+    },
+    {
+      "param": "karahalli",
+      "priority": "0.6"
+    },
+    {
+      "param": "karaisali",
+      "priority": "0.6"
+    },
+    {
+      "param": "karakecili",
+      "priority": "0.6"
+    },
+    {
+      "param": "karakocan",
+      "priority": "0.6"
+    },
+    {
+      "param": "karakopru",
+      "priority": "0.6"
+    },
+    {
+      "param": "karakoyunlu",
+      "priority": "0.6"
+    },
+    {
+      "param": "karaman",
+      "priority": "0.6"
+    },
+    {
+      "param": "karamanli",
+      "priority": "0.6"
+    },
+    {
+      "param": "karamursel",
+      "priority": "0.6"
+    },
+    {
+      "param": "karapinar",
+      "priority": "0.6"
+    },
+    {
+      "param": "karapurcek",
+      "priority": "0.6"
+    },
+    {
+      "param": "karasu",
+      "priority": "0.6"
+    },
+    {
+      "param": "karatas",
+      "priority": "0.6"
+    },
+    {
+      "param": "karatay",
+      "priority": "0.6"
+    },
+    {
+      "param": "karayazi",
+      "priority": "0.6"
+    },
+    {
+      "param": "karesi",
+      "priority": "0.6"
+    },
+    {
+      "param": "kargi",
+      "priority": "0.6"
+    },
+    {
+      "param": "karkamis",
+      "priority": "0.6"
+    },
+    {
+      "param": "karliova",
+      "priority": "0.6"
+    },
+    {
+      "param": "karpuzlu",
+      "priority": "0.6"
+    },
+    {
+      "param": "kars",
+      "priority": "0.6"
+    },
+    {
+      "param": "karsiyaka",
+      "priority": "0.6"
+    },
+    {
+      "param": "kartal",
+      "priority": "0.6"
+    },
+    {
+      "param": "kartepe",
+      "priority": "0.6"
+    },
+    {
+      "param": "kas",
+      "priority": "0.6"
+    },
+    {
+      "param": "kastamonu",
+      "priority": "0.6"
+    },
+    {
+      "param": "kavak",
+      "priority": "0.6"
+    },
+    {
+      "param": "kavaklidere",
+      "priority": "0.6"
+    },
+    {
+      "param": "kayapinar",
+      "priority": "0.6"
+    },
+    {
+      "param": "kaynarca",
+      "priority": "0.6"
+    },
+    {
+      "param": "kaynasli",
+      "priority": "0.6"
+    },
+    {
+      "param": "kayseri",
+      "priority": "0.8"
+    },
+    {
+      "param": "kazan",
+      "priority": "0.6"
+    },
+    {
+      "param": "kazimkarabekir",
+      "priority": "0.6"
+    },
+    {
+      "param": "keban",
+      "priority": "0.6"
+    },
+    {
+      "param": "keciborlu",
+      "priority": "0.6"
+    },
+    {
+      "param": "kecioren",
+      "priority": "0.6"
+    },
+    {
+      "param": "keles",
+      "priority": "0.6"
+    },
+    {
+      "param": "kelkit",
+      "priority": "0.6"
+    },
+    {
+      "param": "kemah",
+      "priority": "0.6"
+    },
+    {
+      "param": "kemaliye",
+      "priority": "0.6"
+    },
+    {
+      "param": "kemalpasa",
+      "priority": "0.6"
+    },
+    {
+      "param": "kemer-antalya",
+      "priority": "0.6"
+    },
+    {
+      "param": "kepez",
+      "priority": "0.6"
+    },
+    {
+      "param": "kepsut",
+      "priority": "0.6"
+    },
+    {
+      "param": "kesan",
+      "priority": "0.6"
+    },
+    {
+      "param": "kesap",
+      "priority": "0.6"
+    },
+    {
+      "param": "keskin",
+      "priority": "0.6"
+    },
+    {
+      "param": "kestel",
+      "priority": "0.6"
+    },
+    {
+      "param": "kibriscik",
+      "priority": "0.6"
+    },
+    {
+      "param": "kigi",
+      "priority": "0.6"
+    },
+    {
+      "param": "kilimli",
+      "priority": "0.6"
+    },
+    {
+      "param": "kilis",
+      "priority": "0.6"
+    },
+    {
+      "param": "kinik",
+      "priority": "0.6"
+    },
+    {
+      "param": "kiraz",
+      "priority": "0.6"
+    },
+    {
+      "param": "kirikhan",
+      "priority": "0.6"
+    },
+    {
+      "param": "kirikkale",
+      "priority": "0.6"
+    },
+    {
+      "param": "kirkagac",
+      "priority": "0.6"
+    },
+    {
+      "param": "kirklareli",
+      "priority": "0.6"
+    },
+    {
+      "param": "kirsehir",
+      "priority": "0.6"
+    },
+    {
+      "param": "kizilcahamam",
+      "priority": "0.6"
+    },
+    {
+      "param": "kizilirmak",
+      "priority": "0.6"
+    },
+    {
+      "param": "kiziloren",
+      "priority": "0.6"
+    },
+    {
+      "param": "kiziltepe",
+      "priority": "0.6"
+    },
+    {
+      "param": "kocaali",
+      "priority": "0.6"
+    },
+    {
+      "param": "kocaeli",
+      "priority": "0.8"
+    },
+    {
+      "param": "kocakoy",
+      "priority": "0.6"
+    },
+    {
+      "param": "kocarli",
+      "priority": "0.6"
+    },
+    {
+      "param": "kocasinan",
+      "priority": "0.6"
+    },
+    {
+      "param": "kofcaz",
+      "priority": "0.6"
+    },
+    {
+      "param": "konak",
+      "priority": "0.6"
+    },
+    {
+      "param": "konya",
+      "priority": "0.8"
+    },
+    {
+      "param": "konyaalti",
+      "priority": "0.6"
+    },
+    {
+      "param": "koprubasi-manisa",
+      "priority": "0.6"
+    },
+    {
+      "param": "koprukoy",
+      "priority": "0.6"
+    },
+    {
+      "param": "korfez",
+      "priority": "0.6"
+    },
+    {
+      "param": "korgan",
+      "priority": "0.6"
+    },
+    {
+      "param": "korgun",
+      "priority": "0.6"
+    },
+    {
+      "param": "korkut",
+      "priority": "0.6"
+    },
+    {
+      "param": "korkuteli",
+      "priority": "0.6"
+    },
+    {
+      "param": "kose",
+      "priority": "0.6"
+    },
+    {
+      "param": "kosk",
+      "priority": "0.6"
+    },
+    {
+      "param": "kovancilar",
+      "priority": "0.6"
+    },
+    {
+      "param": "koycegiz",
+      "priority": "0.6"
+    },
+    {
+      "param": "koyulhisar",
+      "priority": "0.6"
+    },
+    {
+      "param": "kozakli",
+      "priority": "0.6"
+    },
+    {
+      "param": "kozan",
+      "priority": "0.6"
+    },
+    {
+      "param": "kozlu",
+      "priority": "0.6"
+    },
+    {
+      "param": "kozluk",
+      "priority": "0.6"
+    },
+    {
+      "param": "kucukcekmece",
+      "priority": "0.6"
+    },
+    {
+      "param": "kula",
+      "priority": "0.6"
+    },
+    {
+      "param": "kulp",
+      "priority": "0.6"
+    },
+    {
+      "param": "kulu",
+      "priority": "0.6"
+    },
+    {
+      "param": "kuluncak",
+      "priority": "0.6"
+    },
+    {
+      "param": "kumlu",
+      "priority": "0.6"
+    },
+    {
+      "param": "kumluca",
+      "priority": "0.6"
+    },
+    {
+      "param": "kumru",
+      "priority": "0.6"
+    },
+    {
+      "param": "kure",
+      "priority": "0.6"
+    },
+    {
+      "param": "kursunlu",
+      "priority": "0.6"
+    },
+    {
+      "param": "kurtalan",
+      "priority": "0.6"
+    },
+    {
+      "param": "kurtun",
+      "priority": "0.6"
+    },
+    {
+      "param": "kurucasile",
+      "priority": "0.6"
+    },
+    {
+      "param": "kusadasi",
+      "priority": "0.6"
+    },
+    {
+      "param": "kutahya",
+      "priority": "0.6"
+    },
+    {
+      "param": "kuyucak",
+      "priority": "0.6"
+    },
+    {
+      "param": "lacin",
+      "priority": "0.6"
+    },
+    {
+      "param": "ladik",
+      "priority": "0.6"
+    },
+    {
+      "param": "lalapasa",
+      "priority": "0.6"
+    },
+    {
+      "param": "lapseki",
+      "priority": "0.6"
+    },
+    {
+      "param": "lice",
+      "priority": "0.6"
+    },
+    {
+      "param": "london",
+      "priority": "0.8"
+    },
+    {
+      "param": "luleburgaz",
+      "priority": "0.6"
+    },
+    {
+      "param": "macka",
+      "priority": "0.6"
+    },
+    {
+      "param": "maden",
+      "priority": "0.6"
+    },
+    {
+      "param": "mahmudiye",
+      "priority": "0.6"
+    },
+    {
+      "param": "malatya",
+      "priority": "0.8"
+    },
+    {
+      "param": "malazgirt",
+      "priority": "0.6"
+    },
+    {
+      "param": "malkara",
+      "priority": "0.6"
+    },
+    {
+      "param": "maltepe",
+      "priority": "0.6"
+    },
+    {
+      "param": "mamak",
+      "priority": "0.6"
+    },
+    {
+      "param": "manavgat",
+      "priority": "0.6"
+    },
+    {
+      "param": "manisa",
+      "priority": "0.8"
+    },
+    {
+      "param": "manyas",
+      "priority": "0.6"
+    },
+    {
+      "param": "mardin",
+      "priority": "0.8"
+    },
+    {
+      "param": "marmara",
+      "priority": "0.6"
+    },
+    {
+      "param": "marmaraereglisi",
+      "priority": "0.6"
+    },
+    {
+      "param": "marmaris",
+      "priority": "0.6"
+    },
+    {
+      "param": "mazgirt",
+      "priority": "0.6"
+    },
+    {
+      "param": "mazidagi",
+      "priority": "0.6"
+    },
+    {
+      "param": "mecitozu",
+      "priority": "0.6"
+    },
+    {
+      "param": "melikgazi",
+      "priority": "0.6"
+    },
+    {
+      "param": "menderes",
+      "priority": "0.6"
+    },
+    {
+      "param": "menemen",
+      "priority": "0.6"
+    },
+    {
+      "param": "mengen",
+      "priority": "0.6"
+    },
+    {
+      "param": "mentese",
+      "priority": "0.6"
+    },
+    {
+      "param": "meram",
+      "priority": "0.6"
+    },
+    {
+      "param": "meric",
+      "priority": "0.6"
+    },
+    {
+      "param": "merkezefendi",
+      "priority": "0.6"
+    },
+    {
+      "param": "mersin",
+      "priority": "0.8"
+    },
+    {
+      "param": "merzifon",
+      "priority": "0.6"
+    },
+    {
+      "param": "mesudiye",
+      "priority": "0.6"
+    },
+    {
+      "param": "mezitli",
+      "priority": "0.6"
+    },
+    {
+      "param": "midyat",
+      "priority": "0.6"
+    },
+    {
+      "param": "mihalgazi",
+      "priority": "0.6"
+    },
+    {
+      "param": "mihaliccik",
+      "priority": "0.6"
+    },
+    {
+      "param": "milas",
+      "priority": "0.6"
+    },
+    {
+      "param": "mucur",
+      "priority": "0.6"
+    },
+    {
+      "param": "mudanya",
+      "priority": "0.6"
+    },
+    {
+      "param": "mudurnu",
+      "priority": "0.6"
+    },
+    {
+      "param": "mugla",
+      "priority": "0.8"
+    },
+    {
+      "param": "muradiye",
+      "priority": "0.6"
+    },
+    {
+      "param": "muratli",
+      "priority": "0.6"
+    },
+    {
+      "param": "muratpasa",
+      "priority": "0.6"
+    },
+    {
+      "param": "murgul",
+      "priority": "0.6"
+    },
+    {
+      "param": "mus",
+      "priority": "0.6"
+    },
+    {
+      "param": "musabeyli",
+      "priority": "0.6"
+    },
+    {
+      "param": "mustafakemalpasa",
+      "priority": "0.6"
+    },
+    {
+      "param": "mut",
+      "priority": "0.6"
+    },
+    {
+      "param": "mutki",
+      "priority": "0.6"
+    },
+    {
+      "param": "nallihan",
+      "priority": "0.6"
+    },
+    {
+      "param": "narlidere",
+      "priority": "0.6"
+    },
+    {
+      "param": "narman",
+      "priority": "0.6"
+    },
+    {
+      "param": "nazilli",
+      "priority": "0.6"
+    },
+    {
+      "param": "nazimiye",
+      "priority": "0.6"
+    },
+    {
+      "param": "nevsehir",
+      "priority": "0.6"
+    },
+    {
+      "param": "newyork",
+      "priority": "0.8"
+    },
+    {
+      "param": "nigde",
+      "priority": "0.6"
+    },
+    {
+      "param": "niksar",
+      "priority": "0.6"
+    },
+    {
+      "param": "nilufer",
+      "priority": "0.6"
+    },
+    {
+      "param": "nizip",
+      "priority": "0.6"
+    },
+    {
+      "param": "nurdagi",
+      "priority": "0.6"
+    },
+    {
+      "param": "nurhak",
+      "priority": "0.6"
+    },
+    {
+      "param": "nusaybin",
+      "priority": "0.6"
+    },
+    {
+      "param": "odemis",
+      "priority": "0.6"
+    },
+    {
+      "param": "odunpazari",
+      "priority": "0.6"
+    },
+    {
+      "param": "of",
+      "priority": "0.6"
+    },
+    {
+      "param": "oguzeli",
+      "priority": "0.6"
+    },
+    {
+      "param": "oguzlar",
+      "priority": "0.6"
+    },
+    {
+      "param": "oltu",
+      "priority": "0.6"
+    },
+    {
+      "param": "olur",
+      "priority": "0.6"
+    },
+    {
+      "param": "omerli",
+      "priority": "0.6"
+    },
+    {
+      "param": "ondokuzmayis",
+      "priority": "0.6"
+    },
+    {
+      "param": "onikisubat",
+      "priority": "0.6"
+    },
+    {
+      "param": "ordu",
+      "priority": "0.8"
+    },
+    {
+      "param": "orhaneli",
+      "priority": "0.6"
+    },
+    {
+      "param": "orhangazi",
+      "priority": "0.6"
+    },
+    {
+      "param": "orta",
+      "priority": "0.6"
+    },
+    {
+      "param": "ortaca",
+      "priority": "0.6"
+    },
+    {
+      "param": "ortahisar",
+      "priority": "0.6"
+    },
+    {
+      "param": "ortakoy-aksaray",
+      "priority": "0.6"
+    },
+    {
+      "param": "osmancik",
+      "priority": "0.6"
+    },
+    {
+      "param": "osmaneli",
+      "priority": "0.6"
+    },
+    {
+      "param": "osmangazi",
+      "priority": "0.6"
+    },
+    {
+      "param": "osmaniye",
+      "priority": "0.6"
+    },
+    {
+      "param": "otlukbeli",
+      "priority": "0.6"
+    },
+    {
+      "param": "ovacik-karabuk",
+      "priority": "0.6"
+    },
+    {
+      "param": "ozalp",
+      "priority": "0.6"
+    },
+    {
+      "param": "ozvatan",
+      "priority": "0.6"
+    },
+    {
+      "param": "palandoken",
+      "priority": "0.6"
+    },
+    {
+      "param": "palu",
+      "priority": "0.6"
+    },
+    {
+      "param": "pamukkale",
+      "priority": "0.6"
+    },
+    {
+      "param": "pamukova",
+      "priority": "0.6"
+    },
+    {
+      "param": "paris",
+      "priority": "0.8"
+    },
+    {
+      "param": "pasinler",
+      "priority": "0.6"
+    },
+    {
+      "param": "patnos",
+      "priority": "0.6"
+    },
+    {
+      "param": "payas",
+      "priority": "0.6"
+    },
+    {
+      "param": "pazar-rize",
+      "priority": "0.6"
+    },
+    {
+      "param": "pazarcik",
+      "priority": "0.6"
+    },
+    {
+      "param": "pazarlar",
+      "priority": "0.6"
+    },
+    {
+      "param": "pazaryeri",
+      "priority": "0.6"
+    },
+    {
+      "param": "pazaryolu",
+      "priority": "0.6"
+    },
+    {
+      "param": "pehlivankoy",
+      "priority": "0.6"
+    },
+    {
+      "param": "pendik",
+      "priority": "0.6"
+    },
+    {
+      "param": "persembe",
+      "priority": "0.6"
+    },
+    {
+      "param": "pertek",
+      "priority": "0.6"
+    },
+    {
+      "param": "pervari",
+      "priority": "0.6"
+    },
+    {
+      "param": "pinarbasi-kastamonu",
+      "priority": "0.6"
+    },
+    {
+      "param": "pinarhisar",
+      "priority": "0.6"
+    },
+    {
+      "param": "piraziz",
+      "priority": "0.6"
+    },
+    {
+      "param": "polateli",
+      "priority": "0.6"
+    },
+    {
+      "param": "polatli",
+      "priority": "0.6"
+    },
+    {
+      "param": "posof",
+      "priority": "0.6"
+    },
+    {
+      "param": "pozanti",
+      "priority": "0.6"
+    },
+    {
+      "param": "pulumur",
+      "priority": "0.6"
+    },
+    {
+      "param": "pursaklar",
+      "priority": "0.6"
+    },
+    {
+      "param": "puturge",
+      "priority": "0.6"
+    },
+    {
+      "param": "refahiye",
+      "priority": "0.6"
+    },
+    {
+      "param": "resadiye",
+      "priority": "0.6"
+    },
+    {
+      "param": "reyhanli",
+      "priority": "0.6"
+    },
+    {
+      "param": "rize",
+      "priority": "0.6"
+    },
+    {
+      "param": "sabanozu",
+      "priority": "0.6"
+    },
+    {
+      "param": "safranbolu",
+      "priority": "0.6"
+    },
+    {
+      "param": "sahinbey",
+      "priority": "0.6"
+    },
+    {
+      "param": "saimbeyli",
+      "priority": "0.6"
+    },
+    {
+      "param": "sakarya",
+      "priority": "0.8"
+    },
+    {
+      "param": "salihli",
+      "priority": "0.6"
+    },
+    {
+      "param": "salipazari",
+      "priority": "0.6"
+    },
+    {
+      "param": "salpazari",
+      "priority": "0.6"
+    },
+    {
+      "param": "samandag",
+      "priority": "0.6"
+    },
+    {
+      "param": "samsat",
+      "priority": "0.6"
+    },
+    {
+      "param": "samsun",
+      "priority": "0.8"
+    },
+    {
+      "param": "sancaktepe",
+      "priority": "0.6"
+    },
+    {
+      "param": "sandikli",
+      "priority": "0.6"
+    },
+    {
+      "param": "sanliurfa",
+      "priority": "0.8"
+    },
+    {
+      "param": "sapanca",
+      "priority": "0.6"
+    },
+    {
+      "param": "saphane",
+      "priority": "0.6"
+    },
+    {
+      "param": "saray-tekirdag",
+      "priority": "0.6"
+    },
+    {
+      "param": "sarayduzu",
+      "priority": "0.6"
+    },
+    {
+      "param": "saraykent",
+      "priority": "0.6"
+    },
+    {
+      "param": "saraykoy",
+      "priority": "0.6"
+    },
+    {
+      "param": "sarayonu",
+      "priority": "0.6"
+    },
+    {
+      "param": "saricakaya",
+      "priority": "0.6"
+    },
+    {
+      "param": "saricam",
+      "priority": "0.6"
+    },
+    {
+      "param": "sarigol",
+      "priority": "0.6"
+    },
+    {
+      "param": "sarikamis",
+      "priority": "0.6"
+    },
+    {
+      "param": "sarikaya",
+      "priority": "0.6"
+    },
+    {
+      "param": "sarioglan",
+      "priority": "0.6"
+    },
+    {
+      "param": "sariveliler",
+      "priority": "0.6"
+    },
+    {
+      "param": "sariyahsi",
+      "priority": "0.6"
+    },
+    {
+      "param": "sariyer",
+      "priority": "0.6"
+    },
+    {
+      "param": "sariz",
+      "priority": "0.6"
+    },
+    {
+      "param": "sarkikaraagac",
+      "priority": "0.6"
+    },
+    {
+      "param": "sarkisla",
+      "priority": "0.6"
+    },
+    {
+      "param": "sarkoy",
+      "priority": "0.6"
+    },
+    {
+      "param": "saruhanli",
+      "priority": "0.6"
+    },
+    {
+      "param": "sason",
+      "priority": "0.6"
+    },
+    {
+      "param": "savastepe",
+      "priority": "0.6"
+    },
+    {
+      "param": "savsat",
+      "priority": "0.6"
+    },
+    {
+      "param": "savur",
+      "priority": "0.6"
+    },
+    {
+      "param": "seben",
+      "priority": "0.6"
+    },
+    {
+      "param": "sebinkarahisar",
+      "priority": "0.6"
+    },
+    {
+      "param": "sefaatli",
+      "priority": "0.6"
+    },
+    {
+      "param": "seferihisar",
+      "priority": "0.6"
+    },
+    {
+      "param": "sehitkamil",
+      "priority": "0.6"
+    },
+    {
+      "param": "sehzadeler",
+      "priority": "0.6"
+    },
+    {
+      "param": "selcuk",
+      "priority": "0.6"
+    },
+    {
+      "param": "selcuklu",
+      "priority": "0.6"
+    },
+    {
+      "param": "selendi",
+      "priority": "0.6"
+    },
+    {
+      "param": "selim",
+      "priority": "0.6"
+    },
+    {
+      "param": "semdinli",
+      "priority": "0.6"
+    },
+    {
+      "param": "senirkent",
+      "priority": "0.6"
+    },
+    {
+      "param": "senkaya",
+      "priority": "0.6"
+    },
+    {
+      "param": "senpazar",
+      "priority": "0.6"
+    },
+    {
+      "param": "serdivan",
+      "priority": "0.6"
+    },
+    {
+      "param": "sereflikochisar",
+      "priority": "0.6"
+    },
+    {
+      "param": "serik",
+      "priority": "0.6"
+    },
+    {
+      "param": "serinhisar",
+      "priority": "0.6"
+    },
+    {
+      "param": "seydikemer",
+      "priority": "0.6"
+    },
+    {
+      "param": "seydiler",
+      "priority": "0.6"
+    },
+    {
+      "param": "seydisehir",
+      "priority": "0.6"
+    },
+    {
+      "param": "seyhan",
+      "priority": "0.6"
+    },
+    {
+      "param": "seyitgazi",
+      "priority": "0.6"
+    },
+    {
+      "param": "siirt",
+      "priority": "0.6"
+    },
+    {
+      "param": "sile",
+      "priority": "0.6"
+    },
+    {
+      "param": "silifke",
+      "priority": "0.6"
+    },
+    {
+      "param": "silivri",
+      "priority": "0.6"
+    },
+    {
+      "param": "silopi",
+      "priority": "0.6"
+    },
+    {
+      "param": "silvan",
+      "priority": "0.6"
+    },
+    {
+      "param": "simav",
+      "priority": "0.6"
+    },
+    {
+      "param": "sinanpasa",
+      "priority": "0.6"
+    },
+    {
+      "param": "sincan",
+      "priority": "0.6"
+    },
+    {
+      "param": "sincik",
+      "priority": "0.6"
+    },
+    {
+      "param": "sindirgi",
+      "priority": "0.6"
+    },
+    {
+      "param": "sinop",
+      "priority": "0.6"
+    },
+    {
+      "param": "siran",
+      "priority": "0.6"
+    },
+    {
+      "param": "sirnak",
+      "priority": "0.6"
+    },
+    {
+      "param": "sirvan",
+      "priority": "0.6"
+    },
+    {
+      "param": "sisli",
+      "priority": "0.6"
+    },
+    {
+      "param": "sivas",
+      "priority": "0.6"
+    },
+    {
+      "param": "sivasli",
+      "priority": "0.6"
+    },
+    {
+      "param": "siverek",
+      "priority": "0.6"
+    },
+    {
+      "param": "sivrice",
+      "priority": "0.6"
+    },
+    {
+      "param": "sivrihisar",
+      "priority": "0.6"
+    },
+    {
+      "param": "sogut",
+      "priority": "0.6"
+    },
+    {
+      "param": "sogutlu",
+      "priority": "0.6"
+    },
+    {
+      "param": "soke",
+      "priority": "0.6"
+    },
+    {
+      "param": "solhan",
+      "priority": "0.6"
+    },
+    {
+      "param": "soma",
+      "priority": "0.6"
+    },
+    {
+      "param": "sorgun",
+      "priority": "0.6"
+    },
+    {
+      "param": "suhut",
+      "priority": "0.6"
+    },
+    {
+      "param": "sulakyurt",
+      "priority": "0.6"
+    },
+    {
+      "param": "suleymanpasa",
+      "priority": "0.6"
+    },
+    {
+      "param": "suloglu",
+      "priority": "0.6"
+    },
+    {
+      "param": "sultanbeyli",
+      "priority": "0.6"
+    },
+    {
+      "param": "sultandagi",
+      "priority": "0.6"
+    },
+    {
+      "param": "sultangazi",
+      "priority": "0.6"
+    },
+    {
+      "param": "sultanhisar",
+      "priority": "0.6"
+    },
+    {
+      "param": "suluova",
+      "priority": "0.6"
+    },
+    {
+      "param": "sulusaray",
+      "priority": "0.6"
+    },
+    {
+      "param": "sumbas",
+      "priority": "0.6"
+    },
+    {
+      "param": "sungurlu",
+      "priority": "0.6"
+    },
+    {
+      "param": "sur",
+      "priority": "0.6"
+    },
+    {
+      "param": "surmene",
+      "priority": "0.6"
+    },
+    {
+      "param": "suruc",
+      "priority": "0.6"
+    },
+    {
+      "param": "susehri",
+      "priority": "0.6"
+    },
+    {
+      "param": "susurluk",
+      "priority": "0.6"
+    },
+    {
+      "param": "susuz",
+      "priority": "0.6"
+    },
+    {
+      "param": "sutculer",
+      "priority": "0.6"
+    },
+    {
+      "param": "sydney",
+      "priority": "0.6"
+    },
+    {
+      "param": "talas",
+      "priority": "0.6"
+    },
+    {
+      "param": "tarakli",
+      "priority": "0.6"
+    },
+    {
+      "param": "tarsus",
+      "priority": "0.6"
+    },
+    {
+      "param": "taskent",
+      "priority": "0.6"
+    },
+    {
+      "param": "taskopru",
+      "priority": "0.6"
+    },
+    {
+      "param": "taslicay",
+      "priority": "0.6"
+    },
+    {
+      "param": "tasova",
+      "priority": "0.6"
+    },
+    {
+      "param": "tatvan",
+      "priority": "0.6"
+    },
+    {
+      "param": "tavas",
+      "priority": "0.6"
+    },
+    {
+      "param": "tavsanli",
+      "priority": "0.6"
+    },
+    {
+      "param": "tefenni",
+      "priority": "0.6"
+    },
+    {
+      "param": "tekirdag",
+      "priority": "0.8"
+    },
+    {
+      "param": "tekkekoy",
+      "priority": "0.6"
+    },
+    {
+      "param": "tekman",
+      "priority": "0.6"
+    },
+    {
+      "param": "tepebasi",
+      "priority": "0.6"
+    },
+    {
+      "param": "tercan",
+      "priority": "0.6"
+    },
+    {
+      "param": "termal",
+      "priority": "0.6"
+    },
+    {
+      "param": "terme",
+      "priority": "0.6"
+    },
+    {
+      "param": "tillo",
+      "priority": "0.6"
+    },
+    {
+      "param": "tire",
+      "priority": "0.6"
+    },
+    {
+      "param": "tirebolu",
+      "priority": "0.6"
+    },
+    {
+      "param": "tokat",
+      "priority": "0.6"
+    },
+    {
+      "param": "tokyo",
+      "priority": "0.6"
+    },
+    {
+      "param": "tomarza",
+      "priority": "0.6"
+    },
+    {
+      "param": "tonya",
+      "priority": "0.6"
+    },
+    {
+      "param": "toprakkale",
+      "priority": "0.6"
+    },
+    {
+      "param": "torbali",
+      "priority": "0.6"
+    },
+    {
+      "param": "toronto",
+      "priority": "0.6"
+    },
+    {
+      "param": "toroslar",
+      "priority": "0.6"
+    },
+    {
+      "param": "tortum",
+      "priority": "0.6"
+    },
+    {
+      "param": "torul",
+      "priority": "0.6"
+    },
+    {
+      "param": "tosya",
+      "priority": "0.6"
+    },
+    {
+      "param": "trabzon",
+      "priority": "0.8"
+    },
+    {
+      "param": "tufanbeyli",
+      "priority": "0.6"
+    },
+    {
+      "param": "tunceli",
+      "priority": "0.6"
+    },
+    {
+      "param": "turgutlu",
+      "priority": "0.6"
+    },
+    {
+      "param": "turhal",
+      "priority": "0.6"
+    },
+    {
+      "param": "turkeli",
+      "priority": "0.6"
+    },
+    {
+      "param": "turkoglu",
+      "priority": "0.6"
+    },
+    {
+      "param": "tusba",
+      "priority": "0.6"
+    },
+    {
+      "param": "tut",
+      "priority": "0.6"
+    },
+    {
+      "param": "tutak",
+      "priority": "0.6"
+    },
+    {
+      "param": "tuzla",
+      "priority": "0.6"
+    },
+    {
+      "param": "tuzluca",
+      "priority": "0.6"
+    },
+    {
+      "param": "tuzlukcu",
+      "priority": "0.6"
+    },
+    {
+      "param": "ugurludag",
+      "priority": "0.6"
+    },
+    {
+      "param": "ula",
+      "priority": "0.6"
+    },
+    {
+      "param": "ulas",
+      "priority": "0.6"
+    },
+    {
+      "param": "ulubey-ordu",
+      "priority": "0.6"
+    },
+    {
+      "param": "uluborlu",
+      "priority": "0.6"
+    },
+    {
+      "param": "uludere",
+      "priority": "0.6"
+    },
+    {
+      "param": "ulukisla",
+      "priority": "0.6"
+    },
+    {
+      "param": "ulus",
+      "priority": "0.6"
+    },
+    {
+      "param": "umraniye",
+      "priority": "0.6"
+    },
+    {
+      "param": "unye",
+      "priority": "0.6"
+    },
+    {
+      "param": "urgup",
+      "priority": "0.6"
+    },
+    {
+      "param": "urla",
+      "priority": "0.6"
+    },
+    {
+      "param": "usak",
+      "priority": "0.6"
+    },
+    {
+      "param": "uskudar",
+      "priority": "0.6"
+    },
+    {
+      "param": "uzumlu",
+      "priority": "0.6"
+    },
+    {
+      "param": "uzundere",
+      "priority": "0.6"
+    },
+    {
+      "param": "uzunkopru",
+      "priority": "0.6"
+    },
+    {
+      "param": "vakfikebir",
+      "priority": "0.6"
+    },
+    {
+      "param": "van",
+      "priority": "0.8"
+    },
+    {
+      "param": "varto",
+      "priority": "0.6"
+    },
+    {
+      "param": "vezirkopru",
+      "priority": "0.6"
+    },
+    {
+      "param": "viransehir",
+      "priority": "0.6"
+    },
+    {
+      "param": "vize",
+      "priority": "0.6"
+    },
+    {
+      "param": "yaglidere",
+      "priority": "0.6"
+    },
+    {
+      "param": "yahsihan",
+      "priority": "0.6"
+    },
+    {
+      "param": "yahyali",
+      "priority": "0.6"
+    },
+    {
+      "param": "yakakent",
+      "priority": "0.6"
+    },
+    {
+      "param": "yakutiye",
+      "priority": "0.6"
+    },
+    {
+      "param": "yalihuyuk",
+      "priority": "0.6"
+    },
+    {
+      "param": "yalova",
+      "priority": "0.6"
+    },
+    {
+      "param": "yalvac",
+      "priority": "0.6"
+    },
+    {
+      "param": "yaprakli",
+      "priority": "0.6"
+    },
+    {
+      "param": "yatagan",
+      "priority": "0.6"
+    },
+    {
+      "param": "yavuzeli",
+      "priority": "0.6"
+    },
+    {
+      "param": "yayladagi",
+      "priority": "0.6"
+    },
+    {
+      "param": "yayladere",
+      "priority": "0.6"
+    },
+    {
+      "param": "yazihan",
+      "priority": "0.6"
+    },
+    {
+      "param": "yedisu",
+      "priority": "0.6"
+    },
+    {
+      "param": "yenicaga",
+      "priority": "0.6"
+    },
+    {
+      "param": "yenice-canakkale",
+      "priority": "0.6"
+    },
+    {
+      "param": "yenifakili",
+      "priority": "0.6"
+    },
+    {
+      "param": "yenimahalle",
+      "priority": "0.6"
+    },
+    {
+      "param": "yenipazar-aydin",
+      "priority": "0.6"
+    },
+    {
+      "param": "yenisarbademli",
+      "priority": "0.6"
+    },
+    {
+      "param": "yenisehir-bursa",
+      "priority": "0.6"
+    },
+    {
+      "param": "yerkoy",
+      "priority": "0.6"
+    },
+    {
+      "param": "yesilhisar",
+      "priority": "0.6"
+    },
+    {
+      "param": "yesilli",
+      "priority": "0.6"
+    },
+    {
+      "param": "yesilova",
+      "priority": "0.6"
+    },
+    {
+      "param": "yesilyurt-malatya",
+      "priority": "0.6"
+    },
+    {
+      "param": "yigilca",
+      "priority": "0.6"
+    },
+    {
+      "param": "yildirim",
+      "priority": "0.6"
+    },
+    {
+      "param": "yildizeli",
+      "priority": "0.6"
+    },
+    {
+      "param": "yomra",
+      "priority": "0.6"
+    },
+    {
+      "param": "yozgat",
+      "priority": "0.6"
+    },
+    {
+      "param": "yuksekova",
+      "priority": "0.6"
+    },
+    {
+      "param": "yumurtalik",
+      "priority": "0.6"
+    },
+    {
+      "param": "yunak",
+      "priority": "0.6"
+    },
+    {
+      "param": "yunusemre",
+      "priority": "0.6"
+    },
+    {
+      "param": "yuregir",
+      "priority": "0.6"
+    },
+    {
+      "param": "yusufeli",
+      "priority": "0.6"
+    },
+    {
+      "param": "zara",
+      "priority": "0.6"
+    },
+    {
+      "param": "zeytinburnu",
+      "priority": "0.6"
+    },
+    {
+      "param": "zile",
+      "priority": "0.6"
+    },
+    {
+      "param": "zonguldak",
+      "priority": "0.6"
+    }
+  ]
+}

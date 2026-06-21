@@ -19,23 +19,13 @@ TODAY = date.today().isoformat()
 WEBSITE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 
-def load_cities(sitemap_file):
-    """Extract city parameter values from sitemap XML (clean URL format)."""
-    tree = ET.parse(sitemap_file)
-    root = tree.getroot()
-    ns = '{http://www.sitemaps.org/schemas/sitemap/0.9}'
-    cities = []
-    for url in root.findall(f'{ns}url'):
-        loc = url.find(f'{ns}loc').text
-        priority = url.find(f'{ns}priority')
-        p = priority.text if priority is not None else '0.6'
-        for prefix, suffix in [('/sehir/', '/'), ('/city/', '/')]:
-            if prefix in loc:
-                rest = loc.split(prefix)[1]
-                param = rest.rstrip(suffix)
-                cities.append((param, p))
-                break
-    return cities
+def load_cities(lang):
+    """Load cities from cities.json for a given language."""
+    json_path = os.path.join(WEBSITE_DIR, 'cities.json')
+    with open(json_path, 'r', encoding='utf-8') as f:
+        data = json.load(f)
+    return [(c['param'], c['priority']) for c in data[lang]]
+
 
 
 def city_display_name(param):
@@ -375,9 +365,74 @@ def generate_en_page(param):
 </html>"""
 
 
+def generate_sitemap_xml(tr_cities, en_cities):
+    """Generate a single, unified, fully compliant multilingual sitemap.xml."""
+def generate_sitemap_xml(tr_cities, en_cities):
+    """Generate a single, unified, fully compliant multilingual sitemap.xml."""
+    lines = [
+        '<?xml version="1.0" encoding="utf-8"?>',
+        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"',
+        '        xmlns:xhtml="http://www.w3.org/1999/xhtml"',
+        '        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"',
+        '        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/sitemap.xsd">'
+    ]
+    
+    def add_url(loc, alternates, priority):
+        lines.append('  <url>')
+        lines.append(f'    <loc>{loc}</loc>')
+        for hreflang, href in alternates:
+            lines.append(f'    <xhtml:link rel="alternate" hreflang="{hreflang}" href="{href}" />')
+        lines.append(f'    <lastmod>{TODAY}</lastmod>')
+        lines.append('    <changefreq>daily</changefreq>')
+        lines.append(f'    <priority>{priority}</priority>')
+        lines.append('  </url>')
+
+    # 1. Add homepages
+    add_url(
+        f"{BASE_URL_TR}/",
+        [('tr', f"{BASE_URL_TR}/"), ('en', f"{BASE_URL_EN}/"), ('x-default', f"{BASE_URL_TR}/")],
+        '1.0'
+    )
+    add_url(
+        f"{BASE_URL_EN}/",
+        [('tr', f"{BASE_URL_TR}/"), ('en', f"{BASE_URL_EN}/"), ('x-default', f"{BASE_URL_TR}/")],
+        '1.0'
+    )
+    
+    tr_params = {param for param, _ in tr_cities}
+    en_params = {param for param, _ in en_cities}
+    
+    # 2. Add Turkish pages (sehir)
+    for param, p in tr_cities:
+        alts = [('tr', f"{BASE_URL_TR}/sehir/{param}/")]
+        if param in en_params:
+            alts.append(('en', f"{BASE_URL_EN}/city/{param}/"))
+        alts.append(('x-default', f"{BASE_URL_TR}/sehir/{param}/"))
+        add_url(f"{BASE_URL_TR}/sehir/{param}/", alts, p)
+        
+    # 3. Add English pages (city)
+    for param, p in en_cities:
+        alts = []
+        if param in tr_params:
+            alts.append(('tr', f"{BASE_URL_TR}/sehir/{param}/"))
+        alts.append(('en', f"{BASE_URL_EN}/city/{param}/"))
+        
+        x_default = f"{BASE_URL_TR}/sehir/{param}/" if param in tr_params else f"{BASE_URL_EN}/city/{param}/"
+        alts.append(('x-default', x_default))
+        add_url(f"{BASE_URL_EN}/city/{param}/", alts, p)
+        
+    lines.append('</urlset>')
+    lines.append('')
+    
+    sitemap_path = os.path.join(WEBSITE_DIR, 'sitemap.xml')
+    with open(sitemap_path, 'w', encoding='utf-8') as f:
+        f.write('\n'.join(lines))
+    print(f"  Created sitemap.xml at {sitemap_path}")
+
+
 def main():
-    tr_cities = load_cities(os.path.join(WEBSITE_DIR, 'sitemap-tr.xml'))
-    en_cities = load_cities(os.path.join(WEBSITE_DIR, 'sitemap-en.xml'))
+    tr_cities = load_cities('tr')
+    en_cities = load_cities('en')
     
     print(f"Generating {len(tr_cities)} Turkish city pages...")
     for param, priority in tr_cities:
@@ -397,6 +452,10 @@ def main():
     print("Generating HTML sitemap pages...")
     generate_city_index(tr_cities, 'tr')
     generate_city_index(en_cities, 'en')
+    
+    # Generate unified sitemap
+    print("Generating sitemap.xml...")
+    generate_sitemap_xml(tr_cities, en_cities)
     
     total = len(tr_cities) + len(en_cities)
     print(f"Done! Generated {total} static city pages + 2 sitemap pages.")
