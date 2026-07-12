@@ -1,6 +1,6 @@
 {
-  "version": "1.0.5",
-  "versionCode": 6,
-  "releaseUrl": "https://github.com/GorkemGuray/Namaz-App/releases/tag/v1.0.5",
-  "releaseNotes": "feat: turkce ve ingilizce dil destegi, 970 ilce sitemap, canonical tag ve seo iyilesmeleri  "
+  "version": "1.0.6",
+  "versionCode": 7,
+  "releaseUrl": "https://github.com/GorkemGuray/Namaz-App/releases/tag/v1.0.6",
+  "releaseNotes": "chore: add .commandcode/taste/ to git for shared project preferences  Project-specific coding preferences learned via corrections. Ensures consistency across sessions and machines.  "
 }
